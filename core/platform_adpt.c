@@ -1,0 +1,1 @@
+../../my_src/common/platform_adpt.c

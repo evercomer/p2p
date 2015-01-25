@@ -1,0 +1,1 @@
+../core/platform_adpt.c

@@ -1,0 +1,1 @@
+../../my_src/include/platform_adpt.h

@@ -1,0 +1,2003 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACKT_DELAYED	rudp.c	75;"	d	file:
+ACKT_OPENWND	rudp.c	76;"	d	file:
+AFX_FILESTRUCT_H__7B576E73_39ED_4AE0_8187_9399B64A7B68__INCLUDED_	demo/filestruct.h	6;"	d
+ALen	demo/ReadWriter.c	/^		DWORD ALen;$/;"	m	union:_FrameHeader::__anon32	file:
+AR	Makefile	/^AR=$(CROSS)ar$/;"	m
+AR	stunc/Makefile	/^AR=$(CROSS)ar$/;"	m
+ARCH	Makefile	/^ARCH ?= PC$/;"	m
+AUDIO	demo/p2ptest.c	8;"	d	file:
+BOOL	basetype.h	25;"	d
+BYTE	basetype.h	/^typedef unsigned char BYTE;$/;"	t
+BYTE_ORDER	rudp_imp.h	10;"	d
+BeginReading	demo/ReadWriter.h	/^	DWORD (*BeginReading)(const char *sFileName, void **ppData);$/;"	m	struct:_Reader
+BeginWriting	demo/ReadWriter.h	/^	BOOL (*BeginWriting)(const char* sFileName, DWORD streamTypes, void** ppData);$/;"	m	struct:_Writer
+BindErrorResponseMsg	stunc/stun.h	58;"	d
+BindRequestMsg	stunc/stun.h	56;"	d
+BindResponseMsg	stunc/stun.h	57;"	d
+CC	Makefile	/^CC=$(CROSS)gcc$/;"	m
+CC	stunc/Makefile	/^CC=$(CROSS)gcc$/;"	m
+CFLAGS	stunc/Makefile	/^CFLAGS=-D__LINUX__ -O2 -I..$/;"	m
+CHECKCONNECTIONCB	p2pbase.h	/^typedef int (*CHECKCONNECTIONCB)(int sock, int status, void* data);$/;"	t
+CHECKCONNECTION_CONTINUE	p2pbase.h	296;"	d
+CHECKCONNECTION_FAKE	p2pbase.h	297;"	d
+CHECKCONNECTION_OK	p2pbase.h	295;"	d
+CHECKCONNECTION_RESETED	p2pbase.h	298;"	d
+CIF	miniupnpc/igd_desc_parse.h	/^	struct IGDdatas_service CIF;$/;"	m	struct:IGDdatas	typeref:struct:IGDdatas::IGDdatas_service
+CIRCLEQ_EMPTY	miniupnpc/bsdqueue.h	440;"	d
+CIRCLEQ_END	miniupnpc/bsdqueue.h	437;"	d
+CIRCLEQ_ENTRY	miniupnpc/bsdqueue.h	426;"	d
+CIRCLEQ_FIRST	miniupnpc/bsdqueue.h	435;"	d
+CIRCLEQ_FOREACH	miniupnpc/bsdqueue.h	443;"	d
+CIRCLEQ_FOREACH_REVERSE	miniupnpc/bsdqueue.h	448;"	d
+CIRCLEQ_HEAD	miniupnpc/bsdqueue.h	417;"	d
+CIRCLEQ_HEAD_INITIALIZER	miniupnpc/bsdqueue.h	423;"	d
+CIRCLEQ_INIT	miniupnpc/bsdqueue.h	456;"	d
+CIRCLEQ_INSERT_AFTER	miniupnpc/bsdqueue.h	461;"	d
+CIRCLEQ_INSERT_BEFORE	miniupnpc/bsdqueue.h	471;"	d
+CIRCLEQ_INSERT_HEAD	miniupnpc/bsdqueue.h	481;"	d
+CIRCLEQ_INSERT_TAIL	miniupnpc/bsdqueue.h	491;"	d
+CIRCLEQ_LAST	miniupnpc/bsdqueue.h	436;"	d
+CIRCLEQ_NEXT	miniupnpc/bsdqueue.h	438;"	d
+CIRCLEQ_PREV	miniupnpc/bsdqueue.h	439;"	d
+CIRCLEQ_REMOVE	miniupnpc/bsdqueue.h	501;"	d
+CIRCLEQ_REPLACE	miniupnpc/bsdqueue.h	516;"	d
+CLS_REQUEST	p2pbase.h	45;"	d
+CLS_RESPONSE	p2pbase.h	46;"	d
+CMD_ADD_ITEM	timerq.c	18;"	d	file:
+CMD_DEL_ITEM	timerq.c	19;"	d	file:
+CODELENGTH	miniupnpc/codelength.h	17;"	d
+CONGESTED	rudp.c	72;"	d	file:
+CONNFAILEDCB	p2psess.h	/^typedef void (*CONNFAILEDCB)(int err, void *pUser);$/;"	t
+CROSS	Makefile	/^CROSS=$/;"	m
+CROSS	Makefile	/^CROSS=arm-hisiv100nptl-linux-$/;"	m
+CROSS	stunc/Makefile	/^CROSS=$/;"	m
+CalleeIsRegistered	p2pcore.c	/^BOOL CalleeIsRegistered()$/;"	f
+ChangeIpFlag	stunc/stun.h	35;"	d
+ChangePortFlag	stunc/stun.h	36;"	d
+ChangeRequest	stunc/stun.h	41;"	d
+ChangedAddress	stunc/stun.h	43;"	d
+ChnBuffCancel	chnbuf.c	/^void ChnBuffCancel(P2PCHNBUFF *pCb)$/;"	f
+ChnBuffCreate	chnbuf.c	/^P2PCHNBUFF *ChnBuffCreate(UINT size, UINT nSafeSpace)$/;"	f
+ChnBuffDestroy	chnbuf.c	/^void ChnBuffDestroy(P2PCHNBUFF *pCb)$/;"	f
+ChnBuffDiscardCurrentFrame	chnbuf.c	/^void ChnBuffDiscardCurrentFrame(P2PCHNBUFF *pCb)$/;"	f
+ChnBuffGetFrame	chnbuf.c	/^BOOL ChnBuffGetFrame(P2PCHNBUFF *pCb, void **ppBuff, UINT *pLen, UINT timeout)$/;"	f
+ChnBuffReleaseFrame	chnbuf.c	/^BOOL ChnBuffReleaseFrame(P2PCHNBUFF *pCb, const void *pFrame)$/;"	f
+ChnBuffWriteFragment	chnbuf.c	/^BOOL ChnBuffWriteFragment(P2PCHNBUFF *pCb, const void *pData, UINT len, BOOL bEnd)$/;"	f
+CloseSocket	platform_adpt.h	231;"	d
+CloseSocket	platform_adpt.h	61;"	d
+CmdChnBuffGetResp	chnbuf.c	/^BOOL CmdChnBuffGetResp(P2PCHNBUFF *pCb, RESPINFO *pRespInfo, UINT timeout)$/;"	f
+CmdChnBuffReleaseResp	chnbuf.c	/^BOOL CmdChnBuffReleaseResp(P2PCHNBUFF *pCb, const RESPINFO *pResp)$/;"	f
+CmdChnBuffWrite	chnbuf.c	/^int CmdChnBuffWrite(P2PCHNBUFF *pCb, int status, UINT transId, BOOL isLast, const BYTE *pBody, UINT len)$/;"	f
+ConnAborted	p2pcore.h	/^	void (*ConnAborted)(HP2PCONN hconn);$/;"	m	struct:P2pCoreCbFuncs
+ConnCreated	p2pcore.h	/^	int (*ConnCreated)(HP2PCONN hconn);$/;"	m	struct:P2pCoreCbFuncs
+ConnFailed	p2pcore.h	/^	void (*ConnFailed)(int err, void *pUser);$/;"	m	struct:P2pCoreCbFuncs
+CreateServiceSocket	netbase.c	/^int CreateServiceSocket(int sock_type, unsigned long bind_ip, unsigned short port)$/;"	f
+DECODELENGTH	miniupnpc/codelength.h	13;"	d
+DEFAULT_RCVBUF_SIZE	rudp_imp.h	146;"	d
+DEFAULT_SNDBUF_SIZE	rudp_imp.h	145;"	d
+DELAY_ACK_MS	rudp.c	166;"	d	file:
+DVSEVENT	demo/filestruct.h	/^typedef struct _tagDVSEVENT { DWORD type; DWORD dwTime; } DVSEVENT;$/;"	t	typeref:struct:_tagDVSEVENT
+DWORD	basetype.h	/^typedef unsigned long DWORD;$/;"	t
+DataForRec	demo/p2psess_test.cpp	/^struct DataForRec {$/;"	s	file:
+DefaultRepair	demo/ReadWriter.c	/^DWORD DefaultRepair(const char *fn)$/;"	f
+DequeueServiceItem	timerq.c	/^void DequeueServiceItem(int which_queue, SERVICEFUNC func, void* data, BOOL bIgnoreData)$/;"	f
+EADDRINUSE	stunc/udp.h	24;"	d
+EADDRNOTAVAIL	stunc/udp.h	25;"	d
+EAFNOSUPPORT	stunc/udp.h	23;"	d
+EALREADY	stunc/udp.h	13;"	d
+ECONNABORTED	p2pbase.c	16;"	d	file:
+ECONNABORTED	stunc/udp.h	29;"	d
+ECONNREFUSED	p2pbase.c	15;"	d	file:
+ECONNREFUSED	stunc/udp.h	37;"	d
+ECONNRESET	stunc/udp.h	30;"	d
+EDESTADDRREQ	stunc/udp.h	15;"	d
+EDQUOT	stunc/udp.h	43;"	d
+EHOSTDOWN	stunc/udp.h	39;"	d
+EHOSTUNREACH	stunc/udp.h	40;"	d
+EINPROGRESS	p2pbase.c	17;"	d	file:
+EINPROGRESS	stunc/udp.h	12;"	d
+EISCONN	stunc/udp.h	32;"	d
+ELOOP	stunc/udp.h	38;"	d
+EMSGSIZE	stunc/udp.h	16;"	d
+ENETDOWN	stunc/udp.h	26;"	d
+ENETRESET	stunc/udp.h	28;"	d
+ENETUNREACH	stunc/udp.h	27;"	d
+ENOBUFS	stunc/udp.h	31;"	d
+ENOPROTOOPT	stunc/udp.h	18;"	d
+ENOTCONN	stunc/udp.h	33;"	d
+ENOTSOCK	stunc/udp.h	14;"	d
+ENUMCALLEE	p2pcore.h	/^} ENUMCALLEE, *LPENUMCALLEE;$/;"	t	typeref:struct:EnumCallee
+EOPNOTSUPP	stunc/udp.h	21;"	d
+EP2PSESSCBID	p2psess.h	/^} EP2PSESSCBID;$/;"	t	typeref:enum:__anon6
+EPFNOSUPPORT	stunc/udp.h	22;"	d
+EPROCLIM	stunc/udp.h	41;"	d
+EPROTONOSUPPORT	stunc/udp.h	19;"	d
+EPROTOTYPE	stunc/udp.h	17;"	d
+EREMOTE	stunc/udp.h	45;"	d
+ERUDP_AGAIN	rudp.h	34;"	d
+ERUDP_BIND	rudp.h	29;"	d
+ERUDP_CONNECTED	rudp.h	26;"	d
+ERUDP_CONN_FAILED	rudp.h	25;"	d
+ERUDP_FIRST	rudp.h	22;"	d
+ERUDP_INVALID	rudp.h	32;"	d
+ERUDP_IN_PROGRESS	rudp.h	27;"	d
+ERUDP_NOT_ALLOWED	rudp.h	24;"	d
+ERUDP_NOT_SOCKET	rudp.h	23;"	d
+ERUDP_NO_CONN	rudp.h	28;"	d
+ERUDP_PEER_CLOSED	rudp.h	33;"	d
+ERUDP_RESETED	rudp.h	30;"	d
+ERUDP_TIMEOUTED	rudp.h	31;"	d
+ESHUTDOWN	stunc/udp.h	34;"	d
+ESOCKTNOSUPPORT	stunc/udp.h	20;"	d
+ESTALE	stunc/udp.h	44;"	d
+ETHERNIC	netbase.h	/^} ETHERNIC;$/;"	t	typeref:struct:ether_nic
+ETIMEDOUT	stunc/udp.h	36;"	d
+ETOOMANYREFS	stunc/udp.h	35;"	d
+EUSERS	stunc/udp.h	42;"	d
+EVENTTAG	demo/ReadWriter.h	/^} EVENTTAG;$/;"	t	typeref:struct:__anon29
+EWOULDBLOCK	stunc/udp.h	11;"	d
+EXTRADATA	demo/ReadWriter.c	/^} EXTRADATA;$/;"	t	typeref:struct:__anon31	file:
+E_BADFMT	demo/errdefs.h	31;"	d
+E_BADVER	demo/errdefs.h	32;"	d
+E_BUFFERTOOSMALL	demo/errdefs.h	34;"	d
+E_BUSY	demo/errdefs.h	18;"	d
+E_CANNOTOPENFILE	demo/errdefs.h	36;"	d
+E_CONN	demo/errdefs.h	16;"	d
+E_CTP_AUTHENTICATION	demo/errdefs.h	10;"	d
+E_CTP_COMMAND	demo/errdefs.h	12;"	d
+E_CTP_CONNECT	demo/errdefs.h	9;"	d
+E_CTP_HOST	demo/errdefs.h	8;"	d
+E_CTP_OK	demo/errdefs.h	4;"	d
+E_CTP_OTHER	demo/errdefs.h	15;"	d
+E_CTP_PARAMETER	demo/errdefs.h	13;"	d
+E_CTP_RIGHT	demo/errdefs.h	11;"	d
+E_CTP_SYSTEM	demo/errdefs.h	14;"	d
+E_EOF	demo/errdefs.h	35;"	d
+E_ERROR_ACK	demo/errdefs.h	7;"	d
+E_ERROR_PROTO	demo/errdefs.h	6;"	d
+E_INVALID_OPERATION	demo/errdefs.h	26;"	d
+E_INVALID_PARAM	demo/errdefs.h	27;"	d
+E_NO_CONN	demo/errdefs.h	17;"	d
+E_NO_RESOURCE	demo/errdefs.h	22;"	d
+E_OK	demo/errdefs.h	30;"	d
+E_OTHER	demo/errdefs.h	19;"	d
+E_PASSIVEMODE	demo/errdefs.h	20;"	d
+E_PEERCLOSED	demo/errdefs.h	21;"	d
+E_TAGNOTEXISTED	demo/errdefs.h	33;"	d
+E_TIMEOUT	demo/errdefs.h	5;"	d
+E_WAITDATA	demo/errdefs.h	37;"	d
+E_WRONG_TARGETPLATFORM	demo/errdefs.h	38;"	d
+EndReading	demo/ReadWriter.h	/^	void (*EndReading)(void *pData);$/;"	m	struct:_Reader
+EndWriting	demo/ReadWriter.h	/^	void (*EndWriting)(void *pData);$/;"	m	struct:_Writer
+EnumCallee	p2pcore.h	/^typedef struct EnumCallee {$/;"	s
+ErrorCode	stunc/stun.h	47;"	d
+FALSE	basetype.h	27;"	d
+FASTRETRANS	rudp.c	70;"	d	file:
+FASTRETRANS2	rudp.c	71;"	d	file:
+FAST_QUEUE	timerq.h	15;"	d
+FILEINFO	demo/ReadWriter.h	/^} FILEINFO;$/;"	t	typeref:struct:_FileInfo
+FRAMEHEADER	chnbuf.c	/^} FRAMEHEADER;$/;"	t	typeref:struct:_tagFRAMEHEADER	file:
+FRAMEHEADER_v102	demo/ReadWriter.c	/^} FRAMEHEADER_v102;$/;"	t	typeref:struct:_FrameHeader	file:
+FRAMEHEADER_v103	demo/ReadWriter.c	/^} FRAMEHEADER_v103;$/;"	t	typeref:struct:__anon33	file:
+FRAMEINFO	chnbuf.h	/^} FRAMEINFO;$/;"	t	typeref:struct:_tagFRAMEINFO
+FindSuitableReader	demo/ReadWriter.c	/^READER *FindSuitableReader(const char *sFileName, FILEINFO *pFi)$/;"	f
+GetDefaultReader	demo/ReadWriter.c	/^READER *GetDefaultReader()$/;"	f
+GetDefaultRoute	netbase.c	/^BOOL GetDefaultRoute(unsigned long *ip_gw, unsigned long *ip_local)$/;"	f
+GetDefaultWriter	demo/ReadWriter.c	/^WRITER* GetDefaultWriter()$/;"	f
+GetDownloadProgress	demo/ReadWriter.h	/^	DWORD (*GetDownloadProgress)(DWORD *ts, DWORD *len, void *pData);$/;"	m	struct:_Reader
+GetFileInfo	demo/ReadWriter.h	/^	DWORD (*GetFileInfo)(FILEINFO *pFi, void *data);$/;"	m	struct:_Reader
+GetIfAddr	netbase.c	/^unsigned int GetIfAddr(const char* ifname, unsigned int *netmask)$/;"	f
+GetIpAddresses	netbase.c	/^int GetIpAddresses(ETHERNIC *pAN, int size)$/;"	f
+GetIpAddresses	netbase.c	/^int GetIpAddresses(ETHERNIC *pAn, int size)$/;"	f
+GetWriter	demo/ReadWriter.c	/^WRITER *GetWriter()$/;"	f
+HP2PCONN	p2pcore.h	/^typedef struct P2PCONN* HP2PCONN;$/;"	t	typeref:struct:P2PCONN
+HP2PCONN_TAG	p2pcore_imp.h	29;"	d
+HP2PSESS	p2psess.h	/^typedef struct P2PSESS* HP2PSESS;$/;"	t	typeref:struct:P2PSESS
+HmacBadUserName	stunc/stun.h	/^   HmacBadUserName,$/;"	e	enum:__anon22
+HmacFailed	stunc/stun.h	/^   HmacFailed,$/;"	e	enum:__anon22
+HmacOK	stunc/stun.h	/^   HmacOK,$/;"	e	enum:__anon22
+HmacUnkown	stunc/stun.h	/^   HmacUnkown=0,$/;"	e	enum:__anon22
+HmacUnkownUserName	stunc/stun.h	/^   HmacUnkownUserName,$/;"	e	enum:__anon22
+IGDPORTMAP	upnp_igd_cp.c	/^} IGDPORTMAP;$/;"	t	typeref:struct:IgdPortMap	file:
+IGD_PORTTYPE_TCP	upnp_igd_cp.h	13;"	d
+IGD_PORTTYPE_UDP	upnp_igd_cp.h	12;"	d
+IGDdatas	miniupnpc/igd_desc_parse.h	/^struct IGDdatas {$/;"	s
+IGDdatas_service	miniupnpc/igd_desc_parse.h	/^struct IGDdatas_service {$/;"	s
+IN	platform_adpt.h	9;"	d
+INACTIVE_INTERVAL	p2pcore.c	30;"	d	file:
+INCMDCHN	p2psess_imp.h	/^} INCMDCHN;$/;"	t	typeref:struct:_tagCmdChnEx
+INFINITE	platform_adpt.h	313;"	d
+INFINITE	win32/rwlock.h	43;"	d
+INITIAL_SEQ_NO	rudp.c	68;"	d	file:
+INIT_LIST_HEAD	linux_list.h	35;"	d
+INLINE	linux_list.h	5;"	d
+INLINE	linux_list.h	7;"	d
+INLINE	platform_adpt.h	210;"	d
+INLINE	platform_adpt.h	40;"	d
+INMEDIACHN	p2psess_imp.h	/^} INMEDIACHN;$/;"	t	typeref:struct:_tagMediaChnEx
+INOUT	platform_adpt.h	10;"	d
+INVALID_RUDPSOCKET	rudp.h	12;"	d
+INVALID_SOCKET	platform_adpt.h	243;"	d
+IP2STR	netbase.c	/^char* IP2STR(unsigned int ip, char ips[16])$/;"	f
+IP2STR	rudp.c	/^static char* IP2STR(unsigned int ip, char ips[16])$/;"	f	file:
+IPv4Family	stunc/stun.h	31;"	d
+IPv6Family	stunc/stun.h	32;"	d
+IS_WHITE_SPACE	miniupnpc/minixml.h	13;"	d
+IgdPortMap	upnp_igd_cp.c	/^typedef struct IgdPortMap {$/;"	s	file:
+InitMemStream	demo/ReadWriter.c	/^void InitMemStream(MEMSTREAM *pMS, UINT size)$/;"	f
+Int64	stunc/udp.h	/^typedef LONGLONG Int64; $/;"	t
+IntfIsUp	netbase.c	/^BOOL IntfIsUp(const char *sIntf)$/;"	f
+IsInternet	netbase.c	/^BOOL IsInternet(struct in_addr addr)$/;"	f
+KEYFRAME_INDEX	demo/ReadWriter.c	/^} KEYFRAME_INDEX;$/;"	t	typeref:struct:_OWIndex	file:
+LDFLAGS	Makefile	/^LDFLAGS=-Ldep\/hi3518\/ -L\/home\/song\/hi3518\/ipcam\/hi3518\/extlib\/$/;"	m
+LENGTH_OF_AUTH	p2pbase.h	99;"	d
+LENGTH_OF_CHALLENGE	p2pbase.h	97;"	d
+LENGTH_OF_KEY	ipccmd.h	8;"	d
+LENGTH_OF_NAME	ipccmd.h	7;"	d
+LENGTH_OF_SERVER	p2pcore_ex.h	25;"	d
+LENGTH_OF_SESSION_ID	p2pbase.h	98;"	d
+LENGTH_OF_SIDENT	p2pbase.h	101;"	d
+LENGTH_OF_SN	p2pbase.h	100;"	d
+LIBP2PCORE	Makefile	/^	LIBP2PCORE=libp2pcore.a$/;"	m
+LIBP2PCORE	Makefile	/^	LIBP2PCORE=libp2pcored.a$/;"	m
+LIBP2PSESS	Makefile	/^	LIBP2PSESS=libp2psess.a$/;"	m
+LIBP2PSESS	Makefile	/^	LIBP2PSESS=libp2psessd.a$/;"	m
+LIBSPEC	miniupnpc/declspec.h	11;"	d
+LIBSPEC	miniupnpc/declspec.h	6;"	d
+LIBSPEC	miniupnpc/declspec.h	8;"	d
+LIST_EMPTY	miniupnpc/bsdqueue.h	190;"	d
+LIST_END	miniupnpc/bsdqueue.h	189;"	d
+LIST_ENTRY	miniupnpc/bsdqueue.h	179;"	d
+LIST_FIRST	miniupnpc/bsdqueue.h	188;"	d
+LIST_FOREACH	miniupnpc/bsdqueue.h	193;"	d
+LIST_HEAD	linux_list.h	32;"	d
+LIST_HEAD	miniupnpc/bsdqueue.h	171;"	d
+LIST_HEAD_INIT	linux_list.h	30;"	d
+LIST_HEAD_INITIALIZER	miniupnpc/bsdqueue.h	176;"	d
+LIST_INIT	miniupnpc/bsdqueue.h	201;"	d
+LIST_INSERT_AFTER	miniupnpc/bsdqueue.h	205;"	d
+LIST_INSERT_BEFORE	miniupnpc/bsdqueue.h	213;"	d
+LIST_INSERT_HEAD	miniupnpc/bsdqueue.h	220;"	d
+LIST_NEXT	miniupnpc/bsdqueue.h	191;"	d
+LIST_REMOVE	miniupnpc/bsdqueue.h	227;"	d
+LIST_REPLACE	miniupnpc/bsdqueue.h	236;"	d
+LIVE_AUDIO_CHNO	demo/p2psess_test.cpp	16;"	d	file:
+LIVE_VIDEO_CHNO	demo/p2psess_test.cpp	15;"	d	file:
+LOCALCONNINFO	p2pcore.c	/^} LOCALCONNINFO;$/;"	t	typeref:struct:local_conn_info	file:
+LOCK	chnbuf.c	6;"	d	file:
+LOCK_LEVEL_NONE	platform_adpt.c	/^enum { LOCK_LEVEL_NONE, LOCK_LEVEL_READ, LOCK_LEVEL_WRITE };$/;"	e	enum:__anon28	file:
+LOCK_LEVEL_NONE	win32/rwlock.c	/^enum { LOCK_LEVEL_NONE, LOCK_LEVEL_READ, LOCK_LEVEL_WRITE };$/;"	e	enum:__anon3	file:
+LOCK_LEVEL_READ	platform_adpt.c	/^enum { LOCK_LEVEL_NONE, LOCK_LEVEL_READ, LOCK_LEVEL_WRITE };$/;"	e	enum:__anon28	file:
+LOCK_LEVEL_READ	win32/rwlock.c	/^enum { LOCK_LEVEL_NONE, LOCK_LEVEL_READ, LOCK_LEVEL_WRITE };$/;"	e	enum:__anon3	file:
+LOCK_LEVEL_WRITE	platform_adpt.c	/^enum { LOCK_LEVEL_NONE, LOCK_LEVEL_READ, LOCK_LEVEL_WRITE };$/;"	e	enum:__anon28	file:
+LOCK_LEVEL_WRITE	win32/rwlock.c	/^enum { LOCK_LEVEL_NONE, LOCK_LEVEL_READ, LOCK_LEVEL_WRITE };$/;"	e	enum:__anon3	file:
+LOG	platform_adpt.h	402;"	d
+LOG	platform_adpt.h	409;"	d
+LOGE	platform_adpt.h	404;"	d
+LOGE	platform_adpt.h	411;"	d
+LOGW	platform_adpt.h	403;"	d
+LOGW	platform_adpt.h	410;"	d
+LPENUMCALLEE	p2pcore.h	/^} ENUMCALLEE, *LPENUMCALLEE;$/;"	t	typeref:struct:EnumCallee
+LPRWLOCK	platform_adpt.h	/^} RWLOCK, *LPRWLOCK;$/;"	t	typeref:struct:ReadWriteLock
+LPRWLOCK	win32/rwlock.h	/^} RWLOCK, *LPRWLOCK;$/;"	t	typeref:struct:ReadWriteLock
+LookAhead	demo/ReadWriter.h	/^	DWORD (*LookAhead)(DWORD *streamType, DWORD *timeStamp, DWORD *flag, DWORD *size, void *data);	\/\/获取下一次读操作将返回帧\/包的类型信息$/;"	m	struct:_Reader
+MAX_ACCEPTED_RUDPSOCK	p2pcore.c	33;"	d	file:
+MAX_CMD_CHN	p2psess_imp.h	32;"	d
+MAX_DATA_SIZE	rudp_imp.h	70;"	d
+MAX_KERNEL_SERVER	p2pcore.c	1548;"	d	file:
+MAX_LOG_CHANNELS	rudp_imp.h	200;"	d
+MAX_LOSS_REPORT	rudp_imp.h	14;"	d
+MAX_MEDIA_CHN	p2psess_imp.h	31;"	d
+MAX_MEDIA_RELAYS	stunc/stun.h	203;"	d
+MAX_PACKET_SIZE	rudp_imp.h	69;"	d
+MAX_PHY_CHANNELS	rudp_imp.h	199;"	d
+MAX_QUEUE_SIZE	timerq.h	10;"	d
+MAX_RECONN_ATTEMPT	rudp.c	172;"	d	file:
+MAX_RESP_SIZE	p2psess.c	11;"	d	file:
+MAX_REXMT_ATTEMPT	rudp.c	170;"	d	file:
+MAX_RTP_MSG_SIZE	stunc/stun.h	204;"	d
+MAX_TIME_WAIT_FOR_ACK	p2pcore.c	31;"	d	file:
+MAX_WINDOW	rudp_imp.h	15;"	d
+MEDIACHN	chnbuf.h	/^} MEDIACHN;$/;"	t	typeref:struct:_tagMediaChn
+MEDIATYPE	mediatyp.h	/^} MEDIATYPE;$/;"	t	typeref:enum:__anon5
+MEDIATYPE_AUDIO_AAC	mediatyp.h	/^	MEDIATYPE_AUDIO_AAC     = 59,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_ADPCM	mediatyp.h	/^	MEDIATYPE_AUDIO_ADPCM	=	53,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_ADPCM_DVI4	mediatyp.h	/^	MEDIATYPE_AUDIO_ADPCM_DVI4	=	54,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_ADPCM_IMA	mediatyp.h	/^	MEDIATYPE_AUDIO_ADPCM_IMA	=	MEDIATYPE_AUDIO_ADPCM,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_ALAW	mediatyp.h	/^	MEDIATYPE_AUDIO_ALAW	=	MEDIATYPE_AUDIO_G711A,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_G711A	mediatyp.h	/^	MEDIATYPE_AUDIO_G711A	=	2,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_G711U	mediatyp.h	/^	MEDIATYPE_AUDIO_G711U	=	MEDIATYPE_AUDIO_ULAW,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_G726_16	mediatyp.h	/^	MEDIATYPE_AUDIO_G726_16	=	55,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_G726_24	mediatyp.h	/^	MEDIATYPE_AUDIO_G726_24	=	56,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_G726_32	mediatyp.h	/^	MEDIATYPE_AUDIO_G726_32	=	57,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_G726_40	mediatyp.h	/^	MEDIATYPE_AUDIO_G726_40	=	58,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_MAX	mediatyp.h	/^	MEDIATYPE_AUDIO_MAX$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_PCM	mediatyp.h	/^	MEDIATYPE_AUDIO_PCM		=	52,$/;"	e	enum:__anon5
+MEDIATYPE_AUDIO_ULAW	mediatyp.h	/^	MEDIATYPE_AUDIO_ULAW	=	51,$/;"	e	enum:__anon5
+MEDIATYPE_INVALID	mediatyp.h	/^	MEDIATYPE_INVALID = 0,$/;"	e	enum:__anon5
+MEDIATYPE_IS_AUDIO	mediatyp.h	32;"	d
+MEDIATYPE_IS_VIDEO	mediatyp.h	31;"	d
+MEDIATYPE_VIDEO_H264	mediatyp.h	/^	MEDIATYPE_VIDEO_H264	=	1,$/;"	e	enum:__anon5
+MEDIATYPE_VIDEO_MAX	mediatyp.h	/^	MEDIATYPE_VIDEO_MAX,$/;"	e	enum:__anon5
+MEDIATYPE_VIDEO_MJPEG	mediatyp.h	/^	MEDIATYPE_VIDEO_MJPEG	=	12,$/;"	e	enum:__anon5
+MEDIATYPE_VIDEO_MPEG	mediatyp.h	/^	MEDIATYPE_VIDEO_MPEG	=	11,$/;"	e	enum:__anon5
+MEDIA_HDR_LEN	p2pcore_imp.h	73;"	d
+MEDIA_HDR_S	p2pcore_imp.h	/^} __attribute__((packed)) MEDIA_HDR_S; $/;"	t	typeref:struct:hiMEDIA_HDR_S
+MEDIA_RELAY_TIMEOUT	stunc/stun.h	205;"	d
+MEMSTREAM	demo/ReadWriter.c	/^} MEMSTREAM;$/;"	t	typeref:struct:__anon30	file:
+MINIUPNPC_URL_MAXSIZE	miniupnpc/igd_desc_parse.h	14;"	d
+MINIUPNPC_VERSION_STRING	miniupnpc/miniupnpcstrings.h	12;"	d
+MYDATA	demo/p2ptest.c	/^} MYDATA;$/;"	t	typeref:struct:_MyData	file:
+MappedAddress	stunc/stun.h	39;"	d
+MediaChnCreate	chnbuf.c	/^MEDIACHN *MediaChnCreate(UINT size, UINT nSafeSpace)$/;"	f
+MediaChnDestroy	chnbuf.c	/^void MediaChnDestroy(MEDIACHN *pMdCh)$/;"	f
+MediaChnGetFrame	chnbuf.c	/^BOOL MediaChnGetFrame(MEDIACHN *pMdCh, \/*OUT*\/FRAMEINFO *pFrmInfo, UINT timeout)$/;"	f
+MediaChnReleaseFrame	chnbuf.c	/^BOOL MediaChnReleaseFrame(MEDIACHN *pMdCh, const FRAMEINFO *pFrmInfo)$/;"	f
+MediaChnWriteHeader	chnbuf.c	/^BOOL MediaChnWriteHeader(MEDIACHN *pMdCh, UINT mt, UINT ts, UINT isKeyFrame)$/;"	f
+MemStream_Write	demo/ReadWriter.c	/^void MemStream_Write(MEMSTREAM *pMS, void *p, UINT len)$/;"	f
+MessageIntegrity	stunc/stun.h	46;"	d
+NAL_TYPE_SPS	p2psess.c	12;"	d	file:
+NETSTATE_OK	p2pcore.h	52;"	d
+NETSTATE_SERVER_DOES_NOT_RESPONSE	p2pcore.h	53;"	d
+NORMAL_INTERVAL	p2pcore.c	29;"	d	file:
+NOSSL	stunc/stun.c	4;"	d	file:
+NOSSL	stunc/stun.c	6;"	d	file:
+NameValue	miniupnpc/upnpreplyparse.h	/^struct NameValue {$/;"	s
+NameValueParserData	miniupnpc/upnpreplyparse.h	/^struct NameValueParserData {$/;"	s
+NatType	p2pconst.h	/^} NatType;$/;"	t	typeref:enum:__anon1
+NatType	stunc/stun.h	/^} NatType;$/;"	t	typeref:enum:__anon24
+NetworkStateChanged	p2pcore.h	/^	void (*NetworkStateChanged)(int state);$/;"	m	struct:P2pCoreCbFuncs
+NewSocketAndBind	netbase.c	/^int NewSocketAndBind(int sock_type, unsigned long bind_ip, unsigned short port)$/;"	f
+OMCHN_STATE_SENDING	p2psess_imp.h	19;"	d
+OMCHN_STATE_WAIT_KEYFRAME	p2psess_imp.h	18;"	d
+ONEVENT_CB	p2psess.h	/^typedef void (*ONEVENT_CB)(int event, BYTE *pData, int len, void *pUserData);$/;"	t
+OPT_ADHOC	rudp.h	75;"	d
+OPT_ERR	rudp.h	77;"	d
+OPT_FC	rudp.h	70;"	d
+OPT_LINGER	rudp.h	69;"	d
+OPT_MSS	rudp.h	71;"	d
+OPT_NBLK	rudp.h	76;"	d
+OPT_RCVTIMEO	rudp.h	73;"	d
+OPT_REUSEADDR	rudp.h	74;"	d
+OPT_RUDP_RCVBUF	rudp.h	68;"	d
+OPT_RUDP_SNDBUF	rudp.h	67;"	d
+OPT_SNDTIMEO	rudp.h	72;"	d
+OPT_UDP_RCVBUF	rudp.h	66;"	d
+OPT_UDP_SNDBUF	rudp.h	65;"	d
+OP_ADD	upnp_igd_cp.c	28;"	d	file:
+OP_CS_SESSION_INIT	p2pbase.h	55;"	d
+OP_DS_IAMHERE	p2pbase.h	60;"	d
+OP_END_SESSION	p2psess.h	28;"	d
+OP_EVENT	p2psess.h	192;"	d
+OP_HEART_BEAT	p2pbase.h	59;"	d
+OP_NONE	p2pbase.h	52;"	d
+OP_PUNCH	p2pbase.h	58;"	d
+OP_QUERY_ADDRESS	p2pbase.h	54;"	d
+OP_QUERY_SERVER	p2pcore_ex.h	15;"	d
+OP_REMOVE	upnp_igd_cp.c	29;"	d	file:
+OP_SC_BEGIN_SESSION	p2pbase.h	57;"	d
+OP_SD_SESSION_NOTIFY	p2pbase.h	56;"	d
+OP_SEARCH	p2pbase.h	53;"	d
+OS_STRING	miniupnpc/miniupnpcstrings.h	11;"	d
+OURREADERDATA	demo/ReadWriter.c	/^} OURREADERDATA;$/;"	t	typeref:struct:_ORData	file:
+OURWRITERDATA	demo/ReadWriter.c	/^} OURWRITERDATA;$/;"	t	typeref:struct:OWData	file:
+OUTMEDIACHN	p2psess_imp.h	/^typedef	struct OUTMEDIACHN {$/;"	s
+OUTMEDIACHN	p2psess_imp.h	/^} OUTMEDIACHN;$/;"	t	typeref:struct:OUTMEDIACHN
+OWData	demo/ReadWriter.c	/^typedef struct OWData {$/;"	s	file:
+OnData	p2pcore.h	/^	void (*OnData)(HP2PCONN, BYTE *pData, int len);$/;"	m	struct:P2pCoreCbFuncs
+OnEventCB	p2psess_imp.h	/^	ONEVENT_CB		OnEventCB;$/;"	m	struct:_tagP2pSess
+OurReader	demo/ReadWriter.c	/^READER OurReader = {$/;"	v
+OurReader_BeginReading	demo/ReadWriter.c	/^static DWORD OurReader_BeginReading(const char *sFileName, void **ppData)$/;"	f	file:
+OurReader_EndReading	demo/ReadWriter.c	/^static void OurReader_EndReading(void *pData)$/;"	f	file:
+OurReader_GetFileInfo	demo/ReadWriter.c	/^static DWORD OurReader_GetFileInfo(FILEINFO *pFi, void *data)$/;"	f	file:
+OurReader_LookAhead	demo/ReadWriter.c	/^static DWORD OurReader_LookAhead(DWORD *streamType, DWORD *timeStamp, DWORD *flag, DWORD *size, void *data)$/;"	f	file:
+OurReader_Probe	demo/ReadWriter.c	/^static DWORD OurReader_Probe(const char *sFileName, FILEINFO *pFi)$/;"	f	file:
+OurReader_Read	demo/ReadWriter.c	/^static DWORD OurReader_Read(DWORD *streamType, DWORD *timeStamp, BYTE *buf, \/*INOUT*\/DWORD *size, DWORD *flag, void *data)$/;"	f	file:
+OurReader_ReadTag	demo/ReadWriter.c	/^static DWORD OurReader_ReadTag(const char *TagName, void *Tag, \/*INOUT*\/UINT *len, void *data)$/;"	f	file:
+OurReader_SeekKeyFrame	demo/ReadWriter.c	/^static DWORD OurReader_SeekKeyFrame(DWORD timeStamp, void *data)$/;"	f	file:
+OurWriter	demo/ReadWriter.c	/^static WRITER OurWriter = {$/;"	v	file:
+OurWriter_BeginWriting	demo/ReadWriter.c	/^static BOOL OurWriter_BeginWriting(const char *sFileName, DWORD streamTypes, void **ppData)$/;"	f	file:
+OurWriter_EndWriting	demo/ReadWriter.c	/^static void OurWriter_EndWriting(void *pData)$/;"	f	file:
+OurWriter_Write	demo/ReadWriter.c	/^static BOOL OurWriter_Write(DWORD streamType, DWORD timeStamp, BYTE *buf, DWORD len, DWORD flag, void *data)$/;"	f	file:
+OurWriter_WriteTag	demo/ReadWriter.c	/^static BOOL OurWriter_WriteTag(const char *TagName, const void *Tag, UINT len, void *data)$/;"	f	file:
+P2PCBITEM	p2psess_imp.h	/^} P2PCBITEM;$/;"	t	typeref:struct:_cbItem
+P2PCHANNEL	p2psess.h	/^typedef enum { P2P_CMD_CHANNEL, P2P_MEDIA_CHANNEL } P2PCHANNEL;$/;"	t	typeref:enum:__anon7
+P2PCHNBUFF	chnbuf.h	/^} P2PCHNBUFF;$/;"	t	typeref:struct:_tagP2pChnBuffer
+P2PCMD_DATA_LEN	p2psess.h	61;"	d
+P2PCMD_OP	p2psess.h	57;"	d
+P2PCMD_PACKET_LEN	p2psess.h	63;"	d
+P2PCMD_RESP_CB	p2psess.h	/^typedef int (*P2PCMD_RESP_CB)(int status, int end, void *pData, UINT nSize, void *pUserData);$/;"	t
+P2PCMD_SET_DATA_LEN	p2psess.h	62;"	d
+P2PCMD_SET_OP	p2psess.h	58;"	d
+P2PCMD_SET_STATUS	p2psess.h	56;"	d
+P2PCMD_SET_TID	p2psess.h	60;"	d
+P2PCMD_STATUS	p2psess.h	55;"	d
+P2PCMD_TAG	p2psess.h	23;"	d
+P2PCMD_TAG	p2psess.h	25;"	d
+P2PCMD_TID	p2psess.h	59;"	d
+P2PCONN	p2pcore_imp.h	/^typedef struct P2PCONN {$/;"	s
+P2PCONN	p2pcore_imp.h	/^} P2PCONN;$/;"	t	typeref:struct:P2PCONN
+P2PCONNINFO	p2pcore.h	/^} P2PCONNINFO;$/;"	t	typeref:struct:_tagTpcConnInfo
+P2PCORECBFUNCS	p2pcore.h	/^} P2PCORECBFUNCS;$/;"	t	typeref:struct:P2pCoreCbFuncs
+P2PCORENATINFO	p2pcore.h	/^typedef struct P2PCORENATINFO {$/;"	s
+P2PCORENATINFO	p2pcore.h	/^} P2PCORENATINFO;$/;"	t	typeref:struct:P2PCORENATINFO
+P2PCOREOBJ	Makefile	/^P2PCOREOBJ=p2pcore.o p2pbase.o platform_adpt.o netbase.o rudp.o upnp_igd_cp.o stunc\/udp.o stunc\/stun.o stunc\/det_nat.o$/;"	m
+P2PCORESTATE	p2pcore.h	/^} P2PCORESTATE;$/;"	t	typeref:struct:P2pCoreState
+P2PCORE_DATA_LEN	p2pbase.h	92;"	d
+P2PCORE_OP	p2pbase.h	88;"	d
+P2PCORE_PACKET_LEN	p2pbase.h	94;"	d
+P2PCORE_SERVICE_PORT	p2pbase.h	25;"	d
+P2PCORE_SERVICE_PORT2	p2pbase.h	26;"	d
+P2PCORE_SET_DATA_LEN	p2pbase.h	93;"	d
+P2PCORE_SET_OP	p2pbase.h	89;"	d
+P2PCORE_SET_STATUS	p2pbase.h	87;"	d
+P2PCORE_SET_TID	p2pbase.h	91;"	d
+P2PCORE_STATUS	p2pbase.h	86;"	d
+P2PCORE_TAG	p2pbase.h	30;"	d
+P2PCORE_TAG	p2pbase.h	33;"	d
+P2PCORE_TID	p2pbase.h	90;"	d
+P2PCORE_VERSION	p2pbase.h	31;"	d
+P2PCORE_VERSION	p2pbase.h	34;"	d
+P2PEVENT_ALERT_IO	p2psess.h	123;"	d
+P2PEVENT_ALERT_MOTION	p2psess.h	122;"	d
+P2PEVENT_ALERT_SOUND	p2psess.h	124;"	d
+P2PEVENT_SDCARD_FAILURE	p2psess.h	125;"	d
+P2PE_AGAIN	p2pconst.h	33;"	d
+P2PE_CONN_FAILED	p2pconst.h	29;"	d
+P2PE_ERROR_RESPONSE	p2pconst.h	27;"	d
+P2PE_INVALID_CONN_OBJECT	p2pconst.h	25;"	d
+P2PE_NO_DEV	p2pconst.h	31;"	d
+P2PE_NO_RESPONSE	p2pconst.h	26;"	d
+P2PE_OK	p2pconst.h	24;"	d
+P2PE_SESS_ABORTED	p2pconst.h	32;"	d
+P2PE_SOCKET_ERROR	p2pconst.h	28;"	d
+P2PE_TIMEOUTED	p2pconst.h	30;"	d
+P2PFRAMEINFO	p2psess.h	/^typedef struct _tagP2PFRAMEINFO P2PFRAMEINFO;$/;"	t	typeref:struct:_tagP2PFRAMEINFO
+P2PMEDIAHEADER	p2psess.h	/^} P2PMEDIAHEADER; $/;"	t	typeref:struct:_tagP2PMEDIAHEADER
+P2PSESS	p2psess_imp.h	/^} P2PSESS;$/;"	t	typeref:struct:_tagP2pSess
+P2PSESSAPI_DECL	p2psess.h	14;"	d
+P2PSESSAPI_DECL	p2psess.h	16;"	d
+P2PSESSAPI_DECL	p2psess.h	19;"	d
+P2PSESSOBJ	Makefile	/^P2PSESSOBJ=p2psess.o chnbuf.o$/;"	m
+P2PSESS_TAG	p2psess_imp.h	14;"	d
+P2PSE_INVALID_P2PCHNO	p2psess.h	75;"	d
+P2PSE_INVALID_SESSION_OBJECT	p2psess.h	74;"	d
+P2PSE_P2PCHN_NOT_OPEN	p2psess.h	76;"	d
+P2PS_ADDRESS_CHANGED	p2pconst.h	12;"	d
+P2PS_AUTH_FAILED	p2pconst.h	8;"	d
+P2PS_CALLEE_OFFLINE	p2pconst.h	14;"	d
+P2PS_CHANGE_CONN_TYPE	p2pconst.h	20;"	d
+P2PS_CONTINUE	p2pconst.h	21;"	d
+P2PS_ERROR_PACKET	p2pconst.h	10;"	d
+P2PS_ERROR_TRANSID	p2pconst.h	9;"	d
+P2PS_INACTIVE	p2pconst.h	13;"	d
+P2PS_LACK_OF_RESOURCE	p2pconst.h	16;"	d
+P2PS_NOT_ALLOWED	p2pconst.h	17;"	d
+P2PS_OK	p2pconst.h	7;"	d
+P2PS_RELAY_SERVER_UNVAILABLE	p2pconst.h	18;"	d
+P2PS_SESSION_CLOSED	p2pconst.h	11;"	d
+P2PS_UNEXPECTED	p2pconst.h	15;"	d
+P2PS_UNRECOGNIZED_CMD	p2pconst.h	19;"	d
+P2P_CMD_CHANNEL	p2psess.h	/^typedef enum { P2P_CMD_CHANNEL, P2P_MEDIA_CHANNEL } P2PCHANNEL;$/;"	e	enum:__anon7
+P2P_CONNTYPE_AUTO	p2pconst.h	40;"	d
+P2P_CONNTYPE_LOCAL	p2pconst.h	41;"	d
+P2P_CONNTYPE_P2P	p2pconst.h	42;"	d
+P2P_CONNTYPE_RELAY	p2pconst.h	43;"	d
+P2P_LIVE_AUDIO_CHNO	demo/p2ptest.c	11;"	d	file:
+P2P_LIVE_AUDIO_CHNO	p2psess.h	149;"	d
+P2P_LIVE_AUDIO_CHNO	p2psess.h	232;"	d
+P2P_LIVE_VIDEO_CHNO	demo/p2ptest.c	10;"	d	file:
+P2P_LIVE_VIDEO_CHNO	p2psess.h	148;"	d
+P2P_LIVE_VIDEO_CHNO	p2psess.h	231;"	d
+P2P_MEDIA_CHANNEL	p2psess.h	/^typedef enum { P2P_CMD_CHANNEL, P2P_MEDIA_CHANNEL } P2PCHANNEL;$/;"	e	enum:__anon7
+P2P_PLAYBACK_AUDIO_CHNO	p2psess.h	151;"	d
+P2P_PLAYBACK_AUDIO_CHNO	p2psess.h	234;"	d
+P2P_PLAYBACK_VIDEO_CHNO	p2psess.h	150;"	d
+P2P_PLAYBACK_VIDEO_CHNO	p2psess.h	233;"	d
+P2pClient	demo/p2pclt.cpp	/^struct P2pClient {$/;"	s	file:
+P2pConnClose	p2pcore.c	/^int P2pConnClose(HP2PCONN hconn)$/;"	f
+P2pConnGetInfo	p2pcore.c	/^int P2pConnGetInfo(HP2PCONN hconn, P2PCONNINFO *info)$/;"	f
+P2pConnGetUserData	p2pcore.c	/^int P2pConnGetUserData(HP2PCONN hconn, void **ppUser)$/;"	f
+P2pConnInit	p2pcore.c	/^int P2pConnInit(const char *p2psvr, const char *pcsSN, const uint8 *sident\/*LENGTH_OF_SIDENT*\/, $/;"	f
+P2pConnSend	p2pcore.c	/^int P2pConnSend(HP2PCONN hconn, int phy_chno, void *pData, int len)$/;"	f
+P2pConnSendV	p2pcore.c	/^int P2pConnSendV(HP2PCONN hconn, int phy_chno, PA_IOVEC *v, int size_v)$/;"	f
+P2pConnSetTimeout	p2pcore.c	/^int P2pConnSetTimeout(HP2PCONN hconn, int sec\/*default 15*\/)$/;"	f
+P2pConnSetUserBuffer	p2pcore.c	/^int P2pConnSetUserBuffer(HP2PCONN hconn, void *pBuff, int size)$/;"	f
+P2pConnSetUserBufferOffset	p2pcore.c	/^int P2pConnSetUserBufferOffset(HP2PCONN hconn, int offset)$/;"	f
+P2pConnSetUserData	p2pcore.c	/^int P2pConnSetUserData(HP2PCONN hconn, void *pUser)$/;"	f
+P2pConnWaitW	p2pcore.c	/^int P2pConnWaitW(HP2PCONN hconn, int phy_chno, int wait_ms)$/;"	f
+P2pCoreCbFuncs	p2pcore.h	/^typedef struct P2pCoreCbFuncs {$/;"	s
+P2pCoreCleanup	p2pcore.c	/^void P2pCoreCleanup()$/;"	f
+P2pCoreEnumCallee	p2pcore.c	/^BOOL P2pCoreEnumCallee(LPENUMCALLEE *ppEnumDev, UINT *pNDev, const char *pszSN)$/;"	f
+P2pCoreGetNatInfo	p2pcore.c	/^void P2pCoreGetNatInfo(P2PCORENATINFO* pNi)$/;"	f
+P2pCoreGetVersion	p2pcore.c	/^DWORD P2pCoreGetVersion()$/;"	f
+P2pCoreInitialize	p2pcore.c	/^int P2pCoreInitialize(const char *svrs[], int n_svr, const char *sn, P2PCORECBFUNCS *cbs)$/;"	f
+P2pCoreState	p2pcore.h	/^typedef struct P2pCoreState {$/;"	s
+P2pCoreTerminate	p2pcore.c	/^void P2pCoreTerminate()$/;"	f
+P2pSessAccept	p2psess.c	/^int P2pSessAccept(HP2PSESS *hsess, UINT wait_ms)$/;"	f
+P2pSessClose	p2psess.c	/^int P2pSessClose(HP2PSESS hP2pSess)$/;"	f
+P2pSessCloseChannel	p2psess.c	/^BOOL P2pSessCloseChannel(HP2PSESS hP2pSess, P2PCHANNEL type, int chno)$/;"	f
+P2pSessCommandWithCB	p2psess.c	/^int P2pSessCommandWithCB(HP2PSESS hP2pSess, int chn, int cmd, const void *pDataIn, UINT nDataInLen, $/;"	f
+P2pSessCreate	p2psess.c	/^int P2pSessCreate(const char *p2psvr, const char *id, const uint8 *sident, const char *auth_str, HP2PSESS *hsess)$/;"	f
+P2pSessExec	p2psess.c	/^int P2pSessExec(HP2PSESS hP2pSess, int chn, int cmd, const void *pDataIn,	UINT nDataInLen, UINT timeout)$/;"	f
+P2pSessFromConn	p2psess.c	/^HP2PSESS P2pSessFromConn(HP2PCONN hconn)$/;"	f
+P2pSessGetFrame	p2psess.c	/^int P2pSessGetFrame(HP2PSESS hP2pSess, int chn, \/*OUT*\/P2PFRAMEINFO *pFrmHdr, UINT timeout)$/;"	f
+P2pSessGetUserData	p2psess.c	/^void *P2pSessGetUserData(HP2PSESS hP2pSess)$/;"	f
+P2pSessGlobalInitialize	p2psess.c	/^int P2pSessGlobalInitialize(const char *server1, const char *server2, const char *sn, VERIFYAUTHSTRINGCB cb)$/;"	f
+P2pSessGlobalUninitialize	p2psess.c	/^void P2pSessGlobalUninitialize()$/;"	f
+P2pSessOpenChannel	p2psess.c	/^BOOL P2pSessOpenChannel(HP2PSESS hP2pSess, P2PCHANNEL type, int chno, UINT size, UINT nSafeSpace)$/;"	f
+P2pSessQuery	p2psess.c	/^int P2pSessQuery(HP2PSESS hP2pSess, int chn, int cmd, const void *pDataIn, UINT nDataInLen, $/;"	f
+P2pSessRecvResponse	p2psess.c	/^int P2pSessRecvResponse(HP2PSESS hP2pSess, int chn, void **ppResp, UINT *pRespSize, BOOL *pbHasMore, DWORD timeout)$/;"	f
+P2pSessRecvStatus	p2psess.c	/^int P2pSessRecvStatus(HP2PSESS hP2pSess, int chn, DWORD timeout)$/;"	f
+P2pSessReleaseFrame	p2psess.c	/^int P2pSessReleaseFrame(HP2PSESS hP2pSess, int chn, const P2PFRAMEINFO *pFrame)$/;"	f
+P2pSessReleaseResponse	p2psess.c	/^int P2pSessReleaseResponse(HP2PSESS hP2pSess, int chn, void *pResp)$/;"	f
+P2pSessSendCommand	p2psess.c	/^int P2pSessSendCommand(HP2PSESS hP2pSess, int chn, int cmd, const void *pData, UINT nDataLen, uint32 *puTransId)$/;"	f
+P2pSessSendEvent	p2psess.c	/^int P2pSessSendEvent(HP2PSESS hsess, const void *pData, UINT nDataLen)$/;"	f
+P2pSessSendMediaFrame	p2psess.c	/^int P2pSessSendMediaFrame(HP2PSESS hsess, int chno, MEDIATYPE mt, DWORD timestamp, BOOL isKeyFrame, BYTE *pFrame, int len, UINT maxWaitMs)$/;"	f
+P2pSessSendMediaFrameV	p2psess.c	/^int P2pSessSendMediaFrameV(HP2PSESS hsess, int chno, MEDIATYPE mt, DWORD timestamp, BOOL isKeyFrame, $/;"	f
+P2pSessSendRequest	p2psess.c	/^int P2pSessSendRequest(HP2PSESS hsess, int chno, int cmd, const void *pData, UINT nDataLen, uint32 trans_id)$/;"	f
+P2pSessSendResponse	p2psess.c	/^int P2pSessSendResponse(HP2PSESS hsess, int chno, int cmd, const void *pData, UINT nDataLen, uint32 trans_id)$/;"	f
+P2pSessSendResponseError	p2psess.c	/^int P2pSessSendResponseError(HP2PSESS hsess, int chno, int cmd, uint8 status, uint32 trans_id)$/;"	f
+P2pSessSetEventCallback	p2psess.c	/^void P2pSessSetEventCallback(HP2PSESS hP2pSess, ONEVENT_CB cb, void *pData)$/;"	f
+P2pSessSetUserData	p2psess.c	/^int P2pSessSetUserData(HP2PSESS hP2pSess, void *pUser)$/;"	f
+P2pThread	p2pcore.c	/^static void* P2pThread(void* p)$/;"	f	file:
+PA_Accept	platform_adpt.h	238;"	d
+PA_Accept	platform_adpt.h	68;"	d
+PA_COND	platform_adpt.h	87;"	d
+PA_DEFINEMUTEX	platform_adpt.h	263;"	d
+PA_DEFINEMUTEX	platform_adpt.h	92;"	d
+PA_DeleteFile	platform_adpt.c	/^BOOL PA_DeleteFile(const char *fn)$/;"	f
+PA_DeleteFile	platform_adpt.h	175;"	d
+PA_EVENT	platform_adpt.h	260;"	d
+PA_EVENT	platform_adpt.h	86;"	d
+PA_EventInit	platform_adpt.h	105;"	d
+PA_EventInit	platform_adpt.h	286;"	d
+PA_EventSet	platform_adpt.h	107;"	d
+PA_EventSet	platform_adpt.h	288;"	d
+PA_EventUninit	platform_adpt.h	106;"	d
+PA_EventUninit	platform_adpt.h	287;"	d
+PA_EventWait	platform_adpt.h	109;"	d
+PA_EventWait	platform_adpt.h	289;"	d
+PA_EventWaitTimed	platform_adpt.c	/^BOOL PA_EventWaitTimed(PA_EVENT e, DWORD ms)$/;"	f
+PA_EventWaitTimed	platform_adpt.h	110;"	d
+PA_FileClose	platform_adpt.h	173;"	d
+PA_FileClose	platform_adpt.h	342;"	d
+PA_FileIsValid	platform_adpt.h	174;"	d
+PA_FileIsValid	platform_adpt.h	341;"	d
+PA_GetPeerName	platform_adpt.h	237;"	d
+PA_GetPeerName	platform_adpt.h	67;"	d
+PA_GetSockName	platform_adpt.h	236;"	d
+PA_GetSockName	platform_adpt.h	66;"	d
+PA_GetSockOpt	platform_adpt.h	239;"	d
+PA_GetSockOpt	platform_adpt.h	69;"	d
+PA_GetTickCount	platform_adpt.c	/^DWORD PA_GetTickCount()$/;"	f
+PA_GetTickCount	platform_adpt.h	180;"	d
+PA_HFILE	platform_adpt.h	170;"	d
+PA_HFILE	platform_adpt.h	338;"	d
+PA_HTHREAD	platform_adpt.h	120;"	d
+PA_HTHREAD	platform_adpt.h	300;"	d
+PA_HTHREAD_NULL	platform_adpt.h	121;"	d
+PA_HTHREAD_NULL	platform_adpt.h	301;"	d
+PA_INVALID_HANDLE	platform_adpt.h	252;"	d
+PA_INVALID_HANDLE	platform_adpt.h	79;"	d
+PA_IOVEC	platform_adpt.h	224;"	d
+PA_IOVEC	platform_adpt.h	54;"	d
+PA_IoVecGetLen	platform_adpt.h	226;"	d
+PA_IoVecGetLen	platform_adpt.h	56;"	d
+PA_IoVecGetPtr	platform_adpt.h	225;"	d
+PA_IoVecGetPtr	platform_adpt.h	55;"	d
+PA_IoVecSetLen	platform_adpt.h	228;"	d
+PA_IoVecSetLen	platform_adpt.h	58;"	d
+PA_IoVecSetPtr	platform_adpt.h	227;"	d
+PA_IoVecSetPtr	platform_adpt.h	57;"	d
+PA_IsValidHandle	platform_adpt.h	251;"	d
+PA_IsValidHandle	platform_adpt.h	80;"	d
+PA_MUTEX	platform_adpt.h	257;"	d
+PA_MUTEX	platform_adpt.h	85;"	d
+PA_MutexInit	platform_adpt.h	264;"	d
+PA_MutexInit	platform_adpt.h	93;"	d
+PA_MutexLock	platform_adpt.h	266;"	d
+PA_MutexLock	platform_adpt.h	95;"	d
+PA_MutexTryLock	platform_adpt.h	268;"	d
+PA_MutexTryLock	platform_adpt.h	97;"	d
+PA_MutexUninit	platform_adpt.h	265;"	d
+PA_MutexUninit	platform_adpt.h	94;"	d
+PA_MutexUnlock	platform_adpt.h	267;"	d
+PA_MutexUnlock	platform_adpt.h	96;"	d
+PA_NetLibInit	platform_adpt.c	/^void PA_NetLibInit()$/;"	f
+PA_NetLibInit	platform_adpt.h	221;"	d
+PA_NetLibUninit	platform_adpt.h	222;"	d
+PA_NetLibUninit	platform_adpt.h	52;"	d
+PA_PIPE	platform_adpt.h	258;"	d
+PA_PIPE	platform_adpt.h	89;"	d
+PA_PipeClose	platform_adpt.c	/^BOOL PA_PipeClose(PA_PIPE hPipe)$/;"	f
+PA_PipeCreate	platform_adpt.c	/^BOOL PA_PipeCreate(PA_PIPE *pHPipeRd, PA_PIPE *pHPipeWrt)$/;"	f
+PA_RWLOCK	platform_adpt.h	149;"	d
+PA_RWLOCK	platform_adpt.h	315;"	d
+PA_RWLOCK	win32/rwlock.h	30;"	d
+PA_RWLOCK	win32/rwlock.h	45;"	d
+PA_RWLockFailed	platform_adpt.h	154;"	d
+PA_RWLockFailed	platform_adpt.h	322;"	d
+PA_RWLockInit	platform_adpt.h	150;"	d
+PA_RWLockInit	platform_adpt.h	316;"	d
+PA_RWLockInit	win32/rwlock.h	31;"	d
+PA_RWLockInit	win32/rwlock.h	46;"	d
+PA_RWLockLockR	platform_adpt.h	152;"	d
+PA_RWLockLockR	platform_adpt.h	320;"	d
+PA_RWLockLockR	win32/rwlock.h	34;"	d
+PA_RWLockLockR	win32/rwlock.h	50;"	d
+PA_RWLockLockRTimed	platform_adpt.h	155;"	d
+PA_RWLockLockRTimed	platform_adpt.h	323;"	d
+PA_RWLockLockRTimed	win32/rwlock.h	36;"	d
+PA_RWLockLockRTimed	win32/rwlock.h	52;"	d
+PA_RWLockLockW	platform_adpt.h	153;"	d
+PA_RWLockLockW	platform_adpt.h	321;"	d
+PA_RWLockLockW	win32/rwlock.h	35;"	d
+PA_RWLockLockW	win32/rwlock.h	51;"	d
+PA_RWLockLockWTimed	platform_adpt.h	156;"	d
+PA_RWLockLockWTimed	platform_adpt.h	324;"	d
+PA_RWLockLockWTimed	win32/rwlock.h	37;"	d
+PA_RWLockLockWTimed	win32/rwlock.h	53;"	d
+PA_RWLockUninit	platform_adpt.h	151;"	d
+PA_RWLockUninit	platform_adpt.h	317;"	d
+PA_RWLockUninit	win32/rwlock.h	32;"	d
+PA_RWLockUninit	win32/rwlock.h	47;"	d
+PA_RWLockUnlock	platform_adpt.h	157;"	d
+PA_RWLockUnlock	platform_adpt.h	325;"	d
+PA_RWLockUnlock	win32/rwlock.h	38;"	d
+PA_RWLockUnlock	win32/rwlock.h	54;"	d
+PA_Read	platform_adpt.c	/^int PA_Read(PA_HFILE hFile, void *pBuff, unsigned int size)$/;"	f
+PA_Read	platform_adpt.h	340;"	d
+PA_Recv	platform_adpt.h	234;"	d
+PA_Recv	platform_adpt.h	64;"	d
+PA_RecvFrom	platform_adpt.h	235;"	d
+PA_RecvFrom	platform_adpt.h	65;"	d
+PA_SEM	platform_adpt.h	261;"	d
+PA_SEM	platform_adpt.h	88;"	d
+PA_SOCKET	platform_adpt.h	242;"	d
+PA_SOCKET	platform_adpt.h	72;"	d
+PA_SOCKET_ERROR	platform_adpt.h	246;"	d
+PA_SOCKET_ERROR	platform_adpt.h	75;"	d
+PA_SPIN	platform_adpt.h	271;"	d
+PA_SPIN	platform_adpt.h	278;"	d
+PA_SPIN	platform_adpt.h	90;"	d
+PA_SemInit	platform_adpt.h	112;"	d
+PA_SemInit	platform_adpt.h	292;"	d
+PA_SemPost	platform_adpt.h	115;"	d
+PA_SemPost	platform_adpt.h	295;"	d
+PA_SemUninit	platform_adpt.h	113;"	d
+PA_SemUninit	platform_adpt.h	293;"	d
+PA_SemWait	platform_adpt.h	114;"	d
+PA_SemWait	platform_adpt.h	294;"	d
+PA_Send	platform_adpt.h	232;"	d
+PA_Send	platform_adpt.h	62;"	d
+PA_SendTo	platform_adpt.h	233;"	d
+PA_SendTo	platform_adpt.h	63;"	d
+PA_SetSockOpt	platform_adpt.h	240;"	d
+PA_SetSockOpt	platform_adpt.h	70;"	d
+PA_Sleep	platform_adpt.c	/^void PA_Sleep(UINT ms)$/;"	f
+PA_Sleep	platform_adpt.h	128;"	d
+PA_SocketClose	platform_adpt.h	230;"	d
+PA_SocketClose	platform_adpt.h	60;"	d
+PA_SocketGetError	platform_adpt.h	245;"	d
+PA_SocketGetError	platform_adpt.h	74;"	d
+PA_SocketIsValid	platform_adpt.h	244;"	d
+PA_SocketIsValid	platform_adpt.h	73;"	d
+PA_SocketSetLinger	platform_adpt.c	/^int PA_SocketSetLinger(PA_SOCKET s, int onoff, int linger)$/;"	f
+PA_SocketSetNBlk	platform_adpt.c	/^int PA_SocketSetNBlk(PA_SOCKET s, BOOL b)$/;"	f
+PA_SpinInit	platform_adpt.h	272;"	d
+PA_SpinInit	platform_adpt.h	279;"	d
+PA_SpinInit	platform_adpt.h	99;"	d
+PA_SpinLock	platform_adpt.h	101;"	d
+PA_SpinLock	platform_adpt.h	274;"	d
+PA_SpinLock	platform_adpt.h	281;"	d
+PA_SpinTryLock	platform_adpt.h	102;"	d
+PA_SpinTryLock	platform_adpt.h	275;"	d
+PA_SpinTryLock	platform_adpt.h	282;"	d
+PA_SpinUninit	platform_adpt.h	100;"	d
+PA_SpinUninit	platform_adpt.h	273;"	d
+PA_SpinUninit	platform_adpt.h	280;"	d
+PA_SpinUnlock	platform_adpt.h	103;"	d
+PA_SpinUnlock	platform_adpt.h	276;"	d
+PA_SpinUnlock	platform_adpt.h	283;"	d
+PA_StrCaseCmp	platform_adpt.h	163;"	d
+PA_StrCaseCmp	platform_adpt.h	331;"	d
+PA_StrNCaseCmp	platform_adpt.h	164;"	d
+PA_StrNCaseCmp	platform_adpt.h	332;"	d
+PA_StrNCmp	platform_adpt.h	165;"	d
+PA_StrNCmp	platform_adpt.h	333;"	d
+PA_THREAD_RETTYPE	platform_adpt.h	122;"	d
+PA_THREAD_RETTYPE	platform_adpt.h	302;"	d
+PA_ThreadCloseHandle	platform_adpt.h	125;"	d
+PA_ThreadCloseHandle	platform_adpt.h	305;"	d
+PA_ThreadCreate	platform_adpt.c	/^PA_HTHREAD PA_ThreadCreate(PA_ThreadRoutine* routine, void* data)$/;"	f
+PA_ThreadGetCurrentHandle	platform_adpt.h	124;"	d
+PA_ThreadGetCurrentHandle	platform_adpt.h	304;"	d
+PA_ThreadRoutine	platform_adpt.h	/^typedef PA_THREAD_RETTYPE (__STDCALL PA_ThreadRoutine)(void*);$/;"	t
+PA_ThreadWaitUntilTerminate	platform_adpt.c	/^void *PA_ThreadWaitUntilTerminate(PA_HTHREAD hThread) $/;"	f
+PA_ThreadWaitUntilTerminate	platform_adpt.c	/^void* PA_ThreadWaitUntilTerminate(PA_HTHREAD hThread) $/;"	f
+PA_Write	platform_adpt.c	/^int PA_Write(PA_HFILE hFile, const void *pBuff, unsigned int size)$/;"	f
+PA_Write	platform_adpt.h	339;"	d
+PENDINGCONN	p2psess.c	/^} PENDINGCONN;$/;"	t	typeref:struct:PendingConn	file:
+PHF_DATA	rudp.c	106;"	d	file:
+PHF_FROM	rudp.c	105;"	d	file:
+PHY_CHN	rudp_imp.h	58;"	d
+PHY_HDR_CHN	rudp_imp.h	57;"	d
+PLAYBACK_AUDIO_CHNO	demo/p2psess_test.cpp	18;"	d	file:
+PLAYBACK_VIDEO_CHNO	demo/p2psess_test.cpp	17;"	d	file:
+PORTMAP_SIZE	upnp_igd_cp.c	40;"	d	file:
+PRINTF	platform_adpt.h	383;"	d
+PRINTF	platform_adpt.h	386;"	d
+PSCB_ID_CONN_FAILED	p2psess.h	/^	PSCB_ID_CONN_FAILED$/;"	e	enum:__anon6
+PSCB_ID_SESS_ABORTED	p2psess.h	/^	PSCB_ID_SESS_ABORTED,$/;"	e	enum:__anon6
+PSCB_ID_SESS_CREATED	p2psess.h	/^	PSCB_ID_SESS_CREATED,$/;"	e	enum:__anon6
+PSCB_ID_VERIFY_AUTH_STRING	p2psess.h	/^	PSCB_ID_VERIFY_AUTH_STRING = 1,$/;"	e	enum:__anon6
+PSS_ALLOCATED	p2pcore.c	/^	PSS_ALLOCATED,			\/\/just allocated$/;"	e	enum:__anon4	file:
+PSS_CONNECTED	p2pcore.c	/^	PSS_CONNECTED $/;"	e	enum:__anon4	file:
+PSS_FAILED	p2pcore.c	/^	PSS_FAILED, $/;"	e	enum:__anon4	file:
+PSS_PUNCHING	p2pcore.c	/^	PSS_PUNCHING, $/;"	e	enum:__anon4	file:
+PSS_WAIT_FOR_PEER_INFO	p2pcore.c	/^	PSS_WAIT_FOR_PEER_INFO,		\/\/for caller. wait for$/;"	e	enum:__anon4	file:
+PSS_WAIT_FOR_SERVER_ACK	p2pcore.c	/^	PSS_WAIT_FOR_SERVER_ACK,	\/\/for caller. begin_session_request is sent, wait for ack from server$/;"	e	enum:__anon4	file:
+PUNCH_TIMEOUT	p2pcore.c	26;"	d	file:
+Password	stunc/stun.h	45;"	d
+PendingConn	p2psess.c	/^typedef struct PendingConn {$/;"	s	file:
+PlayAudio	demo/p2ptest.c	/^void PlayAudio(MEDIATYPE fmt, BYTE *pData, int len) $/;"	f
+PlaybackThread	demo/p2psess_test.cpp	/^PA_THREAD_RETTYPE __STDCALL PlaybackThread(void *p)$/;"	f
+Probe	demo/ReadWriter.h	/^	DWORD (*Probe)(const char *sFileName, FILEINFO *pFi);$/;"	m	struct:_Reader
+PunchNewAndKillTimeoutedConn	p2pcore.c	/^void PunchNewAndKillTimeoutedConn(unsigned int now)$/;"	f
+QSF_STUN_SERVER	p2pcore_ex.h	16;"	d
+QUERY_RESP_CB	p2psess.c	/^typedef int (*QUERY_RESP_CB)(void *pData, UINT nSize, void *pUserData);$/;"	t	file:
+QueueServiceItem	timerq.c	/^int QueueServiceItem(int which, SERVICEFUNC func, void* data, int run_after, const char *name)$/;"	f
+RCT_CNT	rudp_imp.h	115;"	d
+RCT_PERSIST	rudp_imp.h	113;"	d
+RCT_REXMT	rudp_imp.h	114;"	d
+READER	demo/ReadWriter.h	/^} READER;$/;"	t	typeref:struct:_Reader
+RECORD_STREAM_AUDIO	demo/ReadWriter.h	12;"	d
+RECORD_STREAM_INDICES	demo/ReadWriter.h	13;"	d
+RECORD_STREAM_INVALID	demo/ReadWriter.h	10;"	d
+RECORD_STREAM_TAGS	demo/ReadWriter.h	14;"	d
+RECORD_STREAM_VIDEO	demo/ReadWriter.h	11;"	d
+RESPHEADER	chnbuf.c	/^} RESPHEADER;$/;"	t	typeref:struct:__tagRESPHEADER	file:
+RESPINFO	chnbuf.h	/^} RESPINFO;$/;"	t	typeref:struct:__tagRESPINFO
+RF_ADHOC	rudp_imp.h	231;"	d
+RF_NBLK	rudp_imp.h	232;"	d
+RO_FORCE	rudp.c	64;"	d	file:
+RO_NORMAL	rudp.c	63;"	d	file:
+RO_ONLYONE	rudp.c	66;"	d	file:
+RO_REXMT	rudp.c	65;"	d	file:
+RS_CLOSED	rudp_imp.h	/^	RS_CLOSED = 0,	\/\/initally created or accepted$/;"	e	enum:__anon11
+RS_CLOSE_WAIT	rudp_imp.h	/^	RS_CLOSE_WAIT,$/;"	e	enum:__anon11
+RS_CLOSING	rudp_imp.h	/^	RS_CLOSING,$/;"	e	enum:__anon11
+RS_DEAD	rudp_imp.h	/^	RS_DEAD	= -1,	\/\/all resources except the pointer to rudp_socket itself are freed, only RUDPClose() is allowed$/;"	e	enum:__anon11
+RS_ESTABLISHED	rudp_imp.h	/^	RS_ESTABLISHED,$/;"	e	enum:__anon11
+RS_FIN_QUEUED	rudp_imp.h	/^	RS_FIN_QUEUED,$/;"	e	enum:__anon11
+RS_FIN_WAIT_1	rudp_imp.h	/^	RS_FIN_WAIT_1,$/;"	e	enum:__anon11
+RS_FIN_WAIT_2	rudp_imp.h	/^	RS_FIN_WAIT_2,$/;"	e	enum:__anon11
+RS_LISTEN	rudp_imp.h	/^	RS_LISTEN,$/;"	e	enum:__anon11
+RS_SYN_RCVD	rudp_imp.h	/^	RS_SYN_RCVD,$/;"	e	enum:__anon11
+RS_SYN_SENT	rudp_imp.h	/^	RS_SYN_SENT,$/;"	e	enum:__anon11
+RS_TIME_WAIT	rudp_imp.h	/^	RS_TIME_WAIT$/;"	e	enum:__anon11
+RTT_MIN	rudp.c	168;"	d	file:
+RTT_UINT	rudp.c	167;"	d	file:
+RTV_KEEP_CLOSE	rudp_imp.h	130;"	d
+RTV_KEEP_INIT	rudp_imp.h	125;"	d
+RTV_PERSMAX	rudp_imp.h	129;"	d
+RTV_PERSMIN	rudp_imp.h	128;"	d
+RTV_REXMTMAX	rudp_imp.h	127;"	d
+RTV_REXMTMIN	rudp_imp.h	126;"	d
+RT_2MSL	rudp_imp.h	110;"	d
+RT_CNT	rudp_imp.h	111;"	d
+RT_KEEP	rudp_imp.h	109;"	d
+RUDPAccept	rudp.c	/^int RUDPAccept(RUDPSOCKET sock, RUDPSOCKET *accepted, struct sockaddr *addr, int *addrlen)$/;"	f
+RUDPBind	rudp.c	/^int RUDPBind(RUDPSOCKET sock, const struct sockaddr *addr, int addrlen)$/;"	f
+RUDPCleanup	rudp.c	/^int RUDPCleanup()$/;"	f
+RUDPClose	rudp.c	/^int RUDPClose(RUDPSOCKET sock)$/;"	f
+RUDPConnect	rudp.c	/^int RUDPConnect(RUDPSOCKET sock, const struct sockaddr* addr, int addr_len)$/;"	f
+RUDPConnected	rudp.c	/^int RUDPConnected(RUDPSOCKET sock, const struct sockaddr* addr, int peer_rbuf_sz)$/;"	f
+RUDPGetPeerName	rudp.c	/^int RUDPGetPeerName(RUDPSOCKET sock, struct sockaddr *name)$/;"	f
+RUDPGetSockName	rudp.c	/^int RUDPGetSockName(RUDPSOCKET sock, struct sockaddr *name)$/;"	f
+RUDPGetSockOpt	rudp.c	/^int RUDPGetSockOpt(RUDPSOCKET sock, int opt, void *optval, int *optlen)$/;"	f
+RUDPListen	rudp.c	/^int RUDPListen(RUDPSOCKET sock, int n)$/;"	f
+RUDPMSG_DONTWAIT	rudp.h	57;"	d
+RUDPRecv	rudp.c	/^int RUDPRecv(RUDPSOCKET sock, int *chno, void *ptr, int len, int flags)$/;"	f
+RUDPRecvChn	rudp.c	/^int RUDPRecvChn(RUDPSOCKET sock, int *chno, void *ptr, int len, int flags)$/;"	f
+RUDPSELECT_READABLE	rudp.h	81;"	d
+RUDPSELECT_WRITABLE	rudp.h	82;"	d
+RUDPSOCKCHNO	rudp.h	/^} RUDPSOCKCHNO;$/;"	t	typeref:struct:_tagSelectChn
+RUDPSOCKET	rudp.h	/^typedef void* RUDPSOCKET;$/;"	t
+RUDPSTATE	rudp_imp.h	/^} RUDPSTATE;$/;"	t	typeref:enum:__anon11
+RUDPSelect	rudp.c	/^int RUDPSelect(RUDPSOCKCHNO *r_rscs, int *n_rrscs, RUDPSOCKCHNO *w_rscs, int *n_wrscs, RUDPSOCKCHNO *e_rscs, int *n_erscs, const struct timeval *timeout)$/;"	f
+RUDPSelectSock	rudp.c	/^int RUDPSelectSock(RUDPSOCKET sock, int chno, int flag, const struct timeval *timeout)$/;"	f
+RUDPSend	rudp.c	/^int RUDPSend(RUDPSOCKET sock, int chno, const void *ptr, int len, int flags)$/;"	f
+RUDPSendV	rudp.c	/^int RUDPSendV(RUDPSOCKET sock, int chno, const PA_IOVEC *v, unsigned int size, int flags)$/;"	f
+RUDPSetSockOpt	rudp.c	/^int RUDPSetSockOpt(RUDPSOCKET sock, int opt, const void *optval, int optlen)$/;"	f
+RUDPSocket	rudp.c	/^RUDPSOCKET RUDPSocket()$/;"	f
+RUDPSocketFromUdp	rudp.c	/^RUDPSOCKET RUDPSocketFromUdp(int udpsock)$/;"	f
+RUDPStart	rudp.c	/^int RUDPStart()$/;"	f
+RUDPT_RANGESET	rudp_imp.h	117;"	d
+RUDP_CLR	rudp.h	101;"	d
+RUDP_FD_ISSET	rudp.c	/^int RUDP_FD_ISSET(int fd, const RUDPSOCKCHNO *prc, int size)$/;"	f
+RUDP_FD_SET	rudp.h	97;"	d
+RUDP_HEADER_TAG	rudp_imp.h	13;"	d
+RUDP_ISSET	rudp.c	/^int RUDP_ISSET(RUDPSOCKET s, const RUDPSOCKCHNO *prc, int size)$/;"	f
+RUDP_SET	rudp.h	99;"	d
+RUDP_SOCKET_TAG	rudp_imp.h	230;"	d
+RWLOCK	platform_adpt.h	/^} RWLOCK, *LPRWLOCK;$/;"	t	typeref:struct:ReadWriteLock
+RWLOCK	win32/rwlock.h	/^} RWLOCK, *LPRWLOCK;$/;"	t	typeref:struct:ReadWriteLock
+RWLockCreate	platform_adpt.c	/^RWLOCK *RWLockCreate()$/;"	f
+RWLockCreate	win32/rwlock.c	/^RWLOCK *RWLockCreate()$/;"	f
+RWLockDestroy	platform_adpt.c	/^BOOL RWLockDestroy(RWLOCK *pLock)$/;"	f
+RWLockDestroy	win32/rwlock.c	/^BOOL RWLockDestroy(RWLOCK *pLock)$/;"	f
+RWLockLockR	platform_adpt.c	/^BOOL RWLockLockR(RWLOCK *pLock, DWORD timeout)$/;"	f
+RWLockLockR	win32/rwlock.c	/^BOOL RWLockLockR(RWLOCK *pLock, DWORD timeout)$/;"	f
+RWLockLockW	platform_adpt.c	/^BOOL RWLockLockW(RWLOCK *pLock, DWORD timeout)$/;"	f
+RWLockLockW	win32/rwlock.c	/^BOOL RWLockLockW(RWLOCK *pLock, DWORD timeout)$/;"	f
+RWLockUnlock	platform_adpt.c	/^void RWLockUnlock(RWLOCK *pLock)$/;"	f
+RWLockUnlock	win32/rwlock.c	/^void RWLockUnlock(RWLOCK *pLock)$/;"	f
+Read	demo/ReadWriter.h	/^	DWORD (*Read)(DWORD *streamType, DWORD *timeStamp, BYTE *buf, \/*INOUT*\/DWORD *len, DWORD *flag, void *data);$/;"	m	struct:_Reader
+ReadTag	demo/ReadWriter.h	/^	DWORD (*ReadTag)(const char *TagName, void *Tag, UINT *len, void *data);$/;"	m	struct:_Reader
+ReadWriteLock	platform_adpt.h	/^typedef struct ReadWriteLock$/;"	s
+ReadWriteLock	win32/rwlock.h	/^typedef struct ReadWriteLock$/;"	s
+RecData	demo/p2psess_test.cpp	/^} RecData;$/;"	v	typeref:struct:DataForRec
+ReflectedFrom	stunc/stun.h	49;"	d
+RegisterReader	demo/ReadWriter.c	/^BOOL RegisterReader(READER *pRdr)$/;"	f
+ResolveHost	netbase.c	/^BOOL ResolveHost(const char* host, uint32* pIP)$/;"	f
+ResponseAddress	stunc/stun.h	40;"	d
+SAFE_DELETE	misc.h	11;"	d
+SAFE_FREE	demo/ReadWriter.c	17;"	d	file:
+SAFE_FREE	misc.h	10;"	d
+SAFE_FREE	p2pcore.c	20;"	d	file:
+SAFE_FREE	rudp.c	41;"	d	file:
+SEQ_GE	rudp_imp.h	137;"	d
+SEQ_GT	rudp_imp.h	136;"	d
+SEQ_LE	rudp_imp.h	135;"	d
+SEQ_LT	rudp_imp.h	134;"	d
+SERVICEFUNC	timerq.h	/^typedef void (*SERVICEFUNC)(void *);$/;"	t
+SESSABORTEDCB	p2psess.h	/^typedef void (*SESSABORTEDCB)(HP2PSESS hsess);$/;"	t
+SESSCREATEDCB	p2psess.h	/^typedef int (*SESSCREATEDCB)(HP2PSESS hsess);$/;"	t
+SESSION_TIMEOUT	p2pcore.c	25;"	d	file:
+SETEVENT	rudp.c	37;"	d	file:
+SETEVENT	rudp.c	39;"	d	file:
+SIMPLEQ_EMPTY	miniupnpc/bsdqueue.h	268;"	d
+SIMPLEQ_END	miniupnpc/bsdqueue.h	267;"	d
+SIMPLEQ_ENTRY	miniupnpc/bsdqueue.h	258;"	d
+SIMPLEQ_FIRST	miniupnpc/bsdqueue.h	266;"	d
+SIMPLEQ_FOREACH	miniupnpc/bsdqueue.h	271;"	d
+SIMPLEQ_HEAD	miniupnpc/bsdqueue.h	249;"	d
+SIMPLEQ_HEAD_INITIALIZER	miniupnpc/bsdqueue.h	255;"	d
+SIMPLEQ_INIT	miniupnpc/bsdqueue.h	279;"	d
+SIMPLEQ_INSERT_AFTER	miniupnpc/bsdqueue.h	296;"	d
+SIMPLEQ_INSERT_HEAD	miniupnpc/bsdqueue.h	284;"	d
+SIMPLEQ_INSERT_TAIL	miniupnpc/bsdqueue.h	290;"	d
+SIMPLEQ_NEXT	miniupnpc/bsdqueue.h	269;"	d
+SIMPLEQ_REMOVE_HEAD	miniupnpc/bsdqueue.h	302;"	d
+SLIST_EMPTY	miniupnpc/bsdqueue.h	116;"	d
+SLIST_END	miniupnpc/bsdqueue.h	115;"	d
+SLIST_ENTRY	miniupnpc/bsdqueue.h	103;"	d
+SLIST_ENTRY	miniupnpc/bsdqueue.h	106;"	d
+SLIST_FIRST	miniupnpc/bsdqueue.h	114;"	d
+SLIST_FOREACH	miniupnpc/bsdqueue.h	119;"	d
+SLIST_FOREACH_PREVPTR	miniupnpc/bsdqueue.h	124;"	d
+SLIST_HEAD	miniupnpc/bsdqueue.h	94;"	d
+SLIST_HEAD_INITIALIZER	miniupnpc/bsdqueue.h	99;"	d
+SLIST_INIT	miniupnpc/bsdqueue.h	132;"	d
+SLIST_INSERT_AFTER	miniupnpc/bsdqueue.h	136;"	d
+SLIST_INSERT_HEAD	miniupnpc/bsdqueue.h	141;"	d
+SLIST_NEXT	miniupnpc/bsdqueue.h	117;"	d
+SLIST_REMOVE	miniupnpc/bsdqueue.h	154;"	d
+SLIST_REMOVE_HEAD	miniupnpc/bsdqueue.h	150;"	d
+SLIST_REMOVE_NEXT	miniupnpc/bsdqueue.h	146;"	d
+SLOW_QUEUE	timerq.h	14;"	d
+SLVF_VALUE	demo/p2pclt.cpp	46;"	d	file:
+SOCK_STATUS_ACCEPTED	p2pbase.h	292;"	d
+SOCK_STATUS_CONNECTED	p2pbase.h	291;"	d
+SOCK_STATUS_READABLE	p2pbase.h	293;"	d
+STREAMFLAG_KEYFRAME	demo/ReadWriter.h	20;"	d
+STRTOUI	miniupnpc/upnpcommands.h	25;"	d
+STRTOUI	miniupnpc/upnpcommands.h	28;"	d
+STUN_H	stunc/stun.h	2;"	d
+STUN_MAX_MESSAGE_SIZE	stunc/stun.h	15;"	d
+STUN_MAX_STRING	stunc/stun.h	13;"	d
+STUN_MAX_UNKNOWN_ATTRIBUTES	stunc/stun.h	14;"	d
+STUN_PORT	stunc/stun.h	17;"	d
+STUN_SVR_PORT	p2pbase.h	27;"	d
+STUN_VERSION	stunc/stun.h	11;"	d
+ST_CALLEE	p2pbase.h	40;"	d
+ST_CALLER	p2pbase.h	41;"	d
+ST_SERVER	p2pbase.h	42;"	d
+SecondaryAddress	stunc/stun.h	53;"	d
+SeekKeyFrame	demo/ReadWriter.h	/^	DWORD (*SeekKeyFrame)(DWORD timeStamp, void *data);		\/\/定位到最近靠前的关键帧，返回关键帧的timeStamp. 接口不支持定位应返回到第一帧的位置(timeStamp == 0)$/;"	m	struct:_Reader
+ServerName	stunc/stun.h	52;"	d
+SetWriter	demo/ReadWriter.c	/^void SetWriter(WRITER *pWrtr)$/;"	f
+SharedSecretErrorResponseMsg	stunc/stun.h	61;"	d
+SharedSecretRequestMsg	stunc/stun.h	59;"	d
+SharedSecretResponseMsg	stunc/stun.h	60;"	d
+Snapshot	demo/p2ptest.c	/^int Snapshot(int channel, int quality, BYTE **ppBuff, UINT *size)$/;"	f
+SourceAddress	stunc/stun.h	42;"	d
+StartRecord	demo/p2psess_test.cpp	/^int StartRecord(const char *fn)$/;"	f
+StartTimerQueue	timerq.c	/^void StartTimerQueue(BOOL bSimuWatchdog)$/;"	f
+StopRecord	demo/p2psess_test.cpp	/^void StopRecord()$/;"	f
+StopTimerQueue	timerq.c	/^void StopTimerQueue()$/;"	f
+StunAddress4	stunc/stun.h	/^} StunAddress4;$/;"	t	typeref:struct:__anon15
+StunAtrAddress4	stunc/stun.h	/^} StunAtrAddress4;$/;"	t	typeref:struct:__anon16
+StunAtrChangeRequest	stunc/stun.h	/^} StunAtrChangeRequest;$/;"	t	typeref:struct:__anon17
+StunAtrError	stunc/stun.h	/^} StunAtrError;$/;"	t	typeref:struct:__anon18
+StunAtrHdr	stunc/stun.h	/^} StunAtrHdr;$/;"	t	typeref:struct:__anon14
+StunAtrIntegrity	stunc/stun.h	/^} StunAtrIntegrity;$/;"	t	typeref:struct:__anon21
+StunAtrString	stunc/stun.h	/^} StunAtrString;$/;"	t	typeref:struct:__anon20
+StunAtrUnknown	stunc/stun.h	/^} StunAtrUnknown;$/;"	t	typeref:struct:__anon19
+StunHmacStatus	stunc/stun.h	/^} StunHmacStatus;$/;"	t	typeref:enum:__anon22
+StunMediaRelay	stunc/stun.h	/^} StunMediaRelay;$/;"	t	typeref:struct:__anon25
+StunMessage	stunc/stun.h	/^} StunMessage; $/;"	t	typeref:struct:__anon23
+StunMsgHdr	stunc/stun.h	/^} StunMsgHdr;$/;"	t	typeref:struct:__anon13
+StunServerInfo	stunc/stun.h	/^} StunServerInfo;$/;"	t	typeref:struct:__anon26
+StunTypeBlocked	p2pconst.h	/^	StunTypeBlocked=0,$/;"	e	enum:__anon1
+StunTypeBlocked	stunc/stun.h	/^   StunTypeBlocked,$/;"	e	enum:__anon24
+StunTypeConeNat	stunc/stun.h	/^   StunTypeConeNat,$/;"	e	enum:__anon24
+StunTypeDependentFilter	p2pconst.h	/^	StunTypeDependentFilter,$/;"	e	enum:__anon1
+StunTypeDependentFilter	stunc/stun.h	/^   StunTypeDependentFilter,$/;"	e	enum:__anon24
+StunTypeDependentMapping	p2pconst.h	/^	StunTypeDependentMapping,$/;"	e	enum:__anon1
+StunTypeDependentMapping	stunc/stun.h	/^   StunTypeDependentMapping,$/;"	e	enum:__anon24
+StunTypeFailure	p2pconst.h	/^	StunTypeFailure,$/;"	e	enum:__anon1
+StunTypeFailure	stunc/stun.h	/^   StunTypeFailure,$/;"	e	enum:__anon24
+StunTypeFirewall	p2pconst.h	/^	StunTypeFirewall,$/;"	e	enum:__anon1
+StunTypeFirewall	stunc/stun.h	/^   StunTypeFirewall,$/;"	e	enum:__anon24
+StunTypeIndependentFilter	p2pconst.h	/^	StunTypeIndependentFilter,$/;"	e	enum:__anon1
+StunTypeIndependentFilter	stunc/stun.h	/^   StunTypeIndependentFilter,$/;"	e	enum:__anon24
+StunTypeOpen	p2pconst.h	/^	StunTypeOpen,$/;"	e	enum:__anon1
+StunTypeOpen	stunc/stun.h	/^   StunTypeOpen,$/;"	e	enum:__anon24
+StunTypePortDependedFilter	p2pconst.h	/^	StunTypePortDependedFilter,$/;"	e	enum:__anon1
+StunTypePortDependedFilter	stunc/stun.h	/^   StunTypePortDependedFilter,$/;"	e	enum:__anon24
+StunTypePortRestrictedNat	stunc/stun.h	/^   StunTypePortRestrictedNat,$/;"	e	enum:__anon24
+StunTypeRestrictedNat	stunc/stun.h	/^   StunTypeRestrictedNat,$/;"	e	enum:__anon24
+StunTypeSymFirewall	stunc/stun.h	/^   StunTypeSymFirewall,$/;"	e	enum:__anon24
+StunTypeSymNat	stunc/stun.h	/^   StunTypeSymNat,$/;"	e	enum:__anon24
+StunTypeUnknown	p2pconst.h	/^	StunTypeUnknown=0,$/;"	e	enum:__anon1
+StunTypeUnknown	stunc/stun.h	/^   StunTypeUnknown=0,$/;"	e	enum:__anon24
+TAG_CHANNELID	demo/ReadWriter.h	26;"	d
+TAG_CHANNELNAME	demo/ReadWriter.h	25;"	d
+TAG_DEVICENAME	demo/ReadWriter.h	23;"	d
+TAG_DEVICETYPEID	demo/ReadWriter.h	29;"	d
+TAG_ENDTIME	demo/ReadWriter.h	28;"	d
+TAG_HOST	demo/ReadWriter.h	24;"	d
+TAG_STARTTIME	demo/ReadWriter.h	27;"	d
+TAILQ_EMPTY	miniupnpc/bsdqueue.h	336;"	d
+TAILQ_END	miniupnpc/bsdqueue.h	329;"	d
+TAILQ_ENTRY	miniupnpc/bsdqueue.h	319;"	d
+TAILQ_FIRST	miniupnpc/bsdqueue.h	328;"	d
+TAILQ_FOREACH	miniupnpc/bsdqueue.h	339;"	d
+TAILQ_FOREACH_REVERSE	miniupnpc/bsdqueue.h	344;"	d
+TAILQ_HEAD	miniupnpc/bsdqueue.h	310;"	d
+TAILQ_HEAD_INITIALIZER	miniupnpc/bsdqueue.h	316;"	d
+TAILQ_INIT	miniupnpc/bsdqueue.h	352;"	d
+TAILQ_INSERT_AFTER	miniupnpc/bsdqueue.h	374;"	d
+TAILQ_INSERT_BEFORE	miniupnpc/bsdqueue.h	384;"	d
+TAILQ_INSERT_HEAD	miniupnpc/bsdqueue.h	357;"	d
+TAILQ_INSERT_TAIL	miniupnpc/bsdqueue.h	367;"	d
+TAILQ_LAST	miniupnpc/bsdqueue.h	331;"	d
+TAILQ_NEXT	miniupnpc/bsdqueue.h	330;"	d
+TAILQ_PREV	miniupnpc/bsdqueue.h	334;"	d
+TAILQ_REMOVE	miniupnpc/bsdqueue.h	391;"	d
+TAILQ_REPLACE	miniupnpc/bsdqueue.h	402;"	d
+TDIR	Makefile	/^TDIR=dep\/hi3518$/;"	m
+TDIR	Makefile	/^TDIR=dep\/i386$/;"	m
+TOPDIR	Makefile	/^TOPDIR=$(shell pwd)$/;"	m
+TPCGSF_LOCAL_READY	p2pcore.h	118;"	d
+TPCGSF_REMOTE_READY	p2pcore.h	119;"	d
+TPCGS_EXPIRED	p2pcore.h	120;"	d
+TPCGS_INVALID_SN	p2pcore.h	121;"	d
+TPS_CONNECT	p2pcore_imp.h	22;"	d
+TPS_CONNECTED	p2pcore_imp.h	23;"	d
+TRUE	basetype.h	26;"	d
+ThreadConn	demo/p2pclt.cpp	/^PA_THREAD_RETTYPE __STDCALL ThreadConn(void *p)$/;"	f
+ThreadConsumer	demo/p2psess_test.cpp	/^PA_THREAD_RETTYPE __STDCALL ThreadConsumer(void *p)$/;"	f
+ThreadMediaReceiver	demo/p2psess_test.cpp	/^PA_THREAD_RETTYPE __STDCALL ThreadMediaReceiver(void *p)$/;"	f
+TimerHandler	rudp.c	/^typedef void (*TimerHandler)(struct rudp_socket *s);$/;"	t	file:
+TimerQueueThread	timerq.c	/^void* TimerQueueThread(void* data)$/;"	f
+UCHAR	basetype.h	/^typedef unsigned char UCHAR;$/;"	t
+UINT	basetype.h	/^typedef unsigned int UINT;$/;"	t
+UInt128	stunc/stun.h	/^typedef struct { unsigned char octet[16]; }  UInt128;$/;"	t	typeref:struct:__anon12
+UInt16	stunc/stun.h	/^typedef unsigned short UInt16;$/;"	t
+UInt32	stunc/stun.h	/^typedef unsigned int   UInt32;$/;"	t
+UInt64	stunc/stun.h	/^typedef unsigned __int64 UInt64;$/;"	t
+UInt64	stunc/stun.h	/^typedef unsigned long long UInt64;$/;"	t
+UInt8	stunc/stun.h	/^typedef unsigned char  UInt8;$/;"	t
+ULONG	basetype.h	/^typedef unsigned long ULONG;$/;"	t
+UNLOCK	chnbuf.c	7;"	d	file:
+UNSIGNED_INTEGER	miniupnpc/upnpcommands.h	24;"	d
+UNSIGNED_INTEGER	miniupnpc/upnpcommands.h	27;"	d
+UPNPCOMMAND_HTTP_ERROR	miniupnpc/upnpcommands.h	17;"	d
+UPNPCOMMAND_INVALID_ARGS	miniupnpc/upnpcommands.h	16;"	d
+UPNPCOMMAND_SUCCESS	miniupnpc/upnpcommands.h	14;"	d
+UPNPCOMMAND_UNKNOWN_ERROR	miniupnpc/upnpcommands.h	15;"	d
+UPNPDev	miniupnpc/miniupnpc.h	/^struct UPNPDev {$/;"	s
+UPNPIGDWORKPARAM	upnp_igd_cp.c	/^} UPNPIGDWORKPARAM;$/;"	t	typeref:struct:UPnPIGDWorkParam	file:
+UPNPUrls	miniupnpc/miniupnpc.h	/^struct UPNPUrls {$/;"	s
+UPNParg	miniupnpc/miniupnpc.h	/^struct UPNParg { const char * elt; const char * val; };$/;"	s
+UPnPIGDWorkParam	upnp_igd_cp.c	/^typedef struct UPnPIGDWorkParam {$/;"	s	file:
+USHORT	basetype.h	/^typedef unsigned short USHORT;$/;"	t
+UninitMemStream	demo/ReadWriter.c	/^void UninitMemStream(MEMSTREAM *pMS)$/;"	f
+UnknownAttribute	stunc/stun.h	48;"	d
+UpnpIgdCp	upnp_igd_cp.c	/^void UpnpIgdCp(UPNPIGDWORKPARAM *pWp)$/;"	f
+UpnpIgdCpAddPortMap	upnp_igd_cp.c	/^int UpnpIgdCpAddPortMap(const char *desc, unsigned short loc_port, unsigned short ext_port, int port_type)$/;"	f
+UpnpIgdCpDelPortMap	upnp_igd_cp.c	/^void UpnpIgdCpDelPortMap(unsigned short ext_port, int port_type)$/;"	f
+UpnpIgdCpGetMappedState	upnp_igd_cp.c	/^int UpnpIgdCpGetMappedState(unsigned short ext_port, int port_type)$/;"	f
+UpnpIgdCpGetNatMappedAddress	upnp_igd_cp.c	/^BOOL UpnpIgdCpGetNatMappedAddress(unsigned short loc_port, uint32 *ext_ip, uint16 *ext_port)$/;"	f
+UpnpIgdCpInitialize	upnp_igd_cp.c	/^void UpnpIgdCpInitialize()$/;"	f
+UpnpIgdCpStop	upnp_igd_cp.c	/^void UpnpIgdCpStop()$/;"	f
+Username	stunc/stun.h	44;"	d
+V264FILE_VERSION	demo/ReadWriter.h	17;"	d
+VALIDATEV264_BADFMT	demo/filestruct.h	32;"	d
+VALIDATEV264_BADVER	demo/filestruct.h	33;"	d
+VALIDATEV264_OK	demo/filestruct.h	31;"	d
+VERIFYAUTHSTRINGCB	p2psess.h	/^typedef BOOL (*VERIFYAUTHSTRINGCB)(const char *auth_str);$/;"	t
+VIDEO	demo/p2ptest.c	7;"	d	file:
+VIDEOFILEHEADER	demo/filestruct.h	29;"	d
+VIDEOFILEHEADER_V102	demo/filestruct.h	/^} VIDEOFILEHEADER_V102;$/;"	t	typeref:struct:_tagVideoFileHeader
+VLen	demo/ReadWriter.c	/^	DWORD VLen;$/;"	m	struct:_FrameHeader	file:
+VerifyAuthString	p2pcore.h	/^	BOOL (*VerifyAuthString)(const char *auth_str);$/;"	m	struct:P2pCoreCbFuncs
+WAIT_FOR_PEER_INFO_TIMEOUT	p2pcore.c	27;"	d	file:
+WIN32_LEAN_AND_MEAN	platform_adpt.h	34;"	d
+WINDOW_HTON	rudp_imp.h	62;"	d
+WINDOW_NTOH	rudp_imp.h	61;"	d
+WORD	basetype.h	/^typedef unsigned short WORD;$/;"	t
+WRITER	demo/ReadWriter.h	/^} WRITER;$/;"	t	typeref:struct:_Writer
+WSANOTINITIALISED	stunc/udp.h	52;"	d
+Write	demo/ReadWriter.h	/^	BOOL (*Write)(DWORD streamType, DWORD timeStamp, BYTE *buf, DWORD len, DWORD flag, void *data);$/;"	m	struct:_Writer
+WriteKeyFrameIndex	demo/ReadWriter.c	/^void WriteKeyFrameIndex(MEMSTREAM *pMS, DWORD ts, DWORD off)$/;"	f
+WriteTag	demo/ReadWriter.h	/^	BOOL (*WriteTag)(const char *TagName, const void *Tag, UINT len, void *data);$/;"	m	struct:_Writer
+XorMappedAddress	stunc/stun.h	50;"	d
+XorOnly	stunc/stun.h	51;"	d
+_AllocRudpPcb	rudp.c	/^struct rudp_pcb *_AllocRudpPcb(uint32 rcvbuf_size, uint32 initial_seqno, uint32 peer_initial_seqno, int rawnd)$/;"	f
+_AllocRudpSocket	rudp.c	/^struct rudp_socket *_AllocRudpSocket()$/;"	f
+_CALLCB	p2pcore.c	59;"	d	file:
+_CleanAndFreeSocket	rudp.c	/^void _CleanAndFreeSocket(struct rudp_socket *s)$/;"	f
+_CleanupSocket	rudp.c	/^void _CleanupSocket(struct rudp_socket *s, int err)$/;"	f
+_ConnAborted	p2psess.c	/^static void _ConnAborted(HP2PCONN hconn)$/;"	f	file:
+_ConnCreated	p2psess.c	/^static int _ConnCreated(HP2PCONN hconn)$/;"	f	file:
+_ConnFailed	p2psess.c	/^static void _ConnFailed(int err, void *pUser)$/;"	f	file:
+_DispatchPacket	rudp.c	/^int _DispatchPacket(struct rudp_socket *s, struct rudp_pkt *pkt, const struct sockaddr *from, int from_len)$/;"	f
+_FileInfo	demo/ReadWriter.h	/^typedef struct _FileInfo {$/;"	s
+_FrameHeader	demo/ReadWriter.c	/^typedef struct _FrameHeader {$/;"	s	file:
+_Lock	platform_adpt.c	/^static BOOL _Lock(RWLOCK *pLock, int level, DWORD timeout) $/;"	f	file:
+_Lock	win32/rwlock.c	/^static BOOL _Lock(RWLOCK *pLock, int level, DWORD timeout) $/;"	f	file:
+_MBufGetPacket	rudp.c	/^struct rudp_pkt *_MBufGetPacket()$/;"	f
+_MBufPutPacket	rudp.c	/^void _MBufPutPacket(struct rudp_pkt *pkt)$/;"	f
+_MediaDemultiplexer	p2psess.c	/^void _MediaDemultiplexer(P2PSESS *pP2pSess, BOOL bDcsPacket, unsigned char * pBuff,  unsigned int len)$/;"	f
+_MemDataCbParam	p2psess.c	/^struct _MemDataCbParam {$/;"	s	file:
+_MyData	demo/p2ptest.c	/^typedef struct _MyData {$/;"	s	file:
+_ORData	demo/ReadWriter.c	/^typedef struct _ORData {$/;"	s	file:
+_OWIndex	demo/ReadWriter.c	/^typedef struct _OWIndex {$/;"	s	file:
+_OnData	p2psess.c	/^static void _OnData(HP2PCONN hconn, BYTE *pData, int len)$/;"	f	file:
+_P2pConnClose	p2pcore.c	/^int _P2pConnClose(HP2PCONN hconn)$/;"	f
+_P2pSessCommandWithCB	p2psess.c	/^static int _P2pSessCommandWithCB(HP2PSESS hP2pSess, int chn, int cmd, const void *pDataIn, UINT nDataInLen, $/;"	f	file:
+_PPState_Established	rudp.c	/^int _PPState_Established(struct rudp_socket *s, struct rudp_pkt *pkt, const struct sockaddr *from, int from_len)$/;"	f
+_ProcessPacket	rudp.c	/^int _ProcessPacket(struct rudp_socket *s, struct rudp_pkt *pkt, const struct sockaddr *from, int from_len)$/;"	f
+_Q_INVALIDATE	miniupnpc/bsdqueue.h	86;"	d
+_Q_INVALIDATE	miniupnpc/bsdqueue.h	88;"	d
+_RUDPServiceThread	rudp.c	/^PA_THREAD_RETTYPE __STDCALL _RUDPServiceThread(void *pdata)$/;"	f
+_RWLockLockR	platform_adpt.c	/^BOOL _RWLockLockR(pthread_rwlock_t *lock, DWORD timeout)$/;"	f
+_RWLockLockR	win32/rwlock.c	/^BOOL _RWLockLockR(pthread_rwlock_t *lock, DWORD timeout)$/;"	f
+_RWLockLockW	platform_adpt.c	/^BOOL _RWLockLockW(pthread_rwlock_t *lock, DWORD timeout)$/;"	f
+_RWLockLockW	win32/rwlock.c	/^BOOL _RWLockLockW(pthread_rwlock_t *lock, DWORD timeout)$/;"	f
+_Reader	demo/ReadWriter.h	/^typedef struct _Reader {$/;"	s
+_RudpOutput	rudp.c	/^int _RudpOutput(struct rudp_socket *s, int chno, int opt)$/;"	f
+_SN_	demo/p2psess_test.cpp	/^char _SN_[] = "9XGW3D449I59GV2W48";$/;"	v
+_SYS_QUEUE_H_	miniupnpc/bsdqueue.h	36;"	d
+_TimeConsumingInitializationTask	p2pcore.c	/^static PA_THREAD_RETTYPE _TimeConsumingInitializationTask(void *p)$/;"	f	file:
+_UpnpIgdCpDelPortMap	upnp_igd_cp.c	/^static void _UpnpIgdCpDelPortMap(unsigned short ext_port, int port_type)$/;"	f	file:
+_VerifyAuthString	p2psess.c	/^static BOOL _VerifyAuthString(const char *auth_str)$/;"	f	file:
+_Writer	demo/ReadWriter.h	/^typedef struct _Writer {$/;"	s
+__BEGIN_ALIGNMENT	platform_adpt.h	13;"	d
+__BEGIN_ALIGNMENT__	platform_adpt.h	18;"	d
+__BEGIN_PACKED__	platform_adpt.h	15;"	d
+__BEGIN_PACKED__	platform_adpt.h	20;"	d
+__CODELENGTH_H__	miniupnpc/codelength.h	8;"	d
+__CONNECTHOSTPORT_H__	miniupnpc/connecthostport.h	9;"	d
+__DECLSPEC_H__	miniupnpc/declspec.h	2;"	d
+__END_ALIGNMENT	platform_adpt.h	14;"	d
+__END_ALIGNMENT__	platform_adpt.h	19;"	d
+__END_PACKED__	platform_adpt.h	16;"	d
+__END_PACKED__	platform_adpt.h	21;"	d
+__IGD_DESC_PARSE_H__	miniupnpc/igd_desc_parse.h	10;"	d
+__LIKELY	platform_adpt.h	211;"	d
+__LIKELY	platform_adpt.h	41;"	d
+__LIST_H__	linux_list.h	2;"	d
+__MINISOAP_H__	miniupnpc/minisoap.h	8;"	d
+__MINISSDPC_H__	miniupnpc/minissdpc.h	9;"	d
+__MINIUPNPCSTRINGS_H__	miniupnpc/miniupnpcstrings.h	9;"	d
+__MINIUPNPC_H__	miniupnpc/miniupnpc.h	9;"	d
+__MINIWGET_H__	miniupnpc/miniwget.h	9;"	d
+__MINIXML_H__	miniupnpc/minixml.h	12;"	d
+__PACKED__	p2pbase.h	/^} __PACKED__;$/;"	v	typeref:struct:nat_info
+__PACKED__	p2pbase.h	/^} __PACKED__;$/;"	v	typeref:struct:p2pcore_i_am_here
+__PACKED__	p2psess.h	/^} __PACKED__;$/;"	v	typeref:struct:_tagP2PFRAMEINFO
+__PACKED__	platform_adpt.h	22;"	d
+__PACKET__	p2psess.h	/^} __PACKET__;$/;"	v	typeref:struct:p2pcmd_header
+__RWLock_h__	win32/rwlock.h	2;"	d
+__SN	p2pcore.c	/^static char __SN[32];$/;"	v	file:
+__STDCALL	platform_adpt.h	209;"	d
+__STDCALL	platform_adpt.h	39;"	d
+__UNLIKELY	platform_adpt.h	212;"	d
+__UNLIKELY	platform_adpt.h	42;"	d
+__UPNPCOMMANDS_H__	miniupnpc/upnpcommands.h	8;"	d
+__UPNPERRORS_H__	miniupnpc/upnperrors.h	9;"	d
+__UPNPREPLYPARSE_H__	miniupnpc/upnpreplyparse.h	9;"	d
+__basetype_h__	basetype.h	2;"	d
+__chnbuf_h__	chnbuf.h	2;"	d
+__crc32_h__	crc32.h	2;"	d
+__detect_net_h__	stunc/detect_nat.h	2;"	d
+__errdefs_h__	demo/errdefs.h	2;"	d
+__ipccmd_h__	ipccmd.h	2;"	d
+__list_add	linux_list.h	/^static INLINE void __list_add(struct list_head *item,$/;"	f
+__list_del	linux_list.h	/^static INLINE void __list_del(struct list_head *prev, struct list_head *next)$/;"	f
+__list_splice	linux_list.h	/^static INLINE void __list_splice(struct list_head *list,$/;"	f
+__mediatyp_h__	mediatyp.h	2;"	d
+__misc_h__	misc.h	2;"	d
+__netbase_h__	netbase.h	2;"	d
+__p2pbase_h__	p2pbase.h	11;"	d
+__p2pconst_h__	p2pconst.h	2;"	d
+__p2pcore_ex_h__	p2pcore_ex.h	2;"	d
+__p2pcore_h__	p2pcore.h	38;"	d
+__p2pcore_imp_h__	p2pcore_imp.h	2;"	d
+__p2psess_h__	p2psess.h	2;"	d
+__p2psess_imp_h__	p2psess_imp.h	2;"	d
+__platform_adpt_h__	platform_adpt.h	2;"	d
+__printHdr	rudp.c	/^static void __printHdr(const struct rudp_pcb *pcb, const struct rudp_hdr *phdr, const struct sockaddr_in *pa, int phf, int data_len)$/;"	f	file:
+__rudp_h__	rudp.h	2;"	d
+__rudp_imp_h__	rudp_imp.h	2;"	d
+__tagRESPHEADER	chnbuf.c	/^typedef struct __tagRESPHEADER {$/;"	s	file:
+__tagRESPINFO	chnbuf.h	/^typedef struct __tagRESPINFO {$/;"	s
+__timerq_h__	timerq.h	2;"	d
+__upnp_igd_cp_h__	upnp_igd_cp.h	2;"	d
+_break_conn	demo/p2pclt.cpp	/^	int _break_conn;$/;"	m	struct:P2pClient	file:
+_calcCurWnd	rudp.c	/^INLINE unsigned int _calcCurWnd(struct rudp_socket *s, struct sndbuf *psbuf)$/;"	f
+_calleeConnInit	p2pcore.c	/^int _calleeConnInit(const struct sockaddr_in* pSvrAddr, const struct p2pcore_session_init* psi)$/;"	f
+_cbItem	p2psess_imp.h	/^typedef struct _cbItem {$/;"	s
+_cleanSess	p2psess.c	/^static void _cleanSess(P2PSESS *pP2pSess)$/;"	f	file:
+_congestionAvoidance	rudp.c	/^void _congestionAvoidance(struct rudp_socket *s)$/;"	f
+_congestionDetected	rudp.c	/^void _congestionDetected(struct rudp_socket *s, int chno, int what)$/;"	f
+_handleTimer200ms	rudp.c	/^void _handleTimer200ms(struct rudp_socket *s)$/;"	f
+_handleTimer500ms	rudp.c	/^void _handleTimer500ms(struct rudp_socket *s)$/;"	f
+_isPacketValid	rudp.c	/^INLINE BOOL _isPacketValid(struct rudp_pkt *pkt)$/;"	f
+_memoryDataCB	p2psess.c	/^static int _memoryDataCB(void *pData, UINT nSize, void *pUser)$/;"	f	file:
+_p2pcore_cb	p2psess.c	/^static struct P2pCoreCbFuncs _p2pcore_cb  = {$/;"	v	typeref:struct:P2pCoreCbFuncs	file:
+_printHdr	rudp.c	/^static void _printHdr(const struct rudp_pcb *pcb, const struct rudp_hdr *phdr, const struct sockaddr_in *pa)$/;"	f	file:
+_printHdr	rudp.c	161;"	d	file:
+_printPkt	rudp.c	/^static void _printPkt(const struct rudp_pcb *pcb, const struct rudp_pkt *pkt, int phf, const struct sockaddr_in *pa)$/;"	f	file:
+_printPkt	rudp.c	162;"	d	file:
+_printTime	rudp.c	/^static void _printTime()$/;"	f	file:
+_printTime	rudp.c	163;"	d	file:
+_sendAck	rudp.c	/^void _sendAck(struct rudp_socket *s, int chno)$/;"	f
+_sendEmptyAck	rudp.c	/^void _sendEmptyAck(struct rudp_socket *s, int chno)$/;"	f
+_sendFin	rudp.c	/^void _sendFin(struct rudp_socket *s)$/;"	f
+_sendHeader	rudp.c	/^void _sendHeader(struct rudp_socket *s, struct rudp_hdr *phdr)$/;"	f
+_sendPacket	p2psess.c	/^static int _sendPacket(P2PSESS *psess, const struct p2pcmd_header *pdh, const char *pData, int nDataLen)$/;"	f	file:
+_sendPacket	rudp.c	/^void _sendPacket(struct rudp_socket *s, struct rudp_channel *pch, struct rudp_pkt *pkt)$/;"	f
+_sendReset	rudp.c	/^void _sendReset(struct rudp_socket *s, const struct sockaddr *to)$/;"	f
+_sendResp	p2psess.c	/^static int _sendResp(P2PSESS *psess, int chno, int cmd, const void *pData, UINT nDataLen, uint8 status, uint32 trans_id, int isLast)$/;"	f	file:
+_sendSyn	rudp.c	/^void _sendSyn(struct rudp_socket *s)$/;"	f
+_sendSynAck	rudp.c	/^void _sendSynAck(struct rudp_socket *s)$/;"	f
+_stun_bf	p2pcore.c	/^static struct conn_bit_fields _stun_bf;$/;"	v	typeref:struct:conn_bit_fields	file:
+_tagCmdChnEx	p2psess_imp.h	/^typedef struct _tagCmdChnEx {$/;"	s
+_tagDVSEVENT	demo/filestruct.h	/^typedef struct _tagDVSEVENT { DWORD type; DWORD dwTime; } DVSEVENT;$/;"	s
+_tagFRAMEHEADER	chnbuf.c	/^typedef struct _tagFRAMEHEADER {$/;"	s	file:
+_tagFRAMEINFO	chnbuf.h	/^typedef struct _tagFRAMEINFO {$/;"	s
+_tagMediaChn	chnbuf.h	/^typedef struct _tagMediaChn {$/;"	s
+_tagMediaChnEx	p2psess_imp.h	/^typedef struct _tagMediaChnEx {$/;"	s
+_tagP2PFRAMEINFO	p2psess.h	/^struct _tagP2PFRAMEINFO {$/;"	s
+_tagP2PMEDIAHEADER	p2psess.h	/^typedef struct _tagP2PMEDIAHEADER$/;"	s
+_tagP2pChnBuffer	chnbuf.h	/^struct _tagP2pChnBuffer {$/;"	s
+_tagP2pSess	p2psess_imp.h	/^typedef struct _tagP2pSess {$/;"	s
+_tagSelectChn	rudp.h	/^struct _tagSelectChn {$/;"	s
+_tagTpcConnInfo	p2pcore.h	/^typedef struct _tagTpcConnInfo {$/;"	s
+_tagVideoFileHeader	demo/filestruct.h	/^struct _tagVideoFileHeader {$/;"	s
+_terminateSocketInternally	rudp.c	/^void _terminateSocketInternally(struct rudp_socket *s, int err)$/;"	f
+_timerProc	rudp.c	/^void _timerProc(TimerHandler handler)$/;"	f
+_updateRTO	rudp.c	/^void _updateRTO(struct rudp_socket *s, int rtt)$/;"	f
+accepted_list	rudp_imp.h	/^	struct list_head accepted_list;	$/;"	m	struct:rudp_socket	typeref:struct:rudp_socket::list_head
+ack	rudp_imp.h	/^			uint32	ack:1;		\/\/0: no ack; 1: accumulated ack$/;"	m	struct:rudp_hdr::__anon8::__anon10
+acked_seqno	rudp_imp.h	/^	uint32	acked_seqno;	\/\/ACK is sent when delay-time(DELAYED_MS) passed, or at most N(=3?) packets(or N*MSS bytes) received.$/;"	m	struct:rcvbuf
+ackno	rudp_imp.h	/^	uint32	ackno;		\/\/Ackknowlage all packets BEFORE "ackno". !!!$/;"	m	struct:rudp_hdr
+active	ipccmd.h	/^	uint8 active:1;$/;"	m	struct:p2pcore_cam_record
+addr	netbase.h	/^	struct in_addr addr;$/;"	m	struct:ether_nic	typeref:struct:ether_nic::in_addr
+addr	stunc/stun.h	/^      UInt32 addr;$/;"	m	struct:__anon15
+addrs	p2pbase.h	/^	struct p2pcore_addr addrs[0];	\/\/local addresses; external address will be filled by server$/;"	m	struct:p2pcore_session_init	typeref:struct:p2pcore_session_init::p2pcore_addr
+addrs	p2pcore.c	/^	struct p2pcore_addr addrs[10];$/;"	m	struct:local_conn_info	typeref:struct:local_conn_info::p2pcore_addr	file:
+addrs	p2pcore_imp.h	/^	struct p2pcore_addr 	addrs[8];	\/\/peer's candidate-addresses$/;"	m	struct:punch_tmp	typeref:struct:punch_tmp::p2pcore_addr
+allocConn	p2pcore.c	/^P2PCONN *allocConn()$/;"	f
+allocP2pSess	p2psess.c	/^static P2PSESS *allocP2pSess()$/;"	f	file:
+altAddr	stunc/stun.h	/^      StunAddress4 altAddr;$/;"	m	struct:__anon26
+altIpFd	stunc/stun.h	/^      PA_SOCKET altIpFd;$/;"	m	struct:__anon26
+altIpPortFd	stunc/stun.h	/^      PA_SOCKET altIpPortFd;$/;"	m	struct:__anon26
+altPortFd	stunc/stun.h	/^      PA_SOCKET altPortFd;$/;"	m	struct:__anon26
+attfunc	miniupnpc/minixml.h	/^	void (*attfunc) (void *, const char *, int, const char *, int);$/;"	m	struct:xmlparser
+attrType	stunc/stun.h	/^      UInt16 attrType[STUN_MAX_UNKNOWN_ATTRIBUTES];$/;"	m	struct:__anon19
+auth	ipccmd.h	/^	uint8 auth[0];	\/\/self descripted authentication-string$/;"	m	struct:p2pcore_login
+auth	p2pbase.h	/^	uint32 auth:1;		\/\/will not be used$/;"	m	struct:conn_bit_fields
+auth_len	p2pcore_imp.h	/^	int			auth_len;$/;"	m	struct:punch_tmp
+auth_str	p2pbase.h	/^	char  auth_str[0];	\/\/\/< zero terminated authentication string, $/;"	m	struct:p2pcore_punch
+auth_str	p2pcore_imp.h	/^	char			*auth_str;$/;"	m	struct:punch_tmp
+bFirstWrite	demo/ReadWriter.c	/^	BOOL	bFirstWrite;$/;"	m	struct:OWData	file:
+bInited	upnp_igd_cp.c	/^static BOOL bInited = FALSE;$/;"	v	file:
+bMultiNat	p2pcore.h	/^	BOOL	bMultiNat;	\/\/when bUpnpIgd = TRUE$/;"	m	struct:P2PCORENATINFO
+bNew	timerq.c	/^	BOOL bNew;$/;"	m	struct:service_queue_item	file:
+bNoSpace	chnbuf.h	/^	BOOL	bNoSpace;	\/\/No space for writing, data are not read out$/;"	m	struct:_tagP2pChnBuffer
+bPlayback	demo/p2ptest.c	/^	BOOL	bPlayback;	\/\/simulate playback$/;"	m	struct:_MyData	file:
+bQuit	chnbuf.h	/^	BOOL	bQuit;$/;"	m	struct:_tagP2pChnBuffer
+bRecording	demo/p2psess_test.cpp	/^	BOOL bRecording;$/;"	m	struct:DataForRec	file:
+bRun	demo/p2ptest.c	/^	BOOL bRun;$/;"	m	struct:_MyData	file:
+bSynced	demo/p2psess_test.cpp	/^	BOOL bSynced;$/;"	m	struct:DataForRec	file:
+bUpnpIgd	p2pcore.h	/^	BOOL	bUpnpIgd;$/;"	m	struct:P2PCORENATINFO
+bWaitIDR	chnbuf.h	/^	BOOL		bWaitIDR;$/;"	m	struct:_tagMediaChn
+bWriting	demo/ReadWriter.c	/^	BOOL	bWriting;$/;"	m	struct:OWData	file:
+bitf	p2pbase.h	/^		uint32 bitf;$/;"	m	union:p2pcore_session_init::__anon2
+bits	p2pbase.h	/^		struct conn_bit_fields bits;$/;"	m	union:p2pcore_session_init::__anon2	typeref:struct:p2pcore_session_init::__anon2::conn_bit_fields
+bits	p2pcore.c	/^	struct conn_bit_fields bits;$/;"	m	struct:local_conn_info	typeref:struct:local_conn_info::conn_bit_fields	file:
+bits	p2pcore_imp.h	/^	struct conn_bit_fields	bits;$/;"	m	struct:P2PCONN	typeref:struct:P2PCONN::conn_bit_fields
+blablabla	demo/p2psess_test.cpp	/^	char blablabla[123];$/;"	m	struct:myData	file:
+broadcastOnAllInterfaces	p2pcore.c	/^static void broadcastOnAllInterfaces(const struct sockaddr *dst, const void *s, int len)$/;"	f	file:
+bsa	p2pcore_imp.h	/^	char			bsa[200];	\/\/begin_session_ack$/;"	m	struct:punch_tmp
+bsa_len	p2pcore_imp.h	/^	int			bsa_len;$/;"	m	struct:punch_tmp
+buffer	miniupnpc/miniupnpc.h	/^	char buffer[2];$/;"	m	struct:UPNPDev
+bufferSize	demo/ReadWriter.c	/^	UINT	bufferSize;$/;"	m	struct:__anon30	file:
+cChannelName	demo/ReadWriter.h	/^	char	cChannelName[32];$/;"	m	struct:_FileInfo
+cChannelName	demo/filestruct.h	/^	char  cChannelName[32];$/;"	m	struct:_tagVideoFileHeader
+cDeviceName	demo/ReadWriter.h	/^	char	cDeviceName[32];$/;"	m	struct:_FileInfo
+cDeviceName	demo/filestruct.h	/^	char  cDeviceName[32];$/;"	m	struct:_tagVideoFileHeader
+cHost	demo/ReadWriter.h	/^	char	cHost[32];$/;"	m	struct:_FileInfo
+cHost	demo/filestruct.h	/^	char  cHost[32];$/;"	m	struct:_tagVideoFileHeader
+ca_cnt	rudp_imp.h	/^	int	ca_cnt;$/;"	m	struct:rudp_pcb
+calc_crc32	crc32.c	/^uint32 calc_crc32(uint32 crc, char *buff, int len)$/;"	f
+callee_tcp_punch_cb	p2pcore.c	/^static int callee_tcp_punch_cb(int sock, int status, void* data)$/;"	f	file:
+caller_tcp_punch_cb	p2pcore.c	/^static int caller_tcp_punch_cb(int sock, int status, void* data)$/;"	f	file:
+cb	p2psess_imp.h	/^	P2PCMD_RESP_CB cb;$/;"	m	struct:_cbItem
+cb_list	p2psess_imp.h	/^	struct list_head cb_list;$/;"	m	struct:_cbItem	typeref:struct:_cbItem::list_head
+cb_list	p2psess_imp.h	/^	struct list_head cb_list;$/;"	m	struct:_tagP2pSess	typeref:struct:_tagP2pSess::list_head
+challenge	ipccmd.h	/^		uint8 challenge[LENGTH_OF_CHALLENGE];$/;"	m	union:p2pcore_challenge::__anon27
+changeRequest	stunc/stun.h	/^      StunAtrChangeRequest changeRequest;$/;"	m	struct:__anon23
+changedAddress	stunc/stun.h	/^      StunAtrAddress4 changedAddress;$/;"	m	struct:__anon23
+channel	rudp_imp.h	/^	struct rudp_channel	channel[MAX_PHY_CHANNELS];$/;"	m	struct:rudp_pcb	typeref:struct:rudp_pcb::rudp_channel
+check_p2pcmd_header	p2psess.h	/^INLINE BOOL check_p2pcmd_header(const struct p2pcmd_header *pch)$/;"	f
+check_p2pcore_header	p2pbase.h	/^INLINE BOOL check_p2pcore_header(const struct p2pcore_header *pdc)$/;"	f
+chno	p2pcore_imp.h	/^    uint8  	chno:6;$/;"	m	struct:hiMEDIA_HDR_S
+chno	p2psess.h	/^    uint8  chno:6;$/;"	m	struct:_tagP2PMEDIAHEADER
+chno	p2psess.h	/^    uint8  chno;$/;"	m	struct:p2pcmd_header
+chno	rudp.c	/^	int chno;$/;"	m	struct:output_notify	file:
+chno	rudp.h	/^	int	chno;		\/\/system socket, or chno for rudp socket$/;"	m	struct:_tagSelectChn
+chno	rudp_imp.h	/^			uint32	chno:8;$/;"	m	struct:rudp_hdr::__anon8::__anon10
+chno	rudp_imp.h	/^			uint8	chno;$/;"	m	struct:rudp_hdr::__anon8::__anon9
+cinfo	demo/p2pclt.cpp	/^	P2PCONNINFO cinfo;$/;"	m	struct:P2pClient	file:
+clearIgdWp	upnp_igd_cp.c	/^static void clearIgdWp(UPNPIGDWORKPARAM *pWp)$/;"	f	file:
+clients	demo/p2pclt.cpp	/^static P2pClient clients[32];$/;"	v	file:
+clkahd	demo/ReadWriter.c	/^		BYTE			 clkahd[16];$/;"	m	union:_ORData::__anon34	file:
+cls	p2pbase.h	/^	uint8 cls:1;$/;"	m	struct:p2pcore_header
+cls	p2psess.h	/^	uint16 cls:1;$/;"	m	struct:p2pcmd_header
+cmd	timerq.c	/^	int cmd;$/;"	m	struct:queue_cmd	file:
+collectLocalConnInfo	p2pcore.c	/^static void collectLocalConnInfo(LOCALCONNINFO *pLci, unsigned short local_port)$/;"	f	file:
+computeHmac	stunc/stun.c	/^computeHmac(char* hmac, const char* input, int length, const char* key, int sizeKey)$/;"	f	file:
+congested	rudp_imp.h	/^	int	congested;$/;"	m	struct:rudp_channel
+conn_backoff	rudp.c	/^static int conn_backoff[MAX_RECONN_ATTEMPT+1] = { RTT_MIN, 1*RTT_MIN, 2*RTT_MIN, 2*RTT_MIN, 2*RTT_MIN, 2*RTT_MIN };	\/\/s$/;"	v	file:
+conn_bit_fields	p2pbase.h	/^struct conn_bit_fields {$/;"	s
+connected	rudp_imp.h	/^	BOOL	connected;	\/\/called connect() on udp socket(client socket only)$/;"	m	struct:rudp_socket
+controlURL	miniupnpc/miniupnpc.h	/^	char * controlURL;$/;"	m	struct:UPNPUrls
+controlURL_CIF	miniupnpc/miniupnpc.h	/^	char * controlURL_CIF;$/;"	m	struct:UPNPUrls
+controlurl	miniupnpc/igd_desc_parse.h	/^	char controlurl[MINIUPNPC_URL_MAXSIZE];$/;"	m	struct:IGDdatas_service
+crc32	rudp_imp.h	/^	uint32	crc32;	\/\/crc32 for header$/;"	m	struct:rudp_hdr
+crc32_table	crc32.c	/^static uint32 crc32_table[256] =$/;"	v	file:
+create_session_init_ack	p2pcore.c	/^int create_session_init_ack(uint8 *buf, struct conn_bit_fields bits, const struct p2pcore_addr* paddrs, $/;"	f
+ct	p2pbase.h	/^	uint32 ct:2;	\/\/connection type: 0-auto; 1-local; 2-p2p; 3-relay$/;"	m	struct:conn_bit_fields
+ct	p2pcore.h	/^	int ct;	\/\/P2P_CONNTYPE_xxx$/;"	m	struct:_tagTpcConnInfo
+ctp_port	p2pbase.h	/^	uint16 ctp_port;	\/\/UPnP mapped external CTP port, or CTP port if having public IP$/;"	m	struct:p2pcore_i_am_here
+curelt	miniupnpc/upnpreplyparse.h	/^    char curelt[64];$/;"	m	struct:NameValueParserData
+cureltname	miniupnpc/igd_desc_parse.h	/^	char cureltname[MINIUPNPC_URL_MAXSIZE];$/;"	m	struct:IGDdatas
+cwnd	rudp_imp.h	/^	int	cwnd;		\/\/congestion window$/;"	m	struct:rudp_pcb
+data	miniupnpc/minixml.h	/^	void * data;$/;"	m	struct:xmlparser
+data	p2pbase.h	/^	char data[0];	\/\/DCSS_ADDRESS_CHANGED$/;"	m	struct:p2pcore_i_am_here_ack
+data	rudp_imp.h	/^	unsigned char data[MAX_DATA_SIZE];$/;"	m	struct:rudp_pkt
+data	timerq.c	/^	void *data;$/;"	m	struct:service_item	file:
+data	upnp_igd_cp.c	/^	struct IGDdatas data;$/;"	m	struct:UPnPIGDWorkParam	typeref:struct:UPnPIGDWorkParam::IGDdatas	file:
+dataSize	demo/ReadWriter.c	/^	UINT	dataSize;$/;"	m	struct:__anon30	file:
+datafunc	miniupnpc/minixml.h	/^	void (*datafunc) (void *, const char *, int);$/;"	m	struct:xmlparser
+dbg_bin	platform_adpt.c	/^void dbg_bin(const char *title, const void *p, int size)$/;"	f
+dbg_bin	platform_adpt.c	327;"	d	file:
+dbg_bin	platform_adpt.h	395;"	d
+dbg_msg	p2pbase.c	13;"	d	file:
+dbg_msg	p2pbase.c	14;"	d	file:
+dbg_msg	platform_adpt.h	382;"	d
+dbg_msg	platform_adpt.h	385;"	d
+dbg_msg	platform_adpt.h	391;"	d
+dbg_msg	platform_adpt.h	393;"	d
+dbg_msg	platform_adpt.h	406;"	d
+dbg_msg	platform_adpt.h	407;"	d
+dbg_msg	stunc/stun.c	17;"	d	file:
+dbg_msg	stunc/stun.c	19;"	d	file:
+dbg_msg	stunc/udp.c	5;"	d	file:
+dbg_msg	stunc/udp.c	7;"	d	file:
+dbg_p2p	p2pcore.c	22;"	d	file:
+delta	p2pbase.h	/^	uint32 delta:6;$/;"	m	struct:conn_bit_fields
+delta	p2pbase.h	/^	uint8 delta;$/;"	m	struct:nat_info
+delta_t	p2pcore.h	/^	USHORT delta_u, delta_t;$/;"	m	struct:P2PCORENATINFO
+delta_u	p2pcore.h	/^	USHORT delta_u, delta_t;$/;"	m	struct:P2PCORENATINFO
+dequeueServiceItem	timerq.c	/^static void dequeueServiceItem(struct list_head *free_list, struct list_head *wait_list, const struct service_item *psi)$/;"	f	file:
+desc	upnp_igd_cp.c	/^	char desc[24];$/;"	m	struct:IgdPortMap	file:
+descURL	miniupnpc/miniupnpc.h	/^	char * descURL;$/;"	m	struct:UPNPDev
+destination	stunc/stun.h	/^      StunAddress4 destination; \/\/ NAT IP:port$/;"	m	struct:__anon25
+detectNat	p2pcore.c	/^static void detectNat(void *p)$/;"	f	file:
+detect_nat	stunc/det_nat.c	/^int detect_nat(const char *stun_server)$/;"	f
+devList	upnp_igd_cp.c	/^	struct UPNPDev *devList;$/;"	m	struct:UPnPIGDWorkParam	typeref:struct:UPnPIGDWorkParam::UPNPDev	file:
+device	upnp_igd_cp.c	/^	struct UPNPDev *device, *pNext;$/;"	m	struct:UPnPIGDWorkParam	typeref:struct:UPnPIGDWorkParam::UPNPDev	file:
+dh	ipccmd.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_activate_p2p	typeref:struct:p2pcore_activate_p2p::p2pcore_header
+dh	ipccmd.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_activate_response	typeref:struct:p2pcore_activate_response::p2pcore_header
+dh	ipccmd.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_challenge	typeref:struct:p2pcore_challenge::p2pcore_header
+dh	ipccmd.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_dev_list	typeref:struct:p2pcore_dev_list::p2pcore_header
+dh	ipccmd.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_login	typeref:struct:p2pcore_login::p2pcore_header
+dh	p2pbase.h	/^	struct p2pcore_header dh;	$/;"	m	struct:p2pcore_session_init	typeref:struct:p2pcore_session_init::p2pcore_header
+dh	p2pbase.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_i_am_here	typeref:struct:p2pcore_i_am_here::p2pcore_header
+dh	p2pbase.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_i_am_here_ack	typeref:struct:p2pcore_i_am_here_ack::p2pcore_header
+dh	p2pbase.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_punch	typeref:struct:p2pcore_punch::p2pcore_header
+dh	p2pbase.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_query_address_response	typeref:struct:p2pcore_query_address_response::p2pcore_header
+dh	p2pcore_ex.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_query_server_req	typeref:struct:p2pcore_query_server_req::p2pcore_header
+dh	p2pcore_ex.h	/^	struct p2pcore_header dh;$/;"	m	struct:p2pcore_query_server_resp	typeref:struct:p2pcore_query_server_resp::p2pcore_header
+dh	p2psess.h	/^	struct p2pcmd_header dh;$/;"	m	struct:p2pcmd_event_header	typeref:struct:p2pcmd_event_header::p2pcmd_header
+dup_ack	rudp_imp.h	/^	int	dup_ack;$/;"	m	struct:sndbuf
+dwChannel	demo/ReadWriter.h	/^	DWORD	dwChannel;$/;"	m	struct:_FileInfo
+dwChannel	demo/filestruct.h	/^	DWORD dwChannel;$/;"	m	struct:_tagVideoFileHeader
+dwDataOffset	demo/ReadWriter.c	/^	DWORD	dwDataOffset;	\/\/第一包的文件偏移$/;"	m	struct:_ORData	file:
+dwDevTypeId	demo/ReadWriter.h	/^	DWORD	dwDevTypeId;				\/\/Must set to 0 if not supported.$/;"	m	struct:_FileInfo
+dwDevTypeId	demo/filestruct.h	/^	DWORD dwDevTypeId;$/;"	m	struct:_tagVideoFileHeader
+dwDuration	demo/ReadWriter.c	/^	DWORD	dwDuration;		\/\/以时间记的文件长度, 单位: ms$/;"	m	struct:_ORData	file:
+dwDuration	demo/ReadWriter.h	/^	DWORD	dwDuration;		\/\/以毫秒计的文件播放时长$/;"	m	struct:_FileInfo
+dwExtra	demo/filestruct.h	/^	DWORD dwExtra;$/;"	m	struct:_tagVideoFileHeader
+dwFileLength	demo/ReadWriter.c	/^	DWORD	dwFileLength;	\/\/文件长度(字节)$/;"	m	struct:_ORData	file:
+dwFileLength	demo/ReadWriter.h	/^	DWORD	dwFileLength;$/;"	m	struct:_FileInfo
+dwLastTs	demo/ReadWriter.c	/^	DWORD	dwTs0, dwLastTs;$/;"	m	struct:OWData	file:
+dwMediaMask	demo/p2ptest.c	/^	DWORD	dwMediaMask;	\/\/bit 0: send video; bit 1: send audio$/;"	m	struct:_MyData	file:
+dwSize	demo/filestruct.h	/^	DWORD dwSize;$/;"	m	struct:_tagVideoFileHeader
+dwStreams	demo/filestruct.h	/^	DWORD dwStreams;$/;"	m	struct:_tagVideoFileHeader
+dwTag	demo/filestruct.h	/^	DWORD dwTag;$/;"	m	struct:_tagVideoFileHeader
+dwTag	p2pcore_imp.h	/^	DWORD	dwTag;	$/;"	m	struct:P2PCONN
+dwTagBufferSize	demo/ReadWriter.c	/^	UINT	dwTagBufferSize;$/;"	m	struct:_ORData	file:
+dwTime	demo/filestruct.h	/^typedef struct _tagDVSEVENT { DWORD type; DWORD dwTime; } DVSEVENT;$/;"	m	struct:_tagDVSEVENT
+dwTs0	demo/ReadWriter.c	/^	DWORD	dwTs0, dwLastTs;$/;"	m	struct:OWData	file:
+dwTs0	demo/ReadWriter.c	/^	DWORD	dwTs0;			\/\/第一包的时标$/;"	m	struct:_ORData	file:
+dwVer	demo/filestruct.h	/^	DWORD dwVer;$/;"	m	struct:_tagVideoFileHeader
+elt	miniupnpc/miniupnpc.h	/^struct UPNParg { const char * elt; const char * val; };$/;"	m	struct:UPNParg
+encode	stunc/stun.c	/^encode(char* buf, const char* data, unsigned int length)$/;"	f	file:
+encode16	stunc/stun.c	/^encode16(char* buf, UInt16 data)$/;"	f	file:
+encode32	stunc/stun.c	/^encode32(char* buf, UInt32 data)$/;"	f	file:
+encodeAtrAddress4	stunc/stun.c	/^encodeAtrAddress4(char* ptr, UInt16 type, const StunAtrAddress4* atr)$/;"	f	file:
+encodeAtrChangeRequest	stunc/stun.c	/^encodeAtrChangeRequest(char* ptr, const StunAtrChangeRequest* atr)$/;"	f	file:
+encodeAtrError	stunc/stun.c	/^encodeAtrError(char* ptr, const StunAtrError* atr)$/;"	f	file:
+encodeAtrIntegrity	stunc/stun.c	/^encodeAtrIntegrity(char* ptr, const StunAtrIntegrity* atr)$/;"	f	file:
+encodeAtrString	stunc/stun.c	/^encodeAtrString(char* ptr, UInt16 type, const StunAtrString* atr)$/;"	f	file:
+encodeAtrUnknown	stunc/stun.c	/^encodeAtrUnknown(char* ptr, const StunAtrUnknown* atr)$/;"	f	file:
+encodeXorOnly	stunc/stun.c	/^encodeXorOnly(char* ptr)$/;"	f	file:
+end	p2pcore_imp.h	/^    uint8  	end:1;$/;"	m	struct:hiMEDIA_HDR_S
+end	p2psess.h	/^	uint16 end:1;$/;"	m	struct:p2pcmd_header
+end	p2psess.h	/^	uint8  end:1;$/;"	m	struct:_tagP2PMEDIAHEADER
+end	p2psess.h	/^    uint8  end:1;$/;"	m	struct:_tagP2PMEDIAHEADER
+endeltfunc	miniupnpc/minixml.h	/^	void (*endeltfunc) (void *, const char *, int);$/;"	m	struct:xmlparser
+entries	miniupnpc/upnpreplyparse.h	/^    LIST_ENTRY(NameValue) entries;$/;"	m	struct:NameValue
+err	demo/p2pclt.cpp	/^	int err;	\/\/error code if state==2$/;"	m	struct:P2pClient	file:
+err	p2psess.c	/^	int err;$/;"	m	struct:PendingConn	file:
+err	rudp_imp.h	/^	int err;$/;"	m	struct:rudp_socket
+errorClass	stunc/stun.h	/^      UInt8 errorClass;$/;"	m	struct:__anon18
+errorCode	stunc/stun.h	/^      StunAtrError errorCode;$/;"	m	struct:__anon23
+ether_nic	netbase.h	/^typedef struct ether_nic {$/;"	s
+event	demo/ReadWriter.h	/^	UINT  event;$/;"	m	struct:__anon29
+event	p2psess.c	/^	PA_EVENT event;$/;"	m	struct:PendingConn	file:
+event	p2psess.h	/^	int	event;$/;"	m	struct:p2pcmd_event_header
+event_cb	demo/p2psess_test.cpp	/^void event_cb(int event, BYTE *p, int len, void *pUser)$/;"	f
+event_r	rudp_imp.h	/^	HANDLE	event_r, event_w;$/;"	m	struct:rudp_socket
+event_r	rudp_imp.h	/^	pthread_cond_t event_r, event_w;$/;"	m	struct:rudp_socket
+event_w	rudp_imp.h	/^	HANDLE	event_r, event_w;$/;"	m	struct:rudp_socket
+event_w	rudp_imp.h	/^	pthread_cond_t event_r, event_w;$/;"	m	struct:rudp_socket
+eventsuburl	miniupnpc/igd_desc_parse.h	/^	char eventsuburl[MINIUPNPC_URL_MAXSIZE];$/;"	m	struct:IGDdatas_service
+evt_conn	demo/p2pclt.cpp	/^	PA_EVENT evt_conn;$/;"	m	struct:P2pClient	file:
+expected_seqno	rudp_imp.h	/^	uint32	expected_seqno;	\/\/expected seqno$/;"	m	struct:rcvbuf
+expireTime	stunc/stun.h	/^      time_t expireTime;      \/\/ if no activity after time, close the socket $/;"	m	struct:__anon25
+ext_addr	p2pbase.h	/^	struct p2pcore_addr	ext_addr;$/;"	m	struct:p2pcore_query_address_response	typeref:struct:p2pcore_query_address_response::p2pcore_addr
+ext_port	upnp_igd_cp.c	/^	unsigned short loc_port, ext_port;$/;"	m	struct:IgdPortMap	file:
+external	p2pbase.h	/^	struct p2pcore_addr external;$/;"	m	struct:p2pcore_addr_pair	typeref:struct:p2pcore_addr_pair::p2pcore_addr
+external_ip	upnp_igd_cp.c	/^static unsigned long external_ip = 0;$/;"	v	file:
+extraOffset	demo/ReadWriter.c	/^	DWORD extraOffset;	\/\/索引,TAG内容的偏移, 8字节边界对齐$/;"	m	struct:__anon31	file:
+family	stunc/stun.h	/^      UInt8 family;$/;"	m	struct:__anon16
+fastretr_end_seq	rudp_imp.h	/^	uint32	fastretr_end_seq;	\/\/fast re-transmission stop untill this seqno$/;"	m	struct:sndbuf
+fd	stunc/stun.h	/^      int fd;              \/\/ media relay file descriptor$/;"	m	struct:__anon25
+filelength	demo/ReadWriter.c	/^int filelength(int fd)$/;"	f
+filelength	misc.c	/^unsigned long filelength(int fno)$/;"	f
+filelength	misc.h	17;"	d
+fin	rudp_imp.h	/^			uint32	fin:1;$/;"	m	struct:rudp_hdr::__anon8::__anon10
+first	miniupnpc/igd_desc_parse.h	/^	struct IGDdatas_service first;$/;"	m	struct:IGDdatas	typeref:struct:IGDdatas::IGDdatas_service
+first	rudp_imp.h	/^	struct rudp_pkt *first, *last;$/;"	m	struct:sndbuf	typeref:struct:sndbuf::rudp_pkt
+first_seq	rudp_imp.h	/^	uint32	first_seq;	\/\/first seq in queue, company with "head"$/;"	m	struct:rcvbuf
+flag	demo/ReadWriter.c	/^		DWORD flag;$/;"	m	union:_FrameHeader::__anon32	file:
+flag	demo/ReadWriter.c	/^	DWORD flag;		\/\/ = 1$/;"	m	struct:__anon31	file:
+flag	demo/ReadWriter.c	/^	DWORD flag;$/;"	m	struct:__anon33	file:
+flags	p2pbase.h	/^	uint16  flags; \/\/1 - Upnp nat maaped$/;"	m	struct:p2pcore_addr
+flags	p2pcore_ex.h	/^	uint8 flags;		\/\/qsf_xxx$/;"	m	struct:p2pcore_query_server_req
+flags	rudp_imp.h	/^			uint8	flags;$/;"	m	struct:rudp_hdr::__anon8::__anon9
+flags	rudp_imp.h	/^		} flags;$/;"	m	union:rudp_hdr::__anon8	typeref:struct:rudp_hdr::__anon8::__anon10
+flags	rudp_imp.h	/^	int	flags;$/;"	m	struct:rudp_socket
+fp	demo/ReadWriter.c	/^	FILE	*fp;			\/\/$/;"	m	struct:_ORData	file:
+fp	demo/ReadWriter.c	/^	FILE *fp;$/;"	m	struct:OWData	file:
+frame_cnt	demo/p2pclt.cpp	/^	int frame_cnt[2];$/;"	m	struct:P2pClient	file:
+free_pkt	rudp.c	/^static struct rudp_pkt *free_pkt = NULL;$/;"	v	typeref:struct:rudp_pkt	file:
+frmhdr102	demo/ReadWriter.c	/^		FRAMEHEADER_v102 frmhdr102;		\/\/for look ahead$/;"	m	union:_ORData::__anon34	file:
+frmhdr103	demo/ReadWriter.c	/^		FRAMEHEADER_v103 frmhdr103;$/;"	m	union:_ORData::__anon34	file:
+func	timerq.c	/^	SERVICEFUNC func;$/;"	m	struct:service_item	file:
+g_pWriter	demo/p2psess_test.cpp	/^static WRITER *g_pWriter = NULL;$/;"	v	file:
+getMessage	stunc/udp.c	/^getMessage( PA_SOCKET fd, char* buf, int* len,$/;"	f
+getP2pMainPort	p2pcore.c	/^int getP2pMainPort()$/;"	f
+getPortOffset	p2pcore.c	/^int getPortOffset()$/;"	f
+getUpnpMappingPort	p2pcore.c	/^int getUpnpMappingPort()$/;"	f
+get_local_ips	p2pbase.c	/^int get_local_ips(uint32* pIps, unsigned int size)$/;"	f
+gid	ipccmd.h	/^	uint32 gid;	\/\/group id$/;"	m	struct:p2pcore_cam_record
+gid	ipccmd.h	/^	uint32 gid;$/;"	m	struct:p2pcore_cam_group
+hEvtR	chnbuf.h	/^	PA_EVENT	hEvtR;	\/\/There's enough space for reading$/;"	m	struct:_tagP2pChnBuffer
+hEvtW	chnbuf.h	/^	PA_EVENT	hEvtW;	\/\/There's enough space for writing$/;"	m	struct:_tagP2pChnBuffer
+hMutex	chnbuf.h	/^	PA_MUTEX	hMutex; \/\/2013-08-26$/;"	m	struct:_tagP2pChnBuffer
+hSess	demo/p2ptest.c	/^	HP2PSESS hSess;     \/\/the se$/;"	m	struct:_MyData	file:
+h_mutex	upnp_igd_cp.c	/^static PA_MUTEX h_mutex;$/;"	v	file:
+hairpin	p2pbase.h	/^	uint32 hairpin:1;$/;"	m	struct:conn_bit_fields
+hairpin	p2pbase.h	/^	uint8 hairpin:1;$/;"	m	struct:nat_info
+handle	demo/p2pclt.cpp	/^	PA_HTHREAD handle;$/;"	m	struct:P2pClient	file:
+handleSearch	p2pcore.c	/^static void handleSearch(int sock_r)$/;"	f	file:
+handle_punch	p2pcore.c	/^int handle_punch(P2PCONN* pconn, const struct p2pcore_punch* pdp, const struct sockaddr_in* ppeer_addr, RUDPSOCKET accepted_rsock)$/;"	f
+hasChangeRequest	stunc/stun.h	/^      BOOL hasChangeRequest;$/;"	m	struct:__anon23
+hasChangedAddress	stunc/stun.h	/^      BOOL hasChangedAddress;$/;"	m	struct:__anon23
+hasErrorCode	stunc/stun.h	/^      BOOL hasErrorCode;$/;"	m	struct:__anon23
+hasMappedAddress	stunc/stun.h	/^      BOOL hasMappedAddress;$/;"	m	struct:__anon23
+hasMessageIntegrity	stunc/stun.h	/^      BOOL hasMessageIntegrity;$/;"	m	struct:__anon23
+hasPassword	stunc/stun.h	/^      BOOL hasPassword;$/;"	m	struct:__anon23
+hasReflectedFrom	stunc/stun.h	/^      BOOL hasReflectedFrom;$/;"	m	struct:__anon23
+hasResponseAddress	stunc/stun.h	/^      BOOL hasResponseAddress;$/;"	m	struct:__anon23
+hasSecondaryAddress	stunc/stun.h	/^      BOOL hasSecondaryAddress;$/;"	m	struct:__anon23
+hasServerName	stunc/stun.h	/^      BOOL hasServerName;$/;"	m	struct:__anon23
+hasSourceAddress	stunc/stun.h	/^      BOOL hasSourceAddress;$/;"	m	struct:__anon23
+hasUnknownAttributes	stunc/stun.h	/^      BOOL hasUnknownAttributes;$/;"	m	struct:__anon23
+hasUsername	stunc/stun.h	/^      BOOL hasUsername;$/;"	m	struct:__anon23
+hasXorMappedAddress	stunc/stun.h	/^      BOOL hasXorMappedAddress;$/;"	m	struct:__anon23
+hash	stunc/stun.h	/^      char hash[20];$/;"	m	struct:__anon21
+hconn	p2psess_imp.h	/^	HP2PCONN	hconn;$/;"	m	struct:_tagP2pSess
+hd	ipccmd.h	/^	uint8	hd;		\/\/high definition$/;"	m	struct:p2pcore_cam_capability
+hdr	rudp_imp.h	/^	struct rudp_hdr hdr;$/;"	m	struct:rudp_pkt	typeref:struct:rudp_pkt::rudp_hdr
+head	miniupnpc/upnpreplyparse.h	/^    LIST_HEAD(listhead, NameValue) head;$/;"	m	struct:NameValueParserData
+head	rudp_imp.h	/^	int	head;	\/\/first packet or first lost packet in buffer$/;"	m	struct:rcvbuf
+hiMEDIA_HDR_S	p2pcore_imp.h	/^typedef struct hiMEDIA_HDR_S        $/;"	s
+hsess	p2psess.c	/^	HP2PSESS hsess;$/;"	m	struct:PendingConn	file:
+hthd	rudp.c	/^PA_HTHREAD hthd;$/;"	v
+i_ker_server	p2pcore.c	/^static int n_ker_server = 0, i_ker_server = -1;$/;"	v	file:
+icch	p2psess_imp.h	/^	INCMDCHN	    icch[MAX_CMD_CHN];$/;"	m	struct:_tagP2pSess
+id	stunc/stun.h	/^      UInt128 id;$/;"	m	struct:__anon13
+ifIdx	netbase.h	/^	int ifIdx;$/;"	m	struct:ether_nic
+igd_wp	upnp_igd_cp.c	/^static UPNPIGDWORKPARAM igd_wp;$/;"	v	file:
+imch	p2psess_imp.h	/^	INMEDIACHN	    imch[MAX_MEDIA_CHN];$/;"	m	struct:_tagP2pSess
+init_p2pcmd_header	p2psess.c	/^void init_p2pcmd_header(struct p2pcmd_header* p, int op, int cls, int status, int len, uint32 trans_id)$/;"	f
+init_p2pcore_header	p2pbase.c	/^void init_p2pcore_header(struct p2pcore_header* p, int st, int op, int cls, int status, int len, uint32 trans_id)$/;"	f
+init_punch_package	p2pbase.c	/^void init_punch_package(struct p2pcore_punch* pdp, const char* sn, const uint8 *sess_id, const char *auth_str, int len)$/;"	f
+init_sai	netbase.c	/^int init_sai(struct sockaddr_in* sai, const char* shost, unsigned short def_port)$/;"	f
+inputChannel	demo/ReadWriter.h	/^	UINT  inputChannel;		\/\/event = IO_EVENT 时$/;"	m	struct:__anon29
+inst_list	rudp_imp.h	/^	struct list_head inst_list;$/;"	m	struct:rudp_socket	typeref:struct:rudp_socket::list_head
+ip	p2pbase.h	/^	uint32 	ip;	\/\/network byte-order$/;"	m	struct:p2pcore_addr
+ip	p2pcore.h	/^	char ip[16];$/;"	m	struct:EnumCallee
+ipcondescURL	miniupnpc/miniupnpc.h	/^	char * ipcondescURL;$/;"	m	struct:UPNPUrls
+ipv4	stunc/stun.h	/^      StunAddress4 ipv4;$/;"	m	struct:__anon16
+isKeyFrame	chnbuf.c	/^	UINT isKeyFrame;$/;"	m	struct:_tagFRAMEHEADER	file:
+isKeyFrame	chnbuf.h	/^	UINT isKeyFrame;$/;"	m	struct:_tagFRAMEINFO
+isKeyFrame	p2psess.h	/^	UINT isKeyFrame;$/;"	m	struct:_tagP2PFRAMEINFO
+isLast	chnbuf.c	/^	int isLast;	\/\/is the last packet$/;"	m	struct:__tagRESPHEADER	file:
+isLast	chnbuf.h	/^	int isLast;	\/\/is the last packet$/;"	m	struct:__tagRESPINFO
+is_caller	p2pcore_imp.h	/^	int			is_caller;$/;"	m	struct:P2PCONN
+isfatal	netbase.c	/^int isfatal(int r)$/;"	f
+iskeyframe	p2pcore_imp.h	/^    uint8	iskeyframe:1;	\/\/reserved for DA p2p$/;"	m	struct:hiMEDIA_HDR_S
+item	timerq.c	/^	struct service_item item;$/;"	m	struct:queue_cmd	typeref:struct:queue_cmd::service_item	file:
+item	timerq.c	/^	struct service_item item;$/;"	m	struct:service_queue_item	typeref:struct:service_queue_item::service_item	file:
+kernel_servers	p2pcore.c	/^static char kernel_servers[MAX_KERNEL_SERVER][LENGTH_OF_SERVER];$/;"	v	file:
+key	ipccmd.h	/^	uint8 key[LENGTH_OF_KEY];$/;"	m	struct:p2pcore_activate_p2p
+key2string	misc.c	/^void key2string(const unsigned char key[16], char str[25])$/;"	f
+keyframe	p2psess.h	/^	uint8  keyframe:1;$/;"	m	struct:_tagP2PMEDIAHEADER
+keyframe	p2psess.h	/^    uint8  keyframe:1;$/;"	m	struct:_tagP2PMEDIAHEADER
+kfidxStream	demo/ReadWriter.c	/^	MEMSTREAM kfidxStream;$/;"	m	struct:OWData	file:
+last	rudp_imp.h	/^	struct rudp_pkt *first, *last;$/;"	m	struct:sndbuf	typeref:struct:sndbuf::
+last_access	p2pcore_imp.h	/^	unsigned int 		last_access;	\/\/real-time, counted in milliseconds$/;"	m	struct:P2PCONN
+len	chnbuf.h	/^	UINT len;$/;"	m	struct:__tagRESPINFO
+len	chnbuf.h	/^	UINT len;$/;"	m	struct:_tagFRAMEINFO
+len	demo/ReadWriter.c	/^	DWORD len;$/;"	m	struct:__anon33	file:
+len	p2pcore_imp.h	/^    uint16 len;             $/;"	m	struct:hiMEDIA_HDR_S
+len	p2psess.h	/^	UINT len;$/;"	m	struct:_tagP2PFRAMEINFO
+len	p2psess.h	/^	uint16 len;             $/;"	m	struct:_tagP2PMEDIAHEADER
+len	rudp_imp.h	/^	int	len;		\/\/length of data, exclude hdr$/;"	m	struct:rudp_pkt
+length	p2pbase.h	/^	uint16 length;$/;"	m	struct:p2pcore_header
+length	p2psess.h	/^	uint32 length;$/;"	m	struct:p2pcmd_header
+length	stunc/stun.h	/^      UInt16 length;$/;"	m	struct:__anon14
+level	miniupnpc/igd_desc_parse.h	/^	int level;$/;"	m	struct:IGDdatas
+list	p2pcore_imp.h	/^	struct list_head list;$/;"	m	struct:P2PCONN	typeref:struct:P2PCONN::list_head
+list	p2psess.c	/^	struct list_head list;$/;"	m	struct:PendingConn	typeref:struct:PendingConn::list_head	file:
+list	timerq.c	/^	struct list_head list;$/;"	m	struct:service_queue_item	typeref:struct:service_queue_item::list_head	file:
+list_add	linux_list.h	/^static INLINE void list_add(struct list_head *item, struct list_head *head)$/;"	f
+list_add_tail	linux_list.h	/^static INLINE void list_add_tail(struct list_head *item, struct list_head *head)$/;"	f
+list_del	linux_list.h	/^static INLINE void list_del(struct list_head *entry)$/;"	f
+list_del_init	linux_list.h	/^static INLINE void list_del_init(struct list_head *entry)$/;"	f
+list_empty	linux_list.h	/^static INLINE int list_empty(struct list_head *head)$/;"	f
+list_entry	linux_list.h	195;"	d
+list_for_each	linux_list.h	203;"	d
+list_for_each_entry	linux_list.h	231;"	d
+list_for_each_entry_safe	linux_list.h	243;"	d
+list_for_each_prev	linux_list.h	211;"	d
+list_for_each_safe	linux_list.h	221;"	d
+list_head	linux_list.h	/^struct list_head {$/;"	s
+list_move	linux_list.h	/^static INLINE void list_move(struct list_head *list, struct list_head *head)$/;"	f
+list_move_tail	linux_list.h	/^static INLINE void list_move_tail(struct list_head *list,$/;"	f
+list_splice	linux_list.h	/^static INLINE void list_splice(struct list_head *list, struct list_head *head)$/;"	f
+list_splice_init	linux_list.h	/^static INLINE void list_splice_init(struct list_head *list,$/;"	f
+listen_queue	rudp_imp.h	/^	struct list_head listen_queue; $/;"	m	struct:rudp_socket	typeref:struct:rudp_socket::list_head
+loc_port	upnp_igd_cp.c	/^	unsigned short loc_port, ext_port;$/;"	m	struct:IgdPortMap	file:
+local	p2pbase.h	/^	struct p2pcore_addr local;$/;"	m	struct:p2pcore_addr_pair	typeref:struct:p2pcore_addr_pair::p2pcore_addr
+local	rudp_imp.h	/^	struct sockaddr_in	local;$/;"	m	struct:rudp_pcb	typeref:struct:rudp_pcb::sockaddr_in
+local_conn_info	p2pcore.c	/^struct local_conn_info {$/;"	s	file:
+local_port	p2pcore_imp.h	/^	uint16 			local_port;	\/\/locally bound port$/;"	m	struct:punch_tmp
+local_port_cur	p2pcore.c	/^static unsigned short local_port_cur=12001;$/;"	v	file:
+local_port_max	p2pcore.c	/^static unsigned short local_port_min=12001, local_port_max=12500;$/;"	v	file:
+local_port_min	p2pcore.c	/^static unsigned short local_port_min=12001, local_port_max=12500;$/;"	v	file:
+loss	rudp_imp.h	/^	int	loss;	\/\/first lost packet, or "tail"$/;"	m	struct:rcvbuf
+m_accessMutex	platform_adpt.h	/^	HANDLE m_accessMutex;$/;"	m	struct:ReadWriteLock
+m_accessMutex	win32/rwlock.h	/^	HANDLE m_accessMutex;$/;"	m	struct:ReadWriteLock
+m_csStateChange	platform_adpt.h	/^	CRITICAL_SECTION m_csStateChange;$/;"	m	struct:ReadWriteLock
+m_csStateChange	win32/rwlock.h	/^	CRITICAL_SECTION m_csStateChange;$/;"	m	struct:ReadWriteLock
+m_currentLevel	platform_adpt.h	/^	int    m_currentLevel;$/;"	m	struct:ReadWriteLock
+m_currentLevel	win32/rwlock.h	/^	int    m_currentLevel;$/;"	m	struct:ReadWriteLock
+m_readerCount	platform_adpt.h	/^	int    m_readerCount, m_writeCount;$/;"	m	struct:ReadWriteLock
+m_readerCount	win32/rwlock.h	/^	int    m_readerCount, m_writeCount;$/;"	m	struct:ReadWriteLock
+m_unlockEvent	platform_adpt.h	/^	HANDLE m_unlockEvent; $/;"	m	struct:ReadWriteLock
+m_unlockEvent	win32/rwlock.h	/^	HANDLE m_unlockEvent; $/;"	m	struct:ReadWriteLock
+m_writeCount	platform_adpt.h	/^	int    m_readerCount, m_writeCount;$/;"	m	struct:ReadWriteLock
+m_writeCount	win32/rwlock.h	/^	int    m_readerCount, m_writeCount;$/;"	m	struct:ReadWriteLock
+m_writerId	platform_adpt.h	/^	DWORD  m_writerId;$/;"	m	struct:ReadWriteLock
+m_writerId	win32/rwlock.h	/^	DWORD  m_writerId;$/;"	m	struct:ReadWriteLock
+main	demo/p2pclt.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	demo/p2psess_test.cpp	/^int main()$/;"	f
+main	demo/p2psess_test.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	demo/p2ptest.c	/^int main(int argc, char *argv[])$/;"	f
+main	p2pbase.c	/^int main(int argc, char *argv[])$/;"	f
+map	upnp_igd_cp.c	/^	IGDPORTMAP	map[PORTMAP_SIZE];$/;"	m	struct:UPnPIGDWorkParam	file:
+mapped	upnp_igd_cp.c	/^	int	mapped;$/;"	m	struct:IgdPortMap	file:
+mappedAddress	stunc/stun.h	/^      StunAtrAddress4  mappedAddress;$/;"	m	struct:__anon23
+max	p2pcore.c	21;"	d	file:
+max	p2psess.c	18;"	d	file:
+max	rudp.c	29;"	d	file:
+max_pkts	rudp_imp.h	/^	int 	max_pkts;	\/\/OPT_RCVBUF$/;"	m	struct:sndbuf
+mediaThread	demo/p2ptest.c	/^void *mediaThread(void *p)$/;"	f
+messageIntegrity	stunc/stun.h	/^      StunAtrIntegrity messageIntegrity;$/;"	m	struct:__anon23
+min	demo/ReadWriter.c	13;"	d	file:
+min	p2psess.c	15;"	d	file:
+min	rudp.c	26;"	d	file:
+msgHdr	stunc/stun.h	/^      StunMsgHdr msgHdr;$/;"	m	struct:__anon23
+msgLength	stunc/stun.h	/^      UInt16 msgLength;$/;"	m	struct:__anon13
+msgType	stunc/stun.h	/^      UInt16 msgType;$/;"	m	struct:__anon13
+mt	chnbuf.c	/^	UINT mt;	\/\/media type$/;"	m	struct:_tagFRAMEHEADER	file:
+mt	chnbuf.h	/^	UINT mt;	\/\/media type$/;"	m	struct:_tagFRAMEINFO
+mt	p2psess.h	/^	UINT mt;	\/\/media type MEDIATYPE_XXXX$/;"	m	struct:_tagP2PFRAMEINFO
+mutex	demo/p2psess_test.cpp	/^	PA_MUTEX mutex;$/;"	m	struct:DataForRec	file:
+mutex_pkt_pool	rudp.c	/^static PA_MUTEX mutex_pkt_pool;$/;"	v	file:
+mutex_r	rudp_imp.h	/^	PA_MUTEX	mutex_r, mutex_w;$/;"	m	struct:rudp_socket
+mutex_sock_list	rudp.c	/^PA_MUTEX	mutex_sock_list;$/;"	v
+mutex_w	rudp_imp.h	/^	PA_MUTEX	mutex_r, mutex_w;$/;"	m	struct:rudp_socket
+mutx_cbq	p2psess_imp.h	/^	PA_MUTEX	mutx_cbq;$/;"	m	struct:_tagP2pSess
+myAddr	stunc/stun.h	/^      StunAddress4 myAddr;$/;"	m	struct:__anon26
+myData	demo/p2psess_test.cpp	/^struct myData {$/;"	s	file:
+myFd	stunc/stun.h	/^      PA_SOCKET myFd;$/;"	m	struct:__anon26
+nBitsPerSample	demo/ReadWriter.h	/^	UINT	nBitsPerSample;$/;"	m	struct:_FileInfo
+nBitsPerSample	demo/filestruct.h	/^	DWORD nBitsPerSample;$/;"	m	struct:_tagVideoFileHeader
+nBuffSize	p2psess.c	/^	UINT nBuffSize, nBytesInBuff;$/;"	m	struct:_MemDataCbParam	file:
+nBufferSize	chnbuf.h	/^	int		nBufferSize;$/;"	m	struct:_tagP2pChnBuffer
+nBytesInBuff	p2psess.c	/^	UINT nBuffSize, nBytesInBuff;$/;"	m	struct:_MemDataCbParam	file:
+nBytesInBuff	p2psess_imp.h	/^	int	nBytesInBuff;$/;"	m	struct:_tagP2pSess
+nChannels	demo/ReadWriter.h	/^	UINT	nChannels;$/;"	m	struct:_FileInfo
+nChannels	demo/filestruct.h	/^	DWORD nChannels;$/;"	m	struct:_tagVideoFileHeader
+nItem	upnp_igd_cp.c	/^	int 	nItem;$/;"	m	struct:UPnPIGDWorkParam	file:
+nKfi	demo/ReadWriter.c	/^	UINT	nKfi;$/;"	m	struct:_ORData	file:
+nSafeSpace	chnbuf.h	/^	UINT	nSafeSpace;	\/\/Safe free space$/;"	m	struct:_tagP2pChnBuffer
+nSamplesPerSec	demo/ReadWriter.h	/^	UINT	nSamplesPerSec;$/;"	m	struct:_FileInfo
+nSamplesPerSec	demo/filestruct.h	/^	DWORD nSamplesPerSec;$/;"	m	struct:_tagVideoFileHeader
+n_addr	p2pbase.h	/^	uint32 n_addr:4;$/;"	m	struct:conn_bit_fields
+n_cam	ipccmd.h	/^	uint32 n_grp, n_cam;$/;"	m	struct:p2pcore_dev_list
+n_clients	demo/p2pclt.cpp	/^static int n_clients = 0;$/;"	v	file:
+n_free_pkt	rudp.c	/^static int n_free_pkt = 0;$/;"	v	file:
+n_grp	ipccmd.h	/^	uint32 n_grp, n_cam;$/;"	m	struct:p2pcore_dev_list
+n_ker_server	p2pcore.c	/^static int n_ker_server = 0, i_ker_server = -1;$/;"	v	file:
+n_loss	rudp_imp.h	/^			uint32	n_loss:6;	\/\/number of lost packets from "ackno". all packets before ackno are confirmed$/;"	m	struct:rudp_hdr::__anon8::__anon10
+n_lost	rudp_imp.h	/^	int	n_lost;		\/\/size of first gap(probably lost)$/;"	m	struct:rcvbuf
+n_pkt	rudp_imp.h	/^	int 	n_pkt;		\/*packets in queue*\/$/;"	m	struct:sndbuf
+n_q	p2pcore_ex.h	/^	uint8 n_q;		\/\/<= 12$/;"	m	struct:p2pcore_query_server_req
+n_resp	p2pcore_ex.h	/^	uint8 n_stun_svr, n_resp;$/;"	m	struct:p2pcore_query_server_resp
+n_stun_svr	p2pcore_ex.h	/^	uint8 n_stun_svr, n_resp;$/;"	m	struct:p2pcore_query_server_resp
+n_unacked	rudp_imp.h	/^	int 	n_unacked;$/;"	m	struct:sndbuf
+name	ipccmd.h	/^	char name[LENGTH_OF_NAME];$/;"	m	struct:p2pcore_cam_group
+name	ipccmd.h	/^	char name[LENGTH_OF_NAME];$/;"	m	struct:p2pcore_cam_record
+name	miniupnpc/upnpreplyparse.h	/^    char name[64];$/;"	m	struct:NameValue
+name	timerq.c	/^	char name[16];$/;"	m	struct:service_item	file:
+nas	ipccmd.h	/^	uint8 nas:1;$/;"	m	struct:p2pcore_cam_capability
+nat	p2pbase.h	/^	uint32 nat:3;$/;"	m	struct:conn_bit_fields
+nat	p2pbase.h	/^	uint8 nat:3;$/;"	m	struct:nat_info
+nat_info	p2pbase.h	/^struct nat_info {$/;"	s
+netmask	netbase.h	/^	struct in_addr netmask;$/;"	m	struct:ether_nic	typeref:struct:ether_nic::in_addr
+netmask	p2pcore.h	/^	char netmask[16];$/;"	m	struct:EnumCallee
+next	demo/ReadWriter.h	/^	struct _Reader *next;$/;"	m	struct:_Reader	typeref:struct:_Reader::_Reader
+next	linux_list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next	rudp_imp.h	/^	struct rudp_pkt *next;$/;"	m	struct:rudp_pkt	typeref:struct:rudp_pkt::rudp_pkt
+not_sent	rudp_imp.h	/^	struct rudp_pkt *not_sent;	\/\/first unsent packet$/;"	m	struct:sndbuf	typeref:struct:sndbuf::rudp_pkt
+numAttributes	stunc/stun.h	/^      UInt16 numAttributes;$/;"	m	struct:__anon19
+number	stunc/stun.h	/^      UInt8 number;$/;"	m	struct:__anon18
+octet	stunc/stun.h	/^typedef struct { unsigned char octet[16]; }  UInt128;$/;"	m	struct:__anon12
+offset	demo/ReadWriter.c	/^	DWORD offset;$/;"	m	struct:_OWIndex	file:
+offsetof	p2psess.c	22;"	d	file:
+offsetof	p2psess.c	890;"	d	file:
+offsetof	rudp.c	33;"	d	file:
+omch	p2psess_imp.h	/^	OUTMEDIACHN		omch[MAX_MEDIA_CHN];$/;"	m	struct:_tagP2pSess
+online	ipccmd.h	/^	uint8 online:1;$/;"	m	struct:p2pcore_cam_record
+op	p2pbase.h	/^	uint8 op:5;$/;"	m	struct:p2pcore_header
+op	p2psess.h	/^	uint16 op:14;$/;"	m	struct:p2pcmd_header
+op	p2psess_imp.h	/^	int		op;$/;"	m	struct:_cbItem
+op	upnp_igd_cp.c	/^	int op;$/;"	m	struct:IgdPortMap	file:
+openPort	stunc/udp.c	/^openPort( unsigned short port, unsigned int interfaceIp)$/;"	f
+out_sock	p2pcore_imp.h	/^	RUDPSOCKET		out_sock;	\/\/connect to peer's listening socket$/;"	m	struct:punch_tmp
+outputUInt128	stunc/stun.c	/^void outputUInt128(const UInt128 *r )$/;"	f
+output_notify	rudp.c	/^struct output_notify {$/;"	s	file:
+p2p_main_port	p2pcore.c	/^static int p2p_main_port = 0;	\/\/the port to receive notification from server(or caller in LAN)$/;"	v	file:
+p2p_server	p2pcore.c	/^static struct sockaddr_in p2p_server;$/;"	v	typeref:struct:sockaddr_in	file:
+p2pcmd_event_header	p2psess.h	/^struct p2pcmd_event_header {$/;"	s
+p2pcmd_header	p2psess.h	/^struct p2pcmd_header {$/;"	s
+p2pcore_activate_p2p	ipccmd.h	/^struct p2pcore_activate_p2p {$/;"	s
+p2pcore_activate_response	ipccmd.h	/^struct p2pcore_activate_response {$/;"	s
+p2pcore_addr	p2pbase.h	/^struct p2pcore_addr {$/;"	s
+p2pcore_addr_pair	p2pbase.h	/^struct p2pcore_addr_pair {$/;"	s
+p2pcore_cam_capability	ipccmd.h	/^struct p2pcore_cam_capability {$/;"	s
+p2pcore_cam_group	ipccmd.h	/^struct p2pcore_cam_group {$/;"	s
+p2pcore_cam_record	ipccmd.h	/^struct p2pcore_cam_record {$/;"	s
+p2pcore_challenge	ipccmd.h	/^struct p2pcore_challenge {$/;"	s
+p2pcore_datalen_t	p2pbase.h	/^typedef uint32 p2pcore_datalen_t;$/;"	t
+p2pcore_dev_list	ipccmd.h	/^struct p2pcore_dev_list {$/;"	s
+p2pcore_header	p2pbase.h	/^struct p2pcore_header {$/;"	s
+p2pcore_heart_beat	p2pbase.h	160;"	d
+p2pcore_i_am_here	p2pbase.h	/^struct p2pcore_i_am_here {$/;"	s
+p2pcore_i_am_here_ack	p2pbase.h	/^struct p2pcore_i_am_here_ack {$/;"	s
+p2pcore_login	ipccmd.h	/^struct p2pcore_login {$/;"	s
+p2pcore_punch	p2pbase.h	/^struct p2pcore_punch {$/;"	s
+p2pcore_query_address_response	p2pbase.h	/^struct p2pcore_query_address_response {$/;"	s
+p2pcore_query_server_req	p2pcore_ex.h	/^struct p2pcore_query_server_req {$/;"	s
+p2pcore_query_server_resp	p2pcore_ex.h	/^struct p2pcore_query_server_resp {$/;"	s
+p2pcore_session_init	p2pbase.h	/^struct p2pcore_session_init {$/;"	s
+p2pcore_tcp_punch	p2pbase.c	/^int p2pcore_tcp_punch(uint16 local_port, int mapped_sock, struct conn_bit_fields bits, const struct p2pcore_addr *peer_addr, $/;"	f
+p2pcore_transid_t	p2pbase.h	/^typedef uint32 p2pcore_transid_t;$/;"	t
+p2pport	p2pcore.h	/^	int p2pport;$/;"	m	struct:EnumCallee
+pBuf	demo/ReadWriter.c	/^	BYTE	*pBuf;$/;"	m	struct:__anon30	file:
+pBuff	p2psess.c	/^	BYTE *pBuff;$/;"	m	struct:_MemDataCbParam	file:
+pBuffer	chnbuf.h	/^	BYTE	*pBuffer;$/;"	m	struct:_tagP2pChnBuffer
+pChnBuf	demo/p2psess_test.cpp	/^static P2PCHNBUFF *pChnBuf;$/;"	v	file:
+pChnBuff	chnbuf.h	/^	P2PCHNBUFF	*pChnBuff;$/;"	m	struct:_tagMediaChn
+pCmdChn	p2psess_imp.h	/^	P2PCHNBUFF	*pCmdChn;$/;"	m	struct:_tagCmdChnEx
+pData	chnbuf.h	/^	BYTE *pData;$/;"	m	struct:__tagRESPINFO
+pExtra	demo/ReadWriter.c	/^	EXTRADATA	*pExtra;$/;"	m	struct:_ORData	file:
+pFrame	chnbuf.h	/^	BYTE *pFrame;$/;"	m	struct:_tagFRAMEINFO
+pFrame	p2psess.h	/^	BYTE *pFrame;$/;"	m	struct:_tagP2PFRAMEINFO
+pFrameHeaderWritten	chnbuf.h	/^	BOOL		pFrameHeaderWritten;$/;"	m	struct:_tagMediaChn
+pKfi	demo/ReadWriter.c	/^	KEYFRAME_INDEX *pKfi;$/;"	m	struct:_ORData	file:
+pMediaChn	p2psess_imp.h	/^	MEDIACHN	*pMediaChn;$/;"	m	struct:_tagMediaChnEx
+pNext	miniupnpc/miniupnpc.h	/^	struct UPNPDev * pNext;$/;"	m	struct:UPNPDev	typeref:struct:UPNPDev::UPNPDev
+pNext	upnp_igd_cp.c	/^	struct UPNPDev *device, *pNext;$/;"	m	struct:UPnPIGDWorkParam	typeref:struct:UPnPIGDWorkParam::	file:
+pR	chnbuf.h	/^	BYTE	*pR, *pW;$/;"	m	struct:_tagP2pChnBuffer
+pSess	demo/p2pclt.cpp	/^	P2pSession *pSess;$/;"	m	struct:P2pClient	file:
+pTagBuf	demo/ReadWriter.c	/^	BYTE	*pTagBuf;$/;"	m	struct:_ORData	file:
+pUserData	p2pcore_imp.h	/^	void			*pUserData;$/;"	m	struct:P2PCONN
+pUserData	p2psess_imp.h	/^	void	*pUserData;$/;"	m	struct:_tagP2pSess
+pUserData	p2psess_imp.h	/^	void *pUserData;$/;"	m	struct:_cbItem
+pW	chnbuf.h	/^	BYTE	*pR, *pW;$/;"	m	struct:_tagP2pChnBuffer
+pWrtD	demo/p2psess_test.cpp	/^	void *pWrtD;$/;"	m	struct:DataForRec	file:
+packed_expire_date	ipccmd.h	/^	uint16 packed_expire_date;	\/\/yy(7)-mm(4)-dd(5)$/;"	m	struct:p2pcore_cam_record
+pad	stunc/stun.h	/^      UInt16 pad; \/\/ all 0$/;"	m	struct:__anon18
+pad	stunc/stun.h	/^      UInt8 pad;$/;"	m	struct:__anon16
+password	stunc/stun.h	/^      StunAtrString password;$/;"	m	struct:__anon23
+pcb	rudp_imp.h	/^	struct rudp_pcb *pcb;		\/\/for$/;"	m	struct:rudp_socket	typeref:struct:rudp_socket::rudp_pcb
+pdata	rudp_imp.h	/^	unsigned char *pdata;	\/\/=data by default, move ahead when RUDPRecv is called and partial data in this packet are read out$/;"	m	struct:rudp_pkt
+peer	p2pcore.h	/^	struct sockaddr_in peer;$/;"	m	struct:_tagTpcConnInfo	typeref:struct:_tagTpcConnInfo::sockaddr_in
+peer	rudp_imp.h	/^	struct sockaddr_in	peer;$/;"	m	struct:rudp_pcb	typeref:struct:rudp_pcb::sockaddr_in
+peer_addr	p2pcore_imp.h	/^	struct sockaddr_in	peer_addr;$/;"	m	struct:P2PCONN	typeref:struct:P2PCONN::sockaddr_in
+pipe	timerq.c	/^	int pipe[2];$/;"	m	struct:service_queue	file:
+pkt_q	rudp_imp.h	/^	struct rudp_pkt **pkt_q;	\/\/size = q_size. A cycle buffer traced by head\/tail$/;"	m	struct:rcvbuf	typeref:struct:rcvbuf::rudp_pkt
+pkt_rttm_start	rudp_imp.h	/^	struct rudp_pkt *pkt_rttm_start;	\/\/rtt measurement resumes from pkt_rttm_start after any re-transmissions$/;"	m	struct:sndbuf	typeref:struct:sndbuf::rudp_pkt
+port	p2pbase.h	/^	uint16  port;$/;"	m	struct:p2pcore_addr
+port	stunc/stun.h	/^      UInt16 port;$/;"	m	struct:__anon15
+port_type	upnp_igd_cp.c	/^	int  port_type;$/;"	m	struct:IgdPortMap	file:
+prepareForPunching	p2pcore.c	/^void prepareForPunching(P2PCONN *pconn, const struct p2pcore_session_init *psi)$/;"	f
+preserve_port	p2pbase.h	/^	uint32 preserve_port:1;$/;"	m	struct:conn_bit_fields
+preserve_port	p2pbase.h	/^	uint8 preserve_port:1;$/;"	m	struct:nat_info
+prev	linux_list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+printUsage	demo/p2ptest.c	/^void printUsage(const char *prog)$/;"	f
+processCmd	demo/p2pclt.cpp	/^void processCmd(const char *scmd)$/;"	f
+pt	p2pcore_imp.h	/^    uint8	pt;$/;"	m	struct:hiMEDIA_HDR_S
+pt	p2psess.h	/^	uint8  pt;$/;"	m	struct:_tagP2PMEDIAHEADER
+pt_name	upnp_igd_cp.c	/^static const char *pt_name[2] = { "UDP", "TCP" };$/;"	v	file:
+pts	p2pcore_imp.h	/^    uint32 pts;             $/;"	m	struct:hiMEDIA_HDR_S
+punch_cnt	p2pcore_imp.h	/^	int 			punch_cnt;$/;"	m	struct:punch_tmp
+punch_tmp	p2pcore_imp.h	/^struct punch_tmp {$/;"	s
+q_size	rudp_imp.h	/^	int 	q_size;	\/\/OPT_SNBUF$/;"	m	struct:rcvbuf
+query_external_address	p2pbase.c	/^int query_external_address(const struct sockaddr* svr, struct p2pcore_addr* pda, unsigned short local_port)$/;"	f
+queueServiceItem	timerq.c	/^static void queueServiceItem(struct list_head *free_list, struct list_head *wait_list, struct service_item *svi)$/;"	f	file:
+queue_cmd	timerq.c	/^struct queue_cmd {$/;"	s	file:
+queue_type	timerq.c	/^	int	queue_type;$/;"	m	struct:service_queue	file:
+rBuff	p2psess_imp.h	/^	BYTE	*rBuff; \/\/buffer for dispatch$/;"	m	struct:_tagP2pSess
+rawnd	rudp_imp.h	/^	int	rawnd;		\/\/receiver's advertised window in ack$/;"	m	struct:sndbuf
+rbuf	rudp_imp.h	/^	struct rcvbuf 	rbuf;$/;"	m	struct:rudp_channel	typeref:struct:rudp_channel::rcvbuf
+rbuff	p2pcore_imp.h	/^	BYTE			*rbuff;	\/\/user's recv buff$/;"	m	struct:P2PCONN
+rbuff_off	p2pcore_imp.h	/^	int			rbuff_size, rbuff_off;$/;"	m	struct:P2PCONN
+rbuff_size	p2pcore_imp.h	/^	int			rbuff_size, rbuff_off;$/;"	m	struct:P2PCONN
+rcvbuf	rudp_imp.h	/^struct rcvbuf {$/;"	s
+rcvbuf_sz	rudp_imp.h	/^	int 	rcvbuf_sz; \/\/size of recv buffer, change before connection. OPT_RUDP_RCVBUF$/;"	m	struct:rudp_socket
+readyStates	p2pcore.h	/^	int readyStates;	\/\/combination of TPCGSF_xxx$/;"	m	struct:P2pCoreState
+reason	stunc/stun.h	/^      char reason[STUN_MAX_STRING];$/;"	m	struct:__anon18
+reflectedFrom	stunc/stun.h	/^      StunAtrAddress4 reflectedFrom;$/;"	m	struct:__anon23
+relay	stunc/stun.h	/^      BOOL relay; \/\/ true if media relaying is to be done$/;"	m	struct:__anon26
+relayPort	stunc/stun.h	/^      int relayPort;       \/\/ media relay port$/;"	m	struct:__anon25
+relays	stunc/stun.h	/^      StunMediaRelay relays[MAX_MEDIA_RELAYS];$/;"	m	struct:__anon26
+reserved	ipccmd.h	/^	uint8 reserved:6;$/;"	m	struct:p2pcore_cam_record
+reserved	p2pbase.h	/^	uint32 reserved:13;$/;"	m	struct:conn_bit_fields
+reserved	p2pcore_ex.h	/^	uint8 reserved[2];$/;"	m	struct:p2pcore_query_server_req
+reserved	p2pcore_ex.h	/^	uint8 reserved[2];$/;"	m	struct:p2pcore_query_server_resp
+reserved2	ipccmd.h	/^	uint8 reserved2;$/;"	m	struct:p2pcore_cam_record
+reserved2	p2pbase.h	/^	uint8 reserved2[2];$/;"	m	struct:p2pcore_i_am_here
+responseAddress	stunc/stun.h	/^      StunAtrAddress4  responseAddress;$/;"	m	struct:__anon23
+retr_cnt	rudp_imp.h	/^	int	retr_cnt;	\/\/ Count of SYN or SYN&ACK sent when connection establishment$/;"	m	struct:rudp_pcb
+rexmt	rudp_imp.h	/^	struct rudp_pkt *rexmt;	\/\/fast retransmit$/;"	m	struct:sndbuf	typeref:struct:sndbuf::rudp_pkt
+rlost	rudp_imp.h	/^	int	rlost;		\/\/receiver reports how many packets are expected to be re-transmitted$/;"	m	struct:sndbuf
+rst	rudp_imp.h	/^			uint32	rst:1;$/;"	m	struct:rudp_hdr::__anon8::__anon10
+rstrip	demo/p2pclt.cpp	/^char *rstrip(char *s)$/;"	f
+rto	rudp_imp.h	/^	int	rto;		\/\/retransmission timeout$/;"	m	struct:rudp_pcb
+rtw_size	rudp_imp.h	/^	int	rtw_size;	\/\/receiver's realtime win size$/;"	m	struct:rudp_pcb
+rudp	rudp_imp.h	/^			uint32	rudp:2;		\/\/RUDP_HEADER_TAG$/;"	m	struct:rudp_hdr::__anon8::__anon10
+rudp_backoff	rudp.c	/^static int rudp_backoff[MAX_REXMT_ATTEMPT+1] = { 1, 2, 4, 8, 16, 32, 64, 64\/*, 64, 64, 64, 64, 64*\/ };$/;"	v	file:
+rudp_channel	rudp_imp.h	/^struct rudp_channel {$/;"	s
+rudp_hdr	rudp_imp.h	/^struct rudp_hdr {$/;"	s
+rudp_now	rudp.c	/^unsigned int rudp_now = 0;$/;"	v
+rudp_pcb	rudp_imp.h	/^struct rudp_pcb {$/;"	s
+rudp_pkt	rudp_imp.h	/^struct rudp_pkt {$/;"	s
+rudp_sock	p2pcore_imp.h	/^	RUDPSOCKET		rudp_sock;$/;"	m	struct:P2PCONN
+rudp_socket	rudp_imp.h	/^struct rudp_socket {$/;"	s
+run	rudp.c	/^static volatile int run = 1;$/;"	v	file:
+run_after	timerq.c	/^	int run_after;$/;"	m	struct:service_item	file:
+run_me	demo/p2pclt.cpp	/^static int run_me = 1;$/;"	v	file:
+rwin_size	rudp_imp.h	/^	int	rwin_size;	\/\/receiver's win size. keep unchanged after connection is established$/;"	m	struct:rudp_pcb
+rwlock	p2psess_imp.h	/^	PA_RWLOCK	rwlock;$/;"	m	struct:_tagCmdChnEx
+rwlock	p2psess_imp.h	/^	PA_RWLOCK	rwlock;$/;"	m	struct:_tagMediaChnEx
+rwnd	rudp_imp.h	/^	int	rwnd;		\/\/keeping counted receiver's window, updated as packet is sent or ack is received$/;"	m	struct:sndbuf
+s	rudp.c	/^	struct rudp_socket *s;$/;"	m	struct:output_notify	typeref:struct:output_notify::rudp_socket	file:
+s_AcceptSessEvent	p2psess.c	/^static PA_EVENT s_AcceptSessEvent;$/;"	v	file:
+s_AuthCb	p2psess.c	/^static VERIFYAUTHSTRINGCB s_AuthCb;$/;"	v	file:
+s_PendingConnMutex	p2psess.c	/^static PA_MUTEX	s_PendingConnMutex;$/;"	v	file:
+s_PunchConcurrencyMutex	p2pcore.c	/^static PA_MUTEX s_PunchConcurrencyMutex;$/;"	v	file:
+s_bRun	demo/p2psess_test.cpp	/^volatile static BOOL s_bRun;$/;"	v	file:
+s_bRunP2p	p2pcore.c	/^static volatile BOOL s_bRunP2p;$/;"	v	file:
+s_hConn	demo/p2psess_test.cpp	/^static HDAP2PCONN s_hConn = NULL;$/;"	v	file:
+s_mutexConnList	p2pcore.c	/^static PA_MUTEX s_mutexConnList;$/;"	v	file:
+s_pCallbackFuncs	p2pcore.c	/^static P2PCORECBFUNCS *s_pCallbackFuncs = NULL;$/;"	v	file:
+s_pReaders	demo/ReadWriter.c	/^static READER *s_pReaders = NULL;$/;"	v	file:
+s_pWriter	demo/ReadWriter.c	/^static WRITER *s_pWriter = &OurWriter;$/;"	v	file:
+s_queue	timerq.c	/^} s_queue[2] = {$/;"	v	typeref:struct:service_queue	file:
+s_spinTid	p2psess.c	/^static PA_SPIN s_spinTid;$/;"	v	file:
+sbuf	rudp_imp.h	/^	struct sndbuf 	sbuf;$/;"	m	struct:rudp_channel	typeref:struct:rudp_channel::sndbuf
+scpdurl	miniupnpc/igd_desc_parse.h	/^	char scpdurl[MINIUPNPC_URL_MAXSIZE];$/;"	m	struct:IGDdatas_service
+sdc	ipccmd.h	/^	uint8 sdc:1;$/;"	m	struct:p2pcore_cam_capability
+sdev	rudp_imp.h	/^	int	sdev;		\/\/smoothed deviation, or "rttvar"$/;"	m	struct:rudp_pcb
+second	miniupnpc/igd_desc_parse.h	/^	struct IGDdatas_service second;$/;"	m	struct:IGDdatas	typeref:struct:IGDdatas::IGDdatas_service
+secondaryAddress	stunc/stun.h	/^      StunAtrAddress4 secondaryAddress;$/;"	m	struct:__anon23
+sendMessage	stunc/udp.c	/^sendMessage( PA_SOCKET fd, char* buf, int l, $/;"	f
+send_recv_over_udp	p2pbase.c	/^int send_recv_over_udp(int sock, const struct sockaddr* addr, const struct p2pcore_header* p, void* buf, int size)$/;"	f
+seqno	p2pcore_imp.h	/^    uint16 seqno;$/;"	m	struct:hiMEDIA_HDR_S
+seqno	p2psess.h	/^	uint16 seqno;$/;"	m	struct:_tagP2PMEDIAHEADER
+seqno	p2psess_imp.h	/^	uint16 	seqno;$/;"	m	struct:OUTMEDIACHN
+seqno	rudp_imp.h	/^	uint32	seqno;		\/\/$/;"	m	struct:rudp_hdr
+seqno	rudp_imp.h	/^	uint32 	seqno;$/;"	m	struct:sndbuf
+seqno	rudp_imp.h	/^	uint32  seqno;		\/\/=ntohl(hdr.seqno), for quick refference$/;"	m	struct:rudp_pkt
+server	p2pcore_ex.h	/^	char server[LENGTH_OF_SERVER];	\/\/"xxx.xxx.xxx:port"$/;"	m	struct:sn_server_pair
+server2	p2pbase.h	/^	struct p2pcore_addr server2;$/;"	m	struct:p2pcore_query_address_response	typeref:struct:p2pcore_query_address_response::p2pcore_addr
+serverName	stunc/stun.h	/^      StunAtrString serverName;$/;"	m	struct:__anon23
+service_item	timerq.c	/^struct service_item {$/;"	s	file:
+service_queue	timerq.c	/^static struct service_queue {$/;"	s	file:
+service_queue_item	timerq.c	/^struct service_queue_item {$/;"	s	file:
+servicetype	miniupnpc/igd_desc_parse.h	/^	char servicetype[MINIUPNPC_URL_MAXSIZE];$/;"	m	struct:IGDdatas_service
+sess_id	p2pbase.h	/^	uint8  sess_id[LENGTH_OF_SESSION_ID];$/;"	m	struct:p2pcore_punch
+sess_id	p2pbase.h	/^	uint8 sess_id[LENGTH_OF_SESSION_ID];$/;"	m	struct:p2pcore_session_init
+sess_id	p2pcore_imp.h	/^	uint8 			sess_id[LENGTH_OF_SESSION_ID];$/;"	m	struct:P2PCONN
+sess_list	p2psess_imp.h	/^	struct list_head sess_list;$/;"	m	struct:_tagP2pSess	typeref:struct:_tagP2pSess::list_head
+set_local_port_range	p2pcore.c	/^void set_local_port_range(unsigned short low, unsigned short hi)$/;"	f
+setblk	netbase.c	/^int setblk(int s, int b)$/;"	f
+setlinger	netbase.c	/^int setlinger(int s, int onoff, int linger)$/;"	f
+should_ack	rudp_imp.h	/^	int	should_ack;	\/\/new packet arrived, should send ack$/;"	m	struct:rcvbuf
+sident	p2pbase.h	/^	uint8 sident[LENGTH_OF_SIDENT]; \/\/\/< security-identifier used to identify the client or sender$/;"	m	struct:p2pcore_session_init
+sig_handler	demo/p2pclt.cpp	/^void sig_handler(int sig)$/;"	f
+signalOutput	rudp.c	/^void signalOutput(struct rudp_socket *s, int chno)$/;"	f
+simple_stun_type	p2pbase.c	/^NatType simple_stun_type(DWORD ip, int *preserve_port, int *hairpin, unsigned short *delta)$/;"	f
+simple_stunt_type	p2pbase.c	/^NatType simple_stunt_type(DWORD ip, int *preserve_port, int *hairpin, unsigned short *delta)$/;"	f
+sint16	basetype.h	/^typedef short			sint16;$/;"	t
+sint32	basetype.h	/^typedef int			sint32;$/;"	t
+sint64	basetype.h	/^typedef long long		sint64;$/;"	t
+sint8	basetype.h	/^typedef char		        sint8;$/;"	t
+sizeReason	stunc/stun.h	/^      UInt16 sizeReason;$/;"	m	struct:__anon18
+sizeValue	stunc/stun.h	/^      UInt16 sizeValue;$/;"	m	struct:__anon20
+sizeofmember	demo/ReadWriter.c	11;"	d	file:
+sn	demo/p2pclt.cpp	/^	char sn[32];$/;"	m	struct:P2pClient	file:
+sn	ipccmd.h	/^	char sn[LENGTH_OF_SN];$/;"	m	struct:p2pcore_activate_p2p
+sn	ipccmd.h	/^	char sn[LENGTH_OF_SN];$/;"	m	struct:p2pcore_cam_record
+sn	p2pbase.h	/^	char  sn[LENGTH_OF_SN];$/;"	m	struct:p2pcore_i_am_here
+sn	p2pbase.h	/^	char  sn[LENGTH_OF_SN];$/;"	m	struct:p2pcore_punch
+sn	p2pbase.h	/^	char sn[LENGTH_OF_SN];$/;"	m	struct:p2pcore_session_init
+sn	p2pcore.h	/^	char sn[48];$/;"	m	struct:EnumCallee
+sn	p2pcore_ex.h	/^	char   sn[0][LENGTH_OF_SN];$/;"	m	struct:p2pcore_query_server_req
+sn	p2pcore_ex.h	/^	char sn[LENGTH_OF_SN];$/;"	m	struct:sn_server_pair
+sn_server_pair	p2pcore_ex.h	/^struct sn_server_pair {$/;"	s
+sn_user	ipccmd.h	/^		uint8 sn_user[16];$/;"	m	union:p2pcore_challenge::__anon27
+sndbuf	rudp_imp.h	/^struct sndbuf {$/;"	s
+sock	p2pcore_imp.h	/^	int 			sock;	\/\/udp socket, or connected tcp socket$/;"	m	struct:P2PCONN
+sock	rudp.h	/^	RUDPSOCKET sock;	\/\/NULL for system socket$/;"	m	struct:_tagSelectChn
+sock2	p2pcore_imp.h	/^	int 			sock2;		\/\/udp socket 2, for symmetric nat, used for punching, if connected $/;"	m	struct:punch_tmp
+sock_list	rudp.c	/^LIST_HEAD(sock_list);$/;"	v
+socklen_t	stunc/udp.h	/^typedef int socklen_t;$/;"	t
+sockw_r	rudp.c	/^static int sockw_r = -1, sockw_s;$/;"	v	file:
+sockw_s	rudp.c	/^static int sockw_r = -1, sockw_s;$/;"	v	file:
+sourceAddress	stunc/stun.h	/^      StunAtrAddress4 sourceAddress;$/;"	m	struct:__anon23
+srtt	rudp_imp.h	/^	int	srtt;		\/\/smoothed RTT$/;"	m	struct:rudp_pcb
+ssthresh	rudp_imp.h	/^	int	ssthresh;	\/\/slow start threshold$/;"	m	struct:rudp_pcb
+st	miniupnpc/miniupnpc.h	/^	char * st;$/;"	m	struct:UPNPDev
+st	p2pbase.h	/^	uint8 st:2; 	\/\/type of sender. necessary when punching$/;"	m	struct:p2pcore_header
+startMediaThread	demo/p2ptest.c	/^void startMediaThread(MYDATA *pMyData, int media)$/;"	f
+start_conn	demo/p2pclt.cpp	/^void start_conn(int i)$/;"	f
+starteltfunc	miniupnpc/minixml.h	/^	void (*starteltfunc) (void *, const char *, int);$/;"	m	struct:xmlparser
+state	demo/p2pclt.cpp	/^	int state;	\/\/0: connecting; 1-connected; 2-failed$/;"	m	struct:P2pClient	file:
+state	p2pcore.h	/^	int state;		\/\/TPCGS_xxx (invalid sn, expired service)$/;"	m	struct:P2pCoreState
+state	p2pcore.h	/^	int state;	\/\/PSS_xxx$/;"	m	struct:_tagTpcConnInfo
+state	p2pcore_imp.h	/^	int			state;$/;"	m	struct:P2PCONN
+state	p2psess_imp.h	/^	uint16  state;$/;"	m	struct:OUTMEDIACHN
+state	rudp_imp.h	/^	int	state;	\/\/RUDPSTATE, refer to TCP's FSM$/;"	m	struct:rudp_socket
+status	chnbuf.c	/^	int status;$/;"	m	struct:__tagRESPHEADER	file:
+status	chnbuf.h	/^	int status;$/;"	m	struct:__tagRESPINFO
+status	p2pbase.h	/^	uint8  status;$/;"	m	struct:p2pcore_header
+status	p2psess.h	/^	uint8  status;$/;"	m	struct:p2pcmd_header
+stopMediaThread	demo/p2ptest.c	/^void stopMediaThread(MYDATA *pMyData, int media)$/;"	f
+stop_conn	demo/p2pclt.cpp	/^void stop_conn(P2pClient *pclt)$/;"	f
+stop_rttm	rudp_imp.h	/^	int		stop_rttm;		\/\/stop rtt measurement$/;"	m	struct:sndbuf
+streamType	demo/ReadWriter.c	/^	BYTE  streamType;$/;"	m	struct:_FrameHeader	file:
+streamType	demo/ReadWriter.c	/^	DWORD  streamType;$/;"	m	struct:__anon33	file:
+streamTypes	demo/ReadWriter.c	/^	DWORD	streamTypes;$/;"	m	struct:OWData	file:
+string2key	misc.c	/^BOOL string2key(const char *str, unsigned char key[16])$/;"	f
+strncpyz	misc.c	/^int strncpyz(char *dest, const char *s, int n)$/;"	f
+strncpyz	upnp_igd_cp.c	/^static char *strncpyz(char *dest, const char *src, int size)$/;"	f	file:
+stun	ipccmd.h	/^	struct nat_info stun;$/;"	m	struct:p2pcore_cam_record	typeref:struct:p2pcore_cam_record::nat_info
+stun	p2pbase.h	/^	struct nat_info stun;$/;"	m	struct:p2pcore_i_am_here	typeref:struct:p2pcore_i_am_here::nat_info
+stunAddress4ToString	stunc/stun.c	/^char *stunAddress4ToString(const StunAddress4* addr)$/;"	f
+stunBuildReqSimple	stunc/stun.c	/^stunBuildReqSimple( StunMessage* msg,$/;"	f
+stunCreateErrorResponse	stunc/stun.c	/^stunCreateErrorResponse(StunMessage* response, int cl, int number, const char* msg)$/;"	f	file:
+stunCreatePassword	stunc/stun.c	/^stunCreatePassword(const StunAtrString* username, StunAtrString* password)$/;"	f
+stunCreateSharedSecretResponse	stunc/stun.c	/^stunCreateSharedSecretResponse(const StunMessage* request, const StunAddress4* source, StunMessage* response)$/;"	f	file:
+stunCreateUserName	stunc/stun.c	/^stunCreateUserName(const StunAddress4* source, StunAtrString* username)$/;"	f
+stunEncodeMessage	stunc/stun.c	/^stunEncodeMessage( const StunMessage* msg, $/;"	f
+stunFindLocalInterfaces	stunc/stun.c	/^stunFindLocalInterfaces(UInt32* addresses,int maxRet)$/;"	f
+stunGetSystemTimeSecs	stunc/stun.c	/^stunGetSystemTimeSecs()$/;"	f
+stunGetUserNameAndPassword	stunc/stun.c	/^stunGetUserNameAndPassword(  const StunAddress4* dest, $/;"	f
+stunInitServer	stunc/stun.c	/^stunInitServer(StunServerInfo* info, const StunAddress4* myAddr,$/;"	f
+stunNatType	stunc/stun.c	/^stunNatType( const StunAddress4* dest, $/;"	f
+stunOpenSocket	stunc/stun.c	/^stunOpenSocket( StunAddress4* dest, StunAddress4* mapAddr, $/;"	f
+stunOpenSocketPair	stunc/stun.c	/^stunOpenSocketPair( StunAddress4* dest, StunAddress4* mapAddr, $/;"	f
+stunParseAtrAddress	stunc/stun.c	/^stunParseAtrAddress( char* body, unsigned int hdrLen,  StunAtrAddress4* result )$/;"	f	file:
+stunParseAtrChangeRequest	stunc/stun.c	/^stunParseAtrChangeRequest( char* body, unsigned int hdrLen,  StunAtrChangeRequest* result )$/;"	f	file:
+stunParseAtrError	stunc/stun.c	/^stunParseAtrError( char* body, unsigned int hdrLen,  StunAtrError* result )$/;"	f	file:
+stunParseAtrIntegrity	stunc/stun.c	/^stunParseAtrIntegrity( char* body, unsigned int hdrLen,  StunAtrIntegrity* result )$/;"	f	file:
+stunParseAtrString	stunc/stun.c	/^stunParseAtrString( char* body, unsigned int hdrLen,  StunAtrString* result )$/;"	f	file:
+stunParseAtrUnknown	stunc/stun.c	/^stunParseAtrUnknown( char* body, unsigned int hdrLen,  StunAtrUnknown* result )$/;"	f	file:
+stunParseHostName	stunc/stun.c	/^stunParseHostName( const char* peerName,$/;"	f
+stunParseMessage	stunc/stun.c	/^stunParseMessage( char* buf, unsigned int bufLen, StunMessage* msg)$/;"	f
+stunParseServerName	stunc/stun.c	/^stunParseServerName( const char* name, StunAddress4* addr)$/;"	f
+stunRand	stunc/stun.c	/^stunRand()$/;"	f
+stunRandomPort	stunc/stun.c	/^stunRandomPort()$/;"	f
+stunSendTest	stunc/stun.c	/^stunSendTest( PA_SOCKET myFd, const StunAddress4* dest, $/;"	f	file:
+stunServerProcess	stunc/stun.c	/^stunServerProcess(StunServerInfo* info)$/;"	f
+stunServerProcessMsg	stunc/stun.c	/^stunServerProcessMsg( char* buf,$/;"	f
+stunStopServer	stunc/stun.c	/^stunStopServer(StunServerInfo* info)$/;"	f
+stunType	p2pcore.h	/^	NatType stunType, stuntType;$/;"	m	struct:P2PCORENATINFO
+stun_server	p2pcore.c	/^static char stun_server[48] = "stunserver.org";$/;"	v	file:
+stuntType	p2pcore.h	/^	NatType stunType, stuntType;$/;"	m	struct:P2PCORENATINFO
+supportedCmds	demo/p2pclt.cpp	/^void supportedCmds()$/;"	f
+syn	rudp_imp.h	/^			uint32	syn:1;$/;"	m	struct:rudp_hdr::__anon8::__anon10
+syncByte1	p2psess.h	/^    uint8 syncByte1, syncByte2;$/;"	m	struct:_tagP2PMEDIAHEADER
+syncByte2	p2psess.h	/^    uint8 syncByte1, syncByte2;$/;"	m	struct:_tagP2PMEDIAHEADER
+syncBytes	p2pcore_imp.h	/^    uint8  	syncBytes[2];	\/\/Sync bytes(= 0xAA, 0x55)$/;"	m	struct:hiMEDIA_HDR_S
+tag	p2pbase.h	/^	uint32 tag;	\/\/同步标志, 最高位为0以与rudp包区别$/;"	m	struct:p2pcore_header
+tag	p2psess.h	/^	uint32 tag;	\/\/同步标志$/;"	m	struct:p2pcmd_header
+tag	p2psess_imp.h	/^	DWORD	tag;$/;"	m	struct:_tagP2pSess
+tag	rudp_imp.h	/^			uint8	tag;$/;"	m	struct:rudp_hdr::__anon8::__anon9
+tag	rudp_imp.h	/^	unsigned int tag;	\/\/'RUDP'$/;"	m	struct:rudp_socket
+tagStream	demo/ReadWriter.c	/^	MEMSTREAM tagStream;$/;"	m	struct:OWData	file:
+tail	rudp_imp.h	/^	int	tail;	\/\/one after the packet with max seqno$/;"	m	struct:rcvbuf
+tcp	p2pbase.h	/^	uint32 tcp:1;	\/\/1$/;"	m	struct:conn_bit_fields
+tcp_punch_thread	p2pcore.c	/^void* tcp_punch_thread(void* data)$/;"	f
+thd	demo/p2ptest.c	/^	PA_HTHREAD thd;$/;"	m	struct:_MyData	file:
+thd	timerq.c	/^	pthread_t thd;$/;"	m	struct:service_queue	file:
+thd_callee	p2pcore.c	/^static PA_HTHREAD thd_callee = PA_HTHREAD_NULL;$/;"	v	file:
+tid	p2psess_imp.h	/^	uint32	tid;$/;"	m	struct:_cbItem
+timeStamp	demo/ReadWriter.c	/^	DWORD timeStamp;$/;"	m	struct:_FrameHeader	file:
+timeStamp	demo/ReadWriter.c	/^	DWORD timeStamp;$/;"	m	struct:_OWIndex	file:
+timeStamp	demo/ReadWriter.c	/^	DWORD timeStamp;$/;"	m	struct:__anon33	file:
+timeStamp	demo/ReadWriter.h	/^	DWORD timeStamp;$/;"	m	struct:__anon29
+timed_recv	netbase.c	/^int timed_recv(int sk, void* ptr, int size, unsigned int ms)$/;"	f
+timed_recv_from	netbase.c	/^int timed_recv_from(int sk, void* ptr, int size, struct sockaddr* addr, unsigned int *sock_len, unsigned int ms)$/;"	f
+timed_wait_fd	netbase.c	/^int timed_wait_fd(int fd, unsigned int ms)$/;"	f
+timed_wait_fd_w	netbase.c	/^int timed_wait_fd_w(int fd, unsigned int ms)$/;"	f
+timeout_val	p2pcore_imp.h	/^	int                 timeout_val;	\/\/in milliseconds$/;"	m	struct:P2PCONN
+timeout_val	p2psess_imp.h	/^	int timeout_val;	\/\/timeout value(in milliseconds), < 25000$/;"	m	struct:_tagP2pSess
+timer	rudp_imp.h	/^	int	timer[RCT_CNT];	$/;"	m	struct:rudp_channel
+timer	rudp_imp.h	/^	int	timer[RT_CNT];$/;"	m	struct:rudp_socket
+tmEnd	demo/ReadWriter.h	/^	DWORD	tmEnd;		\/\/UTC$/;"	m	struct:_FileInfo
+tmEnd	demo/filestruct.h	/^	DWORD tmEnd;	\/\/UTC$/;"	m	struct:_tagVideoFileHeader
+tmStart	demo/ReadWriter.h	/^	DWORD	tmStart;	\/\/UTC$/;"	m	struct:_FileInfo
+tmStart	demo/filestruct.h	/^	DWORD tmStart;	\/\/UTC$/;"	m	struct:_tagVideoFileHeader
+tmp	miniupnpc/igd_desc_parse.h	/^	struct IGDdatas_service tmp;$/;"	m	struct:IGDdatas	typeref:struct:IGDdatas::IGDdatas_service
+tmp	p2pcore_imp.h	/^	struct punch_tmp	*tmp;$/;"	m	struct:P2PCONN	typeref:struct:P2PCONN::punch_tmp
+toHex	stunc/stun.c	/^toHex(const char* buffer, int bufferSize, char* output) $/;"	f	file:
+tps_state	p2pcore_imp.h	/^	int			tps_state;$/;"	m	struct:punch_tmp
+trans	rudp_imp.h	/^	int	trans;		\/\/transmission count$/;"	m	struct:rudp_pkt
+transId	chnbuf.c	/^	UINT transId;$/;"	m	struct:__tagRESPHEADER	file:
+transId	chnbuf.h	/^	UINT transId;$/;"	m	struct:__tagRESPINFO
+trans_id	p2pbase.h	/^	uint32 trans_id; \/\/request sent in udp, or want a response, should have a unique trans_id$/;"	m	struct:p2pcore_header
+trans_id	p2psess.h	/^	uint32 trans_id; \/\/$/;"	m	struct:p2pcmd_header
+ts	chnbuf.c	/^	UINT ts;	\/\/time stamp$/;"	m	struct:_tagFRAMEHEADER	file:
+ts	chnbuf.h	/^	UINT ts;	\/\/time stamp$/;"	m	struct:_tagFRAMEINFO
+ts	p2psess.h	/^	UINT ts;	\/\/time stamp$/;"	m	struct:_tagP2PFRAMEINFO
+ts	p2psess.h	/^	uint32 ts;             $/;"	m	struct:_tagP2PMEDIAHEADER
+ts	rudp_imp.h	/^	unsigned int ts;	\/\/timestamp when sending$/;"	m	struct:rudp_pkt
+type	demo/filestruct.h	/^typedef struct _tagDVSEVENT { DWORD type; DWORD dwTime; } DVSEVENT;$/;"	m	struct:_tagDVSEVENT
+type	stunc/stun.h	/^      UInt16 type;$/;"	m	struct:__anon14
+u16SN	chnbuf.h	/^	USHORT	u16SN;$/;"	m	struct:_tagMediaChn
+u32_flags	rudp_imp.h	/^		uint32 u32_flags;$/;"	m	union:rudp_hdr::__anon8
+u8_flags	rudp_imp.h	/^		} u8_flags;$/;"	m	union:rudp_hdr::__anon8	typeref:struct:rudp_hdr::__anon8::__anon9
+uTransId	p2psess_imp.h	/^	UINT	uTransId;$/;"	m	struct:_tagP2pSess
+uchar	basetype.h	/^typedef unsigned char           uchar;$/;"	t
+udp_h	stunc/udp.h	2;"	d
+udp_punch_it	p2pcore.c	/^static void udp_punch_it(P2PCONN* pconn)$/;"	f	file:
+udp_sock	rudp_imp.h	/^	int	udp_sock;$/;"	m	struct:rudp_socket
+udp_sock_main	p2pcore.c	/^static int udp_sock_main;$/;"	v	file:
+uint16	basetype.h	/^typedef unsigned short          uint16;$/;"	t
+uint32	basetype.h	/^typedef unsigned int            uint32;$/;"	t
+uint64	basetype.h	/^typedef unsigned long long      uint64;$/;"	t
+uint8	basetype.h	/^typedef unsigned char           uint8;$/;"	t
+unknownAttributes	stunc/stun.h	/^      StunAtrUnknown unknownAttributes;$/;"	m	struct:__anon23
+upnp	p2pbase.h	/^	uint8 upnp:1;$/;"	m	struct:nat_info
+upnp_rudp_sock	p2pcore.c	/^static RUDPSOCKET upnp_rudp_sock;$/;"	v	file:
+url	upnp_igd_cp.c	/^	struct UPNPUrls url;$/;"	m	struct:UPnPIGDWorkParam	typeref:struct:UPnPIGDWorkParam::UPNPUrls	file:
+urlbase	miniupnpc/igd_desc_parse.h	/^	char urlbase[MINIUPNPC_URL_MAXSIZE];$/;"	m	struct:IGDdatas
+username	stunc/stun.h	/^      StunAtrString username;$/;"	m	struct:__anon23
+val	miniupnpc/miniupnpc.h	/^struct UPNParg { const char * elt; const char * val; };$/;"	m	struct:UPNParg
+valid_date	ipccmd.h	/^	char valid_date[12];$/;"	m	struct:p2pcore_activate_response
+value	miniupnpc/upnpreplyparse.h	/^    char value[64];$/;"	m	struct:NameValue
+value	stunc/stun.h	/^      UInt32 value;$/;"	m	struct:__anon17
+value	stunc/stun.h	/^      char value[STUN_MAX_STRING];      $/;"	m	struct:__anon20
+version	ipccmd.h	/^	uint16 version;$/;"	m	struct:p2pcore_cam_record
+version	p2pbase.h	/^	uint32 version;$/;"	m	struct:p2pcore_i_am_here
+vfhdr	demo/ReadWriter.c	/^	VIDEOFILEHEADER	vfhdr;$/;"	m	struct:OWData	file:
+vfhdr	demo/ReadWriter.c	/^	VIDEOFILEHEADER vfhdr;$/;"	m	struct:_ORData	file:
+win	rudp_imp.h	/^	int	win;	\/\/receiver's window (q_size + head - tail - 1) % q_size, send in every output packet and ACK$/;"	m	struct:rcvbuf
+window	rudp_imp.h	/^			uint32	window:12;$/;"	m	struct:rudp_hdr::__anon8::__anon10
+window	rudp_imp.h	/^			uint8	window;$/;"	m	struct:rudp_hdr::__anon8::__anon9
+writen	netbase.c	/^int writen(int sock, void *p, int len, unsigned int tmout\/*ms*\/)$/;"	f
+xml	miniupnpc/minixml.h	/^	const char *xml;	\/* pointer to current character *\/$/;"	m	struct:xmlparser
+xmlend	miniupnpc/minixml.h	/^	const char *xmlend;$/;"	m	struct:xmlparser
+xmlparser	miniupnpc/minixml.h	/^struct xmlparser {$/;"	s
+xmlsize	miniupnpc/minixml.h	/^	int xmlsize;$/;"	m	struct:xmlparser
+xmlstart	miniupnpc/minixml.h	/^	const char *xmlstart;$/;"	m	struct:xmlparser
+xorMappedAddress	stunc/stun.h	/^      StunAtrAddress4  xorMappedAddress;$/;"	m	struct:__anon23
+xorOnly	stunc/stun.h	/^      BOOL xorOnly;$/;"	m	struct:__anon23
